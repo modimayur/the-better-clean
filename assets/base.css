@@ -2827,13 +2827,14 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item {
+  font-family: 'Staatliches';
   padding: 1.2rem;
   text-decoration: none;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgb(var(--color-foreground));
 }
 
 .header__menu-item:hover {
-  color: rgb(var(--color-foreground));
+  color: rgba(var(--color-foreground), 0.75);
 }
 
 .header__menu-item span {
