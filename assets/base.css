@@ -145,9 +145,6 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   .header:not(.drawer-menu).page-width {
     padding-left: 5rem;
     padding-right: 5rem;
-    border-top: 4px solid rgb(var(--color-foreground));
-    border-bottom: 4px solid rgb(var(--color-foreground));
-    margin-top: 20px;
   }
 
   .page-width--narrow {
@@ -2390,7 +2387,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: rgb(var(--color-background));
+  background-color: transparent;
+  border-top: 4px solid rgb(var(--color-foreground));
+  border-bottom: 4px solid rgb(var(--color-foreground));
+  margin-top: 20px;
 }
 
 .header-wrapper--border-bottom {
