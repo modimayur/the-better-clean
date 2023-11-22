@@ -267,6 +267,25 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   font-weight: var(--font-body-weight);
 }
 
+@font-face {
+    font-family: 'Biennale';
+    src: url('https://cdn.shopify.com/s/files/1/0672/2296/2428/files/Biennale-Black.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0672/2296/2428/files/Biennale-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Biennale';
+    src: url('https://cdn.shopify.com/s/files/1/0672/2296/2428/files/Biennale-Regular.woff2') format('woff2'),
+        url('https://cdn.shopify.com/s/files/1/0672/2296/2428/files/Biennale-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 h1,
 h2,
 h3,
