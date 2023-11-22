@@ -182,13 +182,13 @@
       },
       "accent-2": {
         "settings": {
-          "background": "#5e3653",
-          "background_gradient": "linear-gradient(320deg, rgba(134, 16, 106, 1), rgba(94, 54, 83, 1) 100%)",
-          "text": "#fdfbf7",
-          "button": "#fdfbf7",
-          "button_label": "#5e3653",
-          "secondary_button_label": "#fdfbf7",
-          "shadow": "#2e2a39"
+          "background": "#eddfd2",
+          "background_gradient": "",
+          "text": "#2d2d2d",
+          "button": "#d86a48",
+          "button_label": "#eddfd2",
+          "secondary_button_label": "#2d2d2d",
+          "shadow": "#2d2d2d"
         }
       }
     }
