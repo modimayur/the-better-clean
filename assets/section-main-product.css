@@ -181,6 +181,8 @@ variant-selects .product-form__input {
 }
 variant-radios .product-form__input .form__label,
 variant-selects .product-form__input .form__label {
+  color: rgb(var(--color-foreground));
+  font-size: 18px;
   display: flex;
   margin-bottom: 0;
 }
