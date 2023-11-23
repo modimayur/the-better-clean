@@ -119,6 +119,9 @@
         "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-2",
         "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-3"
       ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center;}"
+      ],
       "settings": {
         "title": "How to use?",
         "heading_size": "h1",
