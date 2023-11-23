@@ -39,7 +39,7 @@
 
 .price--large {
   font-family: 'Biennale';
-  font-weight: var(--font-heading-weight);
+  font-weight: var(--font-body-weight);
   font-size: 20px;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
   letter-spacing: 0;
