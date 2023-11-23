@@ -2840,7 +2840,7 @@ details[open] > .header__submenu {
   color: rgb(var(--color-foreground));
 }
 .header__menu-item#HeaderMenu-pre-sale {
-  color: rgb(var(--color-secondary-button));
+  color: #D86A48;
 }
 .header__menu-item:hover {
   color: rgba(var(--color-foreground), 0.75);
