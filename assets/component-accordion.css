@@ -68,6 +68,7 @@
   height: 30px;
 }
 
-.icon-accordion-plus path {
+.icon-accordion-plus path,
+.icon-accordion-minus path {
   fill: rgb(var(--color-foreground));
 }
