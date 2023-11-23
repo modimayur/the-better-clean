@@ -178,6 +178,10 @@ variant-radios .product-form__input,
 variant-selects .product-form__input {
   flex: 0 0 50%;
 }
+variant-radios .product-form__input input[type=radio],
+variant-selects .product-form__input input[type=radio] {
+  display: none;
+}
 
 .product-form__input--dropdown {
   margin-bottom: 1.6rem;
