@@ -61,3 +61,7 @@
   width: 30px;
   height: 30px;
 }
+
+.icon-accordion-plus path {
+  fill: rgb(var(--color-foreground));
+}
