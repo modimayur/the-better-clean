@@ -55,3 +55,8 @@
 .accordion__content img {
   max-width: 100%;
 }
+
+.icon-accordion-plus {
+  width: 30px;
+  height: 30px;
+}
