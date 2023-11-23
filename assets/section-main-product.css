@@ -179,10 +179,11 @@ variant-selects .product-form__input {
   flex: 0 0 50%;
   display: contents;
 }
-/* variant-radios .product-form__input input[type=radio],
-variant-selects .product-form__input input[type=radio] {
-  display: none;
-} */
+variant-radios .product-form__input .form__label,
+variant-selects .product-form__input .form__label {
+  display: flex;
+  margin-bottom: 0;
+}
 
 .product-form__input--dropdown {
   margin-bottom: 1.6rem;
