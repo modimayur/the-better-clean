@@ -82,9 +82,9 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h3 class="accordion__title inline-richtext h4">
+                    <h4 class="accordion__title inline-richtext h5">
                       {{ block.settings.heading | default: block.settings.page.title }}
-                    </h3>
+                    </h4>
                     {% render 'icon-caret' %}
                   </summary>
                   <div
