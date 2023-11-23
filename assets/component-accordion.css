@@ -53,6 +53,10 @@
   padding: 0 40px 0 0;
 }
 
+.accordion__content p {
+  color: rgb(var(--color-foreground));
+}
+
 .accordion__content img {
   max-width: 100%;
 }
