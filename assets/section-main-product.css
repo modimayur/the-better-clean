@@ -171,7 +171,11 @@
 
 variant-radios,
 variant-selects {
-  display: block;
+  display: flex;
+}
+
+variant-radios .product-form__input {
+  flex: 0 0 50%;
 }
 
 .product-form__input--dropdown {
