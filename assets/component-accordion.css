@@ -65,6 +65,9 @@
 .accordion .icon-accordion-minus {
   display: none;
 }
+.accordion open .icon-accordion-plus {
+  display: inherit;
+}
 
 .accordion open .icon-accordion-plus {
   display: none;
