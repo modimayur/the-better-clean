@@ -131,7 +131,7 @@
         "button_link": "",
         "color_scheme": "inverse",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 92,
         "padding_bottom": 100
       }
