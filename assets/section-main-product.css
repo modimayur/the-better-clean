@@ -309,6 +309,9 @@ fieldset.product-form__input .form__label {
   background-color: transparent;
   color: rgb(var(--color-button));
 }
+.product-form__submit::before {
+  display: none;
+}
 
 .no-js .product-form__submit.button--secondary {
   --color-button: inherit;
