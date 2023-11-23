@@ -62,14 +62,14 @@
   max-width: 100%;
 }
 
-.accordion summary .icon-accordion-minus {
+.accordion .icon-accordion-minus {
   display: none;
 }
 
-.accordion open summary .icon-accordion-plus {
+.accordion open .icon-accordion-plus {
   display: none;
 }
-.accordion open summary .icon-accordion-minus {
+.accordion open .icon-accordion-minus {
   display: inherit;
 }
 
