@@ -164,9 +164,12 @@
   flex: 0 0 100%;
   padding: 0;
   margin: 0 0 1.2rem 0;
-  max-width: 44rem;
+  max-width: none;
   min-width: fit-content;
   border: none;
+}
+.product-form__input .quantity {
+  width: 50%;
 }
 
 variant-radios,
