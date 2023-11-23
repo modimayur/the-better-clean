@@ -2603,6 +2603,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__icon--cart {
   position: relative;
+  padding: 1rem;
   margin-right: -1.2rem;
 }
 
