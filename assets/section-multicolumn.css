@@ -78,10 +78,9 @@
   margin: 0;
 }
 
-.multicolumn-card-spacing {
-  padding-top: 2.5rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
+.multicolumn-card-spacing .media {
+  border: var(--media-border-width) solid rgba(var(--color-foreground),var(--media-border-opacity));
+  border-radius: var(--media-radius);
 }
 
 .multicolumn-card__info > :nth-child(2) {
