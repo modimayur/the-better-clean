@@ -57,8 +57,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 24,
-        "padding_bottom": 24
+        "padding_top": 40,
+        "padding_bottom": 100
       }
     },
     "related-products": {
@@ -132,8 +132,8 @@
         "color_scheme": "inverse",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 80,
-        "padding_bottom": 92
+        "padding_top": 92,
+        "padding_bottom": 100
       }
     },
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45": {
@@ -193,8 +193,8 @@
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
-        "padding_top": 80,
-        "padding_bottom": 92
+        "padding_top": 92,
+        "padding_bottom": 100
       }
     }
   },
