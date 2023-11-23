@@ -1,6 +1,7 @@
 .accordion summary {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: relative;
   line-height: 1;
   padding: 2rem 0;
