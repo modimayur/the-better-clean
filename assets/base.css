@@ -282,6 +282,15 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     font-display: swap;
 }
 
+body, 
+.color-background-1, 
+.color-background-2, 
+.color-inverse, 
+.color-accent-1, 
+.color-accent-2 {
+  color: rgb(var(--color-foreground));
+}
+
 .text-body {
   font-size: 1.5rem;
   letter-spacing: 0.02rem;
