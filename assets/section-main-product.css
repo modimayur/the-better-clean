@@ -192,6 +192,10 @@ variant-selects .product-form__input .form__label {
 variant-radios .product-form__input input[type=radio]:checked+label {
   background-color: transparent;
   color: rgb(var(--color-foreground));
+  margin: 0 20px 0 0;
+  font-family: 'Staatliches';
+  font-size: 2rem;
+  letter-spacing: .02rem;
 }
 
 .product-form__input--dropdown {
