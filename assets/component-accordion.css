@@ -66,6 +66,13 @@
   display: none;
 }
 
+.accordion open summary .icon-accordion-plus {
+  display: none;
+}
+.accordion open summary .icon-accordion-minus {
+  display: inherit;
+}
+
 .icon-accordion-plus,
 .icon-accordion-minus {
   width: 30px;
