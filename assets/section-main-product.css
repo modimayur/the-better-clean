@@ -174,7 +174,8 @@ variant-selects {
   display: flex;
 }
 
-variant-radios .product-form__input {
+variant-radios .product-form__input,
+variant-selects .product-form__input {
   flex: 0 0 50%;
 }
 
