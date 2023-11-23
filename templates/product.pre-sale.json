@@ -63,6 +63,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -77,6 +78,62 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 68
+      }
+    },
+    "41e24763-cd54-41d8-93c7-bf5258465c37": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-1.jpg",
+            "title": "Step 1",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-2.jpg",
+            "title": "Step 2",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-3.jpg",
+            "title": "Step 3",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-1",
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-2",
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-3"
+      ],
+      "settings": {
+        "title": "How to use?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 80,
+        "padding_bottom": 92
       }
     },
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45": {
@@ -128,10 +185,10 @@
       "settings": {
         "caption": "",
         "heading": "FAQs",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "inverse",
+        "color_scheme": "background-1",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
@@ -144,6 +201,7 @@
   "order": [
     "main",
     "related-products",
+    "41e24763-cd54-41d8-93c7-bf5258465c37",
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45"
   ]
 }
