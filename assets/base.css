@@ -2839,7 +2839,9 @@ details[open] > .header__submenu {
   text-decoration: none;
   color: rgb(var(--color-foreground));
 }
-
+.header__menu-item#HeaderMenu-pre-sale {
+  color: rgb(var(--color-secondary-button));
+}
 .header__menu-item:hover {
   color: rgba(var(--color-foreground), 0.75);
 }
