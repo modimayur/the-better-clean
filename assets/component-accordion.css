@@ -65,13 +65,13 @@
 .accordion .icon-accordion-minus {
   display: none;
 }
-.accordion details[open]>summary  .icon-accordion-plus {
+.accordion details[open]>summary .icon-accordion-plus {
   display: inherit;
 }
-.accordion details[open]>summary  .icon-accordion-plus {
+.accordion .icon-accordion-plus {
   display: none;
 }
-.accordion .icon-accordion-minus {
+.accordion details[open]>summary .icon-accordion-minus {
   display: inherit;
 }
 
