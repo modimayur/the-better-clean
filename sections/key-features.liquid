@@ -13,9 +13,17 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+  .key-features--section .grid {
+    column-gap: 0;
+    align-items: center;
+  }
   .key-features--section .collapsible-content__media {
     border: none;
     border-radius: 0;
+  }
+  .key-features--section .accordion__grid-item {
+    margin-left: calc((100vw - var(--page-width) + 0rem) / 2);
+    padding-left: 5rem;
   }
 {%- endstyle -%}
 
