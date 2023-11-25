@@ -427,3 +427,7 @@
   border: none;
   border-radius: 0;
 }
+
+.page-width--full .image-with-text__content {
+  max-width: calc((50 % - var(--page-width)) / 2);
+}
