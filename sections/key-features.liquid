@@ -21,7 +21,7 @@
     border: none;
     border-radius: 0;
   }
-  .key-features--section .accordion__grid-item {
+  .key-features--section .full-width_left-col {
     margin-left: calc((100vw - var(--page-width) + 0rem) / 2);
     padding-left: 5rem;
   }
@@ -64,6 +64,7 @@
             </div>
           {% endif %}
           <div class="grid__item accordion__grid-item">
+            <div class="full-width_left-col">
             <div
               class="collapsible-content__header{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
               style="text-align: {{ section.settings.heading_alignment }};"
@@ -112,6 +113,7 @@
                 </details>
               </div>
             {%- endfor -%}
+          </div>
           </div>
         </div>
       </div>
