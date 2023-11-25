@@ -13,11 +13,9 @@
           "settings": {
           }
         },
-        "00584ac1-65cc-4cb4-93fb-862f9a095d9d": {
-          "type": "text",
+        "8bf1ba0b-35ae-40dc-a9a5-c9494726a047": {
+          "type": "description",
           "settings": {
-            "text": "{{ product.metafields.custom.short_description.value }}",
-            "text_style": "body"
           }
         },
         "variant_picker": {
@@ -42,7 +40,7 @@
       "block_order": [
         "title",
         "price",
-        "00584ac1-65cc-4cb4-93fb-862f9a095d9d",
+        "8bf1ba0b-35ae-40dc-a9a5-c9494726a047",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
@@ -90,7 +88,7 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "row_content": "<p>{{ shop.brand.short_description }}<\/p>",
+            "row_content": "<p>{{ product.metafields.custom.short_description.value }}<\/p>",
             "page": ""
           }
         },
