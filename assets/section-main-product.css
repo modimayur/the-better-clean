@@ -1641,4 +1641,6 @@ a.product__text {
 
 .h6.icon-title {
   font-family: 'Staatliches';
+  line-height: 1.2;
+  text-align: center;
 }
