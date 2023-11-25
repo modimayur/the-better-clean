@@ -82,6 +82,68 @@
         "padding_bottom": 68
       }
     },
+    "01f81044-966f-4a70-9409-0a3efd92f9db": {
+      "type": "key-features",
+      "blocks": {
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "row_content": "<p>{{ shop.brand.short_description }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to Use",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.directions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Storage Instructions",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.storage_instructions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-1",
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-2",
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-3",
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "Key Features",
+        "heading": "Key Features",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "accent-1",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/nadia-rudenko-N0zYX-8L8uY-unsplash_1_1.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
     "d5cf965c-f66d-4e2d-81ff-acbe27c9fab0": {
       "type": "image-with-text",
       "blocks": {
@@ -302,6 +364,7 @@
   "order": [
     "main",
     "related-products",
+    "01f81044-966f-4a70-9409-0a3efd92f9db",
     "d5cf965c-f66d-4e2d-81ff-acbe27c9fab0",
     "41e24763-cd54-41d8-93c7-bf5258465c37",
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45",
