@@ -95,9 +95,9 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h4 class="accordion__title inline-richtext h5">
+                    <h3 class="accordion__title inline-richtext h4">
                       {{ block.settings.heading | default: block.settings.page.title }}
-                    </h4>
+                    </h3>
                     {% render 'icon-accordion-plus' %}
                     {% render 'icon-accordion-minus' %}
                   </summary>
