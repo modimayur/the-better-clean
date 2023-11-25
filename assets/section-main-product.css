@@ -1636,3 +1636,9 @@ a.product__text {
     border: none;
   }
 }
+
+/* Other */
+
+.h6.icon-title {
+  font-family: 'Staatliches';
+}
