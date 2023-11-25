@@ -13,9 +13,11 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
+        "00584ac1-65cc-4cb4-93fb-862f9a095d9d": {
+          "type": "text",
           "settings": {
+            "text": "{{ product.metafields.custom.short_description.value }}",
+            "text_style": "body"
           }
         },
         "variant_picker": {
@@ -40,7 +42,7 @@
       "block_order": [
         "title",
         "price",
-        "description",
+        "00584ac1-65cc-4cb4-93fb-862f9a095d9d",
         "variant_picker",
         "quantity_selector",
         "buy_buttons"
