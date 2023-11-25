@@ -26,6 +26,10 @@
     padding-left: 5rem;
     padding-right: 7rem;
   }
+  .key-features--section .collapsible-content__heading {
+    font-family: 'Staatliches';
+    font-weight: 400;
+  }
 {%- endstyle -%}
 
 <div class="key-features--section color-{{ section.settings.color_scheme }} gradient">
@@ -96,7 +100,7 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
                     {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h3 class="accordion__title inline-richtext h4">
+                    <h3 class="accordion__title inline-richtext h3">
                       {{ block.settings.heading | default: block.settings.page.title }}
                     </h3>
                     {% render 'icon-accordion-plus' %}
