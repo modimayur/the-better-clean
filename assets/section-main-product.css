@@ -356,9 +356,12 @@ fieldset.product-form__input .form__label {
   max-width: 100%;
 }
 
-.product__info-container .product-form,
-.product__info-container .product__description {
+.product__info-container .product-form {
   margin: 2.5rem 0;
+  color: rgb(var(--color-foreground));
+}
+.product__info-container .product__description {
+  margin: 4rem 0 2.5rem;
   color: rgb(var(--color-foreground));
 }
 
@@ -1639,7 +1642,7 @@ a.product__text {
 /* Other */
 
 .product__info-container .icon-with-text {
-  margin: 5rem 0 0;
+  margin: 8rem 0 0;
   color: #7F9686;
 }
 
