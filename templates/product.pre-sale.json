@@ -234,6 +234,7 @@
         "template--16971171397884__d5cf965c-f66d-4e2d-81ff-acbe27c9fab0-button-1"
       ],
       "settings": {
+        "stretch": "full",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
