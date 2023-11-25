@@ -415,3 +415,15 @@
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 }
+
+/* Full Width */
+
+.page-width--full {
+  max-width: inherit;
+  padding: 0;
+}
+
+.page-width--full .image-with-text__media {
+  border: none;
+  border-radius: 0;
+}
