@@ -431,4 +431,10 @@
 .page-width--full .image-with-text__grid--reverse .image-with-text__content {
   margin-left: calc((100vw - var(--page-width) + 0rem) / 2);
   padding-left: 5rem;
+  margin-right: 0;
+  padding-right: 0;
+}
+.page-width--full .image-with-text__grid .image-with-text__content {
+  margin-right: calc((100vw - var(--page-width) + 0rem) / 2);
+  padding-right: 5rem;
 }
