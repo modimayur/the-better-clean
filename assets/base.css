@@ -322,6 +322,13 @@ h5,
   word-break: break-word;
 }
 
+.h2.alt-heading,
+.h3.alt-heading,
+.h4.alt-heading {
+  font-family: 'Staatliches';
+  font-weight: 400;
+}
+
 .hxl {
   font-size: calc(var(--font-heading-scale) * 5rem);
 }
