@@ -1,12 +1,319 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% style %}
+  .pricing-table-container{
+    padding-top:18px;
   }
+  .pricing_table_sub {
+    margin-bottom : 35px;
+  }
+    @media only screen and (min-width: 750px) {
+      .medium-up--hide {
+      display: none !important;
+    }
+    }
+  @media only screen and (max-width: 749px) {
+    .pricing-table-mob {
+      padding-top : 40px;
+      padding-left : 0px !important;
+    }
+    .small--hide {
+      display: none !important;
+    }
+    .grid_item_width {
+      one-whole;
+    } 
+    .pricing_table_main .grid {
+      display:block !important;
+    }
+    .pricing-table-container .grid__item {
+      width:100% !important;
+      max-width:100% !important;
+    }
+  }
+  .block-price{
+    list-style-type:none;
+    border:1px solid #eee;
+    margin:15px 0;
+    padding:0;
+    -webkit-transition:.3s;
+    transition:.3s;
+    display:block;
+  }
+  .block-price:hover{
+    box-shadow:0 8px 12px 0 rgba(0,0,0,.2);
+  }
+  .popular{
+    transform:scale(1.1);
+  }
+  .block-price li{
+    border-bottom:1px solid #eee;
+    padding:20px;
+    text-align:center;
+  }
+  .most-popular{
+    font-size:16px;
+  }
+{% endstyle %}
+<div class="page-width pricing_table_main {{section.settings.pricing-visibility}}">
+  {%- liquid 
+   case section.blocks.size
+    when 1
+    assign grid_item_width = ''
+    when 2
+    assign grid_item_width = 'medium-up--one-half'
+    when 3
+    assign grid_item_width = 'medium-up--one-third'
+    when 4
+    assign grid_item_width = 'medium-up--one-quarter'
+    endcase 
+  -%}  
+   {% if section.settings.price-title != blank %}
+   <h2 class="title inline-richtext h2">{{ section.settings.price-title | escape }}</h2>
+   {% endif %}
+   {% if section.settings.price-subtitle != blank %}
+   <h2 class="pricing_table_sub h4">{{ section.settings.price-subtitle | escape }}</h2>
+   {% endif %}
+   <div class="page-width grid pricing-table-container">
+      {% for block in section.blocks %}
+      <div class="grid__item pricing-table-mob {{grid_item_width}}">
+         <ul class="block-price {% if block.settings.column-mostpopular != blank %} popular {% endif %}">
+            {% if block.settings.column-title != blank %}
+            <li  
+               style="background-color:{{block.settings.column-title-color}};color:{{block.settings.column-title-txt-color}};font-size:{{block.settings.column-title-sz}}px;font-weight: bold;"
+               >{{block.settings.column-title}}
+               {% if block.settings.column-mostpopular != blank %}
+               <sup class="most-popular"> <i class="fa fa-star " aria-hidden="true"></i> {{block.settings.column-mostpopular}} </sup>
+               {% endif %}
+            </li>
+            {% endif %}
+            {% if block.settings.column-subtitle != blank %}
+            <li style="background-color:{{block.settings.column-subtitle-color}};color:{{block.settings.column-subtitle-txt-color}};font-size:{{block.settings.column-subtitle-txt-sz}}px">{{block.settings.column-subtitle}}</li>
+            {% endif %}
+            {% if block.settings.text-1 != blank %}
+            <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-1}}</li>
+            {% endif %}
+            {% if block.settings.text-2 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-2}}</li>
+            {% endif %}
+            {% if block.settings.text-3 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-3}}</li>
+            {% endif %}
+            {% if block.settings.text-4 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-4}}</li>
+            {% endif %}
+            {% if block.settings.text-5 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-5}}</li>
+            {% endif %}   
+            {% if block.settings.text-6 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-6}}</li>
+            {% endif %} 
+             {% if block.settings.text-7 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-7}}</li>
+            {% endif %} 
+            {% if block.settings.button_price_label != blank %}
+            <li><a href="{{block.settings.button_price_link}}" 
+               class="button" 
+               style="background-color: {{block.settings.color_price_btn}};color: {{block.settings.color_price_txt}};"
+               title="{{block.settings.button_price_label}}"
+               >{{block.settings.button_price_label}}</a></li>
+            {% endif %}
+         </ul>
+      </div>
+      {% endfor %}
+   </div>
+</div>
+{% schema %}
+{
+  "name": "Pricing table",
+"max_blocks": 4,
+    "class": "section",
+  "settings": [
+    {
+"type": "header",
+"content": "Pricing table [Need help?](https:\/\/scrowp.com\/scrowp-shopify-theme-documentation\/how-to-add-and-customize-the-pricing-table/)"
+},
+{
+   "type": "radio",
+   "id": "pricing-visibility",
+   "options": [
+      { "value": "medium-up--hide", 
+        "label": "Mobile only"
+        },
+      { "value": "small--hide", 
+        "label": "Desktop only"
+      },
+      { "value": "showboth",
+                "label": "Both"
+      }
+   ],
+          "label": "Visibility",
+"default":   "showboth"
+},
+    {
+      "type": "text",
+      "id": "price-title",
+      "label": "Heading",
+      "default": "Pricing table"
+    },
+    {
+      "type": "text",
+      "id": "price-subtitle",
+      "label": "Subheading",
+      "default": "Subheading"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "text",
+          "id": "column-title",
+          "label": "Heading",
+          "default": "Heading"
+        },
+      {
+        "type": "range",
+        "id": "column-title-sz",
+        "min": 20,
+        "max": 50,
+        "step": 1,
+        "label": "Size",
+        "default": 25
+      },
+      {
+        "type": "color",
+        "id": "column-title-color",
+        "label": "Background",
+        "default": "#4CAF50"
+      },
+      {
+        "type": "color",
+        "id": "column-title-txt-color",
+        "label": "Text",
+        "default": "#fff"
+      },
+        {
+          "type": "text",
+          "id": "column-mostpopular",
+          "label": "Most popular text"
+        },
+        {
+          "type": "text",
+          "id": "column-subtitle",
+          "label": "Subheading",
+          "default": "9.99 $/Y"
+        },
+      {
+        "type": "range",
+        "id": "column-subtitle-txt-sz",
+        "min": 18,
+        "max": 45,
+        "step": 1,
+        "label": "Size",
+        "default": 22
+      },
+      {
+        "type": "color",
+        "id": "column-subtitle-color",
+        "label": "Background",
+        "default": "#eee"
+      },
+      {
+        "type": "color",
+        "id": "column-subtitle-txt-color",
+        "label": "Text",
+        "default": "#000000"
+      },
+    {
+      "type": "html",
+      "id": "text-1",
+      "label": "Text 1"
+    },
+    {
+      "type": "html",
+      "id": "text-2",
+      "label": "Text 2"
+    },
+    {
+      "type": "html",
+      "id": "text-3",
+      "label": "Text 3"
+    },
+    {
+      "type": "html",
+      "id": "text-4",
+      "label": "Text 4"
+    },
+    {
+      "type": "html",
+      "id": "text-5",
+      "label": "Text 5"
+    },
+    {
+      "type": "html",
+      "id": "text-6",
+      "label": "Text 6"
+    },
+            {
+      "type": "html",
+      "id": "text-7",
+      "label": "Text 7"
+    },
+      {
+        "type": "color",
+        "id": "column-color",
+        "label": "Background",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "column-txt-color",
+        "label": "Text",
+        "default": "#000000"
+      },
+      {
+        "type": "range",
+        "id": "column-txt-sz",
+        "min": 18,
+        "max": 45,
+        "step": 1,
+        "label": "Size",
+        "default": 18
+      },
+        {
+          "type": "text",
+          "id": "button_price_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_price_link",
+          "label": "Button link"
+        },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "color",
+        "id": "color_price_btn",
+        "label": "Background",
+        "default": "#4CAF50"
+      },
+      {
+        "type": "color",
+        "id": "color_price_txt",
+        "label": "Text"
+      }
+      ]
+    }
+  ],
+   "presets": [
+    {
+      "name": "Pricing table",
+      "category": "Layout"
+    }
+  ] 
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
