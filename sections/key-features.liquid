@@ -1,5 +1,6 @@
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'collapsible-content.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .accordion__grid-item {
@@ -63,7 +64,7 @@
       <div class="{% if section.settings.image == blank %}page-width{% endif %}">
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {%- if section.settings.image != blank -%}
-            <div class="grid__item collapsible-content__grid-item banner__media">
+            <div class="grid__item collapsible-content__grid-item">
               
               {%- if section.settings.text != blank -%}
               <div class="banner__content page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
