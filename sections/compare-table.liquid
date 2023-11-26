@@ -85,8 +85,8 @@
       <div class="grid__item pricing-table-mob {{grid_item_width}}">
          <ul class="block-price {% if block.settings.column-mostpopular != blank %} popular {% endif %}">
             {% if block.settings.column-title != blank %}
-            <li style="background-color:{{block.settings.column-title-color}};color:{{block.settings.column-title-txt-color}};font-size:{{block.settings.column-title-sz}}px;font-weight: bold;">
-              <h5 class="h5 alt-heading">{{block.settings.column-title}}</h5>
+            <li class="h5 alt-heading" style="background-color:{{block.settings.column-title-color}};color:{{block.settings.column-title-txt-color}};font-size:{{block.settings.column-title-sz}}px;font-weight: bold;">
+              {{block.settings.column-title}}
                {% if block.settings.column-mostpopular != blank %}
                <sup class="most-popular"> <i class="fa fa-star " aria-hidden="true"></i> {{block.settings.column-mostpopular}} </sup>
                {% endif %}
