@@ -161,6 +161,105 @@
         "padding_bottom": 80
       }
     },
+    "2f978ded-5a95-493a-88ee-15b597ec12e1": {
+      "type": "compare-table",
+      "blocks": {
+        "476e5938-d284-4793-9129-bbacb0449bb8": {
+          "type": "text_block",
+          "settings": {
+            "column-title": "Heading",
+            "column-title-sz": 25,
+            "column-title-color": "#4CAF50",
+            "column-title-txt-color": "#fff",
+            "column-mostpopular": "",
+            "column-subtitle": "9.99 $\/Y",
+            "column-subtitle-txt-sz": 22,
+            "column-subtitle-color": "#eee",
+            "column-subtitle-txt-color": "#000000",
+            "text-1": "",
+            "text-2": "",
+            "text-3": "",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "column-color": "#ffffff",
+            "column-txt-color": "#000000",
+            "column-txt-sz": 18,
+            "button_price_label": "",
+            "button_price_link": "",
+            "color_price_btn": "#4CAF50",
+            "color_price_txt": ""
+          }
+        },
+        "21d7ac42-1d61-4dad-9743-fc37e54b5ae2": {
+          "type": "text_block",
+          "settings": {
+            "column-title": "Heading",
+            "column-title-sz": 25,
+            "column-title-color": "#4CAF50",
+            "column-title-txt-color": "#fff",
+            "column-mostpopular": "",
+            "column-subtitle": "9.99 $\/Y",
+            "column-subtitle-txt-sz": 22,
+            "column-subtitle-color": "#eee",
+            "column-subtitle-txt-color": "#000000",
+            "text-1": "",
+            "text-2": "",
+            "text-3": "",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "column-color": "#ffffff",
+            "column-txt-color": "#000000",
+            "column-txt-sz": 18,
+            "button_price_label": "",
+            "button_price_link": "",
+            "color_price_btn": "#4CAF50",
+            "color_price_txt": ""
+          }
+        },
+        "7e557103-27a1-4d0e-b404-ecf3c3028d51": {
+          "type": "text_block",
+          "settings": {
+            "column-title": "Heading",
+            "column-title-sz": 25,
+            "column-title-color": "#4CAF50",
+            "column-title-txt-color": "#fff",
+            "column-mostpopular": "",
+            "column-subtitle": "9.99 $\/Y",
+            "column-subtitle-txt-sz": 22,
+            "column-subtitle-color": "#eee",
+            "column-subtitle-txt-color": "#000000",
+            "text-1": "",
+            "text-2": "",
+            "text-3": "",
+            "text-4": "",
+            "text-5": "",
+            "text-6": "",
+            "text-7": "",
+            "column-color": "#ffffff",
+            "column-txt-color": "#000000",
+            "column-txt-sz": 18,
+            "button_price_label": "",
+            "button_price_link": "",
+            "color_price_btn": "#4CAF50",
+            "color_price_txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "476e5938-d284-4793-9129-bbacb0449bb8",
+        "21d7ac42-1d61-4dad-9743-fc37e54b5ae2",
+        "7e557103-27a1-4d0e-b404-ecf3c3028d51"
+      ],
+      "settings": {
+        "pricing-visibility": "showboth",
+        "price-title": "Pricing table",
+        "price-subtitle": "Subheading"
+      }
+    },
     "41e24763-cd54-41d8-93c7-bf5258465c37": {
       "type": "multicolumn",
       "blocks": {
@@ -286,6 +385,7 @@
     "main",
     "related-products",
     "01f81044-966f-4a70-9409-0a3efd92f9db",
+    "2f978ded-5a95-493a-88ee-15b597ec12e1",
     "41e24763-cd54-41d8-93c7-bf5258465c37",
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45"
   ]
