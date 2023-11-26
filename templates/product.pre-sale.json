@@ -235,7 +235,7 @@
       ],
       "settings": {
         "pricing-visibility": "showboth",
-        "price-title": "<strong>Save<\/strong> more than $xxx  per year with The Better",
+        "price-title": "<strong>Save<\/strong> more than <strong>$XX.XX<\/strong> per year with The Better",
         "padding_top": 92,
         "padding_bottom": 100
       }
