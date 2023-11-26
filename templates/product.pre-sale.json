@@ -179,12 +179,9 @@
             "text-5": "",
             "text-6": "",
             "text-7": "",
-            "column-color": "#ffffff",
-            "column-txt-color": "#000000",
+            "column-color": "#7f9686",
+            "column-txt-color": "#eddfd2",
             "column-txt-sz": 18,
-            "button_price_label": "",
-            "button_price_link": "",
-            "color_price_btn": "#4caf50",
             "color_price_txt": ""
           }
         },
@@ -206,9 +203,6 @@
             "column-color": "#ffffff",
             "column-txt-color": "#000000",
             "column-txt-sz": 18,
-            "button_price_label": "",
-            "button_price_link": "",
-            "color_price_btn": "#4caf50",
             "color_price_txt": ""
           }
         },
@@ -230,9 +224,6 @@
             "column-color": "#ffffff",
             "column-txt-color": "#000000",
             "column-txt-sz": 18,
-            "button_price_label": "",
-            "button_price_link": "",
-            "color_price_btn": "#4caf50",
             "color_price_txt": ""
           }
         }
