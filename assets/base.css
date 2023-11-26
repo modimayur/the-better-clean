@@ -325,7 +325,8 @@ h5,
 .h1.alt-heading,
 .h2.alt-heading,
 .h3.alt-heading,
-.h4.alt-heading {
+.h4.alt-heading,
+.h5.alt-heading {
   font-family: 'Staatliches';
   font-weight: 400;
 }
