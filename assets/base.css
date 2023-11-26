@@ -322,6 +322,7 @@ h5,
   word-break: break-word;
 }
 
+.h1.alt-heading,
 .h2.alt-heading,
 .h3.alt-heading,
 .h4.alt-heading {
