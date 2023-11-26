@@ -93,9 +93,6 @@
                {% endif %}
             </li>
             {% endif %}
-            {% if block.settings.column-subtitle != blank %}
-            <li style="background-color:{{block.settings.column-subtitle-color}};color:{{block.settings.column-subtitle-txt-color}};font-size:{{block.settings.column-subtitle-txt-sz}}px">{{block.settings.column-subtitle}}</li>
-            {% endif %}
             {% if block.settings.text-1 != blank %}
             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-1}}</li>
             {% endif %}
@@ -221,33 +218,7 @@
           "id": "column-mostpopular",
           "label": "Most popular text"
         },
-        {
-          "type": "text",
-          "id": "column-subtitle",
-          "label": "Subheading",
-          "default": "9.99 $/Y"
-        },
-      {
-        "type": "range",
-        "id": "column-subtitle-txt-sz",
-        "min": 18,
-        "max": 45,
-        "step": 1,
-        "label": "Size",
-        "default": 22
-      },
-      {
-        "type": "color",
-        "id": "column-subtitle-color",
-        "label": "Background",
-        "default": "#eee"
-      },
-      {
-        "type": "color",
-        "id": "column-subtitle-txt-color",
-        "label": "Text",
-        "default": "#000000"
-      },
+      
     {
       "type": "html",
       "id": "text-1",
