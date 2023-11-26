@@ -188,7 +188,7 @@
         "21d7ac42-1d61-4dad-9743-fc37e54b5ae2": {
           "type": "text_block",
           "settings": {
-            "column-title": "Heading",
+            "column-title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Logo-Table.svg\">",
             "column-title-sz": 20,
             "column-title-color": "#7f9686",
             "column-title-txt-color": "#eddfd2",
@@ -209,7 +209,7 @@
         "7e557103-27a1-4d0e-b404-ecf3c3028d51": {
           "type": "text_block",
           "settings": {
-            "column-title": "Heading",
+            "column-title": "Normal",
             "column-title-sz": 20,
             "column-title-color": "#eddfd2",
             "column-title-txt-color": "#7f9686",
