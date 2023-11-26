@@ -64,7 +64,8 @@
     padding: 20px 0;
     text-align: center;
   }
-  .grid__item::nth-child(2) .block-price li {
+  .grid__item::nth-child(2) .block-price li,
+  li.grid__item::nth-child(2) .block-price li {
     border-bottom: var(--media-border-width) solid #EDDFD2;
   }
   .most-popular {
@@ -87,10 +88,10 @@
    {% if section.settings.price-title != blank %}
      <h3 class="h2 alt-heading">{{ section.settings.price-title }}</h3>
    {% endif %}
-   <div class="page-width grid pricing-table-container">
+   <ul class="page-width grid pricing-table-container">
       {% for block in section.blocks %}
-      <div class="grid__item pricing-table-mob {{grid_item_width}}">
-         <ul class="block-price {% if block.settings.column-mostpopular != blank %} popular {% endif %}">
+      <li class="grid__item pricing-table-mob {{grid_item_width}}">
+         <div class="block-price {% if block.settings.column-mostpopular != blank %} popular {% endif %}">
             {% if block.settings.column-title != blank %}
             <li class="h5 alt-heading" style="background-color:{{block.settings.column-title-color}};color:{{block.settings.column-title-txt-color}};font-size:{{block.settings.column-title-sz}}px;font-weight: bold;">
               {{block.settings.column-title}}
@@ -120,10 +121,10 @@
              {% if block.settings.text-7 != blank %}
              <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-7}}</li>
             {% endif %}
-         </ul>
-      </div>
+         </div>
+      </li>
       {% endfor %}
-   </div>
+   </ul>
 </div>
 {% schema %}
 {
