@@ -112,13 +112,6 @@
             {% endif %} 
              {% if block.settings.text-7 != blank %}
              <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-7}}</li>
-            {% endif %} 
-            {% if block.settings.button_price_label != blank %}
-            <li><a href="{{block.settings.button_price_link}}" 
-               class="button" 
-               style="background-color: {{block.settings.color_price_btn}};color: {{block.settings.color_price_txt}};"
-               title="{{block.settings.button_price_label}}"
-               >{{block.settings.button_price_label}}</a></li>
             {% endif %}
          </ul>
       </div>
@@ -273,26 +266,6 @@
         "step": 1,
         "label": "Size",
         "default": 18
-      },
-        {
-          "type": "text",
-          "id": "button_price_label",
-          "label": "Button label"
-        },
-        {
-          "type": "url",
-          "id": "button_price_link",
-          "label": "Button link"
-        },
-      {
-        "type": "header",
-        "content": "Button"
-      },
-      {
-        "type": "color",
-        "id": "color_price_btn",
-        "label": "Background",
-        "default": "#4CAF50"
       },
       {
         "type": "color",
