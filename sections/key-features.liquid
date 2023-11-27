@@ -62,6 +62,19 @@
       padding-right: 5rem;
     }
   }
+  @media (max-width: 989px) {
+    .key-features--section .collapsible-content__grid--reverse {
+      flex-direction: column-reverse;
+    }
+    .key-features--section .accordion__grid-item {
+      width: 100%;
+    }
+  }
+  @media (max-width: 749px) {
+    .key-features--section .full-width_left-col {
+      padding: 0 1.5rem;
+    }
+  }
 {%- endstyle -%}
 
 <div class="key-features--section color-{{ section.settings.color_scheme }} gradient">
