@@ -564,6 +564,9 @@ a.product__text {
   .product__info-wrapper {
     margin-top: 3rem;
   }
+  .product-form__input .quantity {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -608,6 +611,9 @@ a.product__text {
   }
 
   .product__media-list .product__media-item {
+    width: 100%;
+  }
+  .product-form__input .quantity {
     width: 100%;
   }
 }
