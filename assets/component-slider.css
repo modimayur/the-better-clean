@@ -372,7 +372,9 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button[disabled] .icon {
-  color: rgba(var(--color-foreground), 0.3);
+  /* color: rgba(var(--color-foreground), 0.3); */
+  color: #7F9686;
+  opacity: 0.5;
   cursor: not-allowed;
 }
 
