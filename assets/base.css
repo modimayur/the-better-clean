@@ -2541,6 +2541,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
     justify-self: start;
   }
 
+  .header__heading-logo {
+    max-width: 65%;
+  }
+  
   .header--mobile-left {
     grid-template-columns: auto 2fr 1fr;
   }
