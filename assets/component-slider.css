@@ -362,9 +362,6 @@ slider-component.slider-component-full-width {
   align-items: center;
   justify-content: center;
 }
-.product__media-list .slider-button {
-  color: #7F9686 !important;
-}
 
 .slider-button:not([disabled]):hover {
   color: rgb(var(--color-foreground));
