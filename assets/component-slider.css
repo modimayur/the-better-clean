@@ -352,7 +352,7 @@ slider-component.slider-component-full-width {
 
 .slider-button {
   /* color: rgba(var(--color-foreground), 0.75); */
-  color: #7F9686 !important;
+  color: #7F9686;
   background: transparent;
   border: none;
   cursor: pointer;
