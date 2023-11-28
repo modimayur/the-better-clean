@@ -338,13 +338,13 @@
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
 }
 
-.footer-block__details-content .list-menu__item--active {
+/* .footer-block__details-content .list-menu__item--active {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
-}
+} */
 
 @media screen and (min-width: 750px) {
   .footer-block__details-content .list-menu__item--link:hover,
