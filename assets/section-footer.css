@@ -41,7 +41,9 @@
 }
 
 .footer__content-bottom {
-  border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
+  display: flex;
+  flex-direction: row-reverse;
+  border-top: var(--media-border-width) solid rgba(var(--color-foreground), 0.08);
   padding-top: 3rem;
 }
 
