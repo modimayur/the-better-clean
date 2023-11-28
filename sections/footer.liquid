@@ -168,7 +168,7 @@
                       <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
                     {%- endif -%}
                     {%- if section.settings.newsletter_description != blank -%}
-                      <div class="rte">{{ section.settings.newsletter_description }}</div>
+                      <p class="rte">{{ section.settings.newsletter_description }}</p>
                     {%- endif -%}
                     {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                       <input type="hidden" name="contact[tags]" value="newsletter">
