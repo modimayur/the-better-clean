@@ -114,13 +114,16 @@
     margin-top: 0;
   }
   .footer-block:first-child {
-    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    width: inherit;
+    flex: 1;
   }
   .footer-block.footer-block--menu {
-    width: calc(20% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    width: inherit;
+    flex: 0 0 220px;
   }
   .footer-block.footer-block--newsletter {
-    width: calc(30% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+    width: inherit;
+    flex: 0 0 320px;
   }
 }
 
