@@ -44,7 +44,7 @@
   display: flex;
   flex-direction: row-reverse;
   border-top: var(--media-border-width) solid rgba(var(--color-foreground), 1);
-  padding-top: 3rem;
+  padding: 2rem 0;
 }
 
 .footer__content-bottom:only-child {
