@@ -74,9 +74,9 @@
   }
 }
 
-.footer__localization:empty + .footer__column--info {
+/* .footer__localization:empty + .footer__column--info {
   align-items: center;
-}
+} */
 
 @media screen and (max-width: 749px) {
   .footer__localization:empty + .footer__column {
