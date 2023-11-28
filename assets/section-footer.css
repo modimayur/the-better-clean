@@ -312,6 +312,7 @@
 .footer__content-bottom-wrapper--center {
   /* justify-content: center; */
   justify-content: flex-start;
+  align-items: center;
 }
 
 .footer__copyright {
