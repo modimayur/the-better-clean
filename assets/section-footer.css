@@ -113,6 +113,9 @@
     display: block;
     margin-top: 0;
   }
+  .footer-block:first-child {
+    width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
 }
 
 .footer-block:empty {
