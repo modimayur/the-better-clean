@@ -303,11 +303,11 @@
   }
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   .footer__payment {
     margin-top: 1.5rem;
   }
-}
+} */
 
 .footer__content-bottom-wrapper--center {
   /* justify-content: center; */
