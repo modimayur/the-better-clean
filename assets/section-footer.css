@@ -388,6 +388,8 @@
   .footer-block__details-content .list-menu__item--link {
     display: inline-block;
     font-size: 1.6rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0;
   }
 
   .footer-block__details-content > :first-child .list-menu__item--link {
