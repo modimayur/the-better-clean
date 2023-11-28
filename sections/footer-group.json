@@ -29,6 +29,7 @@
         "color_scheme": "accent-1",
         "newsletter_enable": true,
         "newsletter_heading": "Newsletter",
+        "newsletter_description": "Get the latest on all things The Better and be the first for any exclusive offers.",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,
