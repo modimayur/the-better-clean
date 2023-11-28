@@ -119,11 +119,11 @@
   }
   .footer-block.footer-block--menu {
     width: inherit;
-    flex: 0 0 230px;
+    flex: 0 0 240px;
   }
   .footer-block.footer-block--newsletter {
     width: inherit;
-    flex: 0 0 320px;
+    flex: 0 0 340px;
   }
 }
 
