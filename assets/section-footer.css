@@ -137,10 +137,11 @@
 }
 
 .footer-block--newsletter {
-  display: flex;
+  display: block;
+  /* display: flex;
   align-items: flex-end;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1rem; */
 }
 
 .footer-block--newsletter p {
