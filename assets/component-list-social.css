@@ -18,8 +18,10 @@
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1.1rem;
-  color: rgb(var(--color-foreground));
+  padding: 1rem;
+  color: var(--gradient-background);
+  background: rgb(var(--color-foreground));
+  border-radius: 50%;
 }
 
 .utility-bar .list-social__link {
