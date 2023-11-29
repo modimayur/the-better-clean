@@ -82,10 +82,10 @@
         "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936"
       ],
       "custom_css": [
-        ".scrolling-text span strong {color: #2D2D2D;}"
+        ".scrolling-text span strong {color: #2d2d2d;}"
       ],
       "settings": {
-        "speed": 50,
+        "speed": 30,
         "pause_on_hover": true,
         "color_background_main": "#e3deb4",
         "color_text_main": "#7f9686"
