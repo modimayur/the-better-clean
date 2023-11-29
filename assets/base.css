@@ -1289,7 +1289,7 @@ button.shopify-payment-button__button--unbranded {
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 4px 3rem 0;
+  padding: 0 3rem;
   cursor: pointer;
   font: inherit;
   font-family: 'Staatliches';
