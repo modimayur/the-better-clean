@@ -24,8 +24,8 @@
 }
 
 .newsletter__wrapper h2 {
-  max-width: 680px;
-  margin: 0 auto;
+  max-width: 640px;
+  margin: 0 auto 5rem;
 }
 
 .newsletter__subheading {
