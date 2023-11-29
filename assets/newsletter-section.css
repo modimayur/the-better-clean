@@ -35,7 +35,7 @@
 
 .newsletter__subheading {
   font-size: 1.4rem;
-  opacity: 1;
+  color: rgba(var(--color-foreground), 1);
 }
 
 .newsletter__wrapper .newsletter-form__field-wrapper {
