@@ -82,7 +82,7 @@
         "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936"
       ],
       "settings": {
-        "speed": 100,
+        "speed": 50,
         "pause_on_hover": true,
         "color_background_main": "#e3deb4",
         "color_text_main": "#7f9686"
