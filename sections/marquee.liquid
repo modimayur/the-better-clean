@@ -22,7 +22,7 @@
       <div>
       {%- liquid
           for block in section.blocks
-            echo '<span>' | append: block.settings.marquee_text | append: '</span>'
+            echo '<span class="h2 alt-heading">' | append: block.settings.marquee_text | append: '</span>'
           endfor
         -%}
       </div>
