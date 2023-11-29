@@ -58,9 +58,10 @@
   }
 }
 
-.newsletter-form__field-wrapper .field__input {
+.newsletter-form__field-wrapper .field__label {
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
+  color: rgba(var(--color-foreground),1);
 }
 .newsletter-form__field-wrapper  .subscription--button {
   position: absolute;
