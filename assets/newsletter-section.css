@@ -73,6 +73,7 @@
   }
   .newsletter__wrapper .newsletter-form__field-wrapper {
     margin-bottom: 65px;
+    max-width: 100%;
   }
 }
 
