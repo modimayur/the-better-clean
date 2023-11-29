@@ -81,6 +81,9 @@
         "9c29e356-9a32-4485-b789-361068b997f0",
         "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936"
       ],
+      "custom_css": [
+        ".scrolling-text span strong {color: #2D2D2D;}"
+      ],
       "settings": {
         "speed": 50,
         "pause_on_hover": true,
