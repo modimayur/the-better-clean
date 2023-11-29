@@ -47,6 +47,47 @@
         "show_text_below": true
       }
     },
+    "8d334ab4-a871-4f17-8b62-be3103b25bac": {
+      "type": "marquee",
+      "blocks": {
+        "template--16967081165052__8d334ab4-a871-4f17-8b62-be3103b25bac-text-1": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+          }
+        },
+        "2e1971d6-0747-43f7-aa38-2766e244b629": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+          }
+        },
+        "9c29e356-9a32-4485-b789-361068b997f0": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+          }
+        },
+        "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936": {
+          "type": "text",
+          "settings": {
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16967081165052__8d334ab4-a871-4f17-8b62-be3103b25bac-text-1",
+        "2e1971d6-0747-43f7-aa38-2766e244b629",
+        "9c29e356-9a32-4485-b789-361068b997f0",
+        "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936"
+      ],
+      "settings": {
+        "speed": 100,
+        "pause_on_hover": true,
+        "color_background_main": "#e3deb4",
+        "color_text_main": "#7f9686"
+      }
+    },
     "abbd74b8-ff9e-4498-b253-dbab370e742b": {
       "type": "newsletter",
       "blocks": {
@@ -75,7 +116,7 @@
         "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1"
       ],
       "custom_css": [
-        "h2 strong {color: #7F9686;}"
+        "h2 strong {color: #7f9686;}"
       ],
       "settings": {
         "color_scheme": "scheme-78dba0c7-7ced-47a1-b611-7a2d3ccaf909",
@@ -87,6 +128,7 @@
   },
   "order": [
     "ea8842e7-459e-4584-83a7-a80673719035",
+    "8d334ab4-a871-4f17-8b62-be3103b25bac",
     "abbd74b8-ff9e-4498-b253-dbab370e742b"
   ]
 }
