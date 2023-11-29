@@ -57,3 +57,9 @@
     margin: 0 0 0 1rem;
   }
 }
+
+.subscription--button {
+  position: absolute;
+  right: 240px;
+  width: 220px;
+}
