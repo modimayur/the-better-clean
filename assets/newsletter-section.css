@@ -58,7 +58,11 @@
   }
 }
 
-.subscription--button {
+.newsletter-form__field-wrapper .field__input {
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
+}
+.newsletter-form__field-wrapper  .subscription--button {
   position: absolute;
   right: -240px;
   width: 220px;
