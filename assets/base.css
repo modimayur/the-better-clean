@@ -3570,13 +3570,13 @@ details-disclosure > details {
 /* Scrolling Text */
 
 .scrolling-text {
-  color: var(--color-text-main);
+  /* color: var(--color-text-main); */
   border: 0;
   width: 100%;
   height: 54px;
   padding-top: 0;
-  font-family: var(--font-stack-headings-primary);
-  font-weight: var(--font-weight-headings-primary);
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 0.8px;
