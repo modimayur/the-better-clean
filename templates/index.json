@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "Image banner",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "template--16967081165052__ea8842e7-459e-4584-83a7-a80673719035-text-1": {
@@ -23,7 +23,7 @@
             "button_label_1": "Button label",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -37,9 +37,9 @@
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -113,6 +113,7 @@
         "template--16967081165052__e433184a-301a-404e-82b3-8fc50347237b-button-1"
       ],
       "settings": {
+        "stretch": "container",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
