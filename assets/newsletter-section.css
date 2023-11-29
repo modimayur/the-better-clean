@@ -60,6 +60,6 @@
 
 .subscription--button {
   position: absolute;
-  right: 240px;
+  right: -240px;
   width: 220px;
 }
