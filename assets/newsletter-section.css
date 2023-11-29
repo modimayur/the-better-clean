@@ -62,6 +62,8 @@
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
   color: rgba(var(--color-foreground),1);
+  letter-spacing: .06rem;
+
 }
 .newsletter-form__field-wrapper  .subscription--button {
   position: absolute;
