@@ -76,7 +76,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-78dba0c7-7ced-47a1-b611-7a2d3ccaf909",
-        "full_width": false,
+        "full_width": true,
         "padding_top": 92,
         "padding_bottom": 100
       }
