@@ -30,8 +30,7 @@
 
 .newsletter__subheading {
   max-width: 70rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 5rem auto 0;
 }
 
 .newsletter__wrapper .newsletter-form__field-wrapper {
