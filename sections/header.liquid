@@ -52,15 +52,6 @@
     .js #MainContent {
       margin-top: -114px;
     }
-    .js #MainContent .shopify-section:first-child .gradient {
-      padding-top: calc({{ section.settings.padding_top | times: 0.75 | round: 0 }}px + 114px);
-    }
-  
-    @media screen and (min-width: 750px) {
-      .js #MainContent .shopify-section:first-child .gradient {
-        padding-top: calc({{ section.settings.padding_top }}px + 114px);
-      }
-    }
   {%- endif -%}
 
   .menu-drawer-container {
