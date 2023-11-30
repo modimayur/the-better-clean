@@ -1311,7 +1311,7 @@ button.shopify-payment-button__button--unbranded {
 
 .button--primary:hover {
   background-color: transparent;
-  color: rgba(var(--color-button);
+  color: rgba(var(--color-button));
 }
 
 .button:before,
