@@ -3606,7 +3606,7 @@ details-disclosure > details {
 }
 .scrolling-text span {
   display: inline-block;
-  margin: 0 26px;
+  margin: 0 32px;
   padding: 0;
   position: relative;
 }
@@ -3615,8 +3615,8 @@ details-disclosure > details {
   position: absolute;
   width: 12px;
   height: 12px;
-  left: 12px;
-  top: 16px;
+  left: -32px;
+  top: -5px;
 }
 .scrolling-text a {
   text-decoration: underline;
