@@ -4,6 +4,10 @@
   justify-content: flex-end;
 }
 
+.list-social li {
+  margin-left: 12px;
+}
+
 @media only screen and (max-width: 749px) {
   .list-social {
     justify-content: center;
