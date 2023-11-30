@@ -33,7 +33,7 @@
       ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/12f1c495db284c3da68fcb377ccb92ee.mp4",
-        "video_overlay_opacity": 100,
+        "video_overlay_opacity": 80,
         "stretch": "container",
         "height": "adapt",
         "desktop_image_width": "medium",
