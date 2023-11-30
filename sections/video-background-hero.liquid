@@ -5,13 +5,13 @@
     background-color: #2D2D2D;
   }
   .section-{{ section.id }}-padding .page-width {
-    padding-top: calc({{ section.settings.padding_top | times: 0.75 | round: 0 }}px + 114px);
+    padding-top: calc({{ section.settings.padding_top | times: 0.75 | round: 0 }}px + 72px);
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 990px) {
     .section-{{ section.id }}-padding .page-width {
-      padding-top: calc({{ section.settings.padding_top }}px + 72px);
+      padding-top: calc({{ section.settings.padding_top }}px + 114px);
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
     .video-background-hero .page-width:before {
