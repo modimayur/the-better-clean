@@ -153,6 +153,11 @@
   margin-top: 0;
 }
 
+.footer-block--menu .footer-block__details-content li:last-child a {
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
+}
+
 @media screen and (max-width: 749px) {
   .footer-block.footer-block--menu:only-child {
     text-align: left;
