@@ -18,9 +18,13 @@
   video { 
     display: block;
     margin: 0 auto;
-    width: 100%;
-    opacity: {{ section.settings.video_overlay_opacity | divided_by: 100.0 }};
     position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: fill;
+    opacity: {{ section.settings.video_overlay_opacity | divided_by: 100.0 }};
   }
   .video-background-hero .image-with-text__content {
     padding: 0;
