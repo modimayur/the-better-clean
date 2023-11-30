@@ -1314,6 +1314,12 @@ button.shopify-payment-button__button--unbranded {
   color: rgba(var(--color-button));
 }
 
+@media (max-width: 750px) {
+  .button--primary {
+    width: 100%;
+  }
+}
+
 .button:before,
 .subscribe__button:before,
 .shopify-challenge__button:before,
