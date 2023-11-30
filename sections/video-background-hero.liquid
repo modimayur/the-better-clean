@@ -26,6 +26,9 @@
     padding: 0;
     background: transparent;
   }
+  span.offset-h1 {
+    padding-left: 2rem;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -91,7 +94,7 @@
                     {{ block.shopify_attributes }}
                   >
                     {{ block.settings.heading }}<br>
-                    {{ block.settings.heading2 }}
+                    <span class="offset-h1">{{ block.settings.heading2 }}</span>
                   </h1>
                 {%- when 'caption' -%}
                   <p
