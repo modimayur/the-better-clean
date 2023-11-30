@@ -128,27 +128,11 @@
         "padding_top": 92,
         "padding_bottom": 100
       }
-    },
-    "f176a951-cc29-4e3a-bc47-27ec7e2df5b5": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/pexels-mikhail-nilov-7677269 (1080p).mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "ea8842e7-459e-4584-83a7-a80673719035",
     "8d334ab4-a871-4f17-8b62-be3103b25bac",
-    "abbd74b8-ff9e-4498-b253-dbab370e742b",
-    "f176a951-cc29-4e3a-bc47-27ec7e2df5b5"
+    "abbd74b8-ff9e-4498-b253-dbab370e742b"
   ]
 }
