@@ -6,22 +6,22 @@
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Laundry, re-imagined.",
+            "heading_size": "h0"
           }
         },
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "text": "<p>The Better way to wash<\/p>",
+            "text_style": "subtitle"
           }
         },
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Join the waitlist",
+            "button_link": "#",
             "button_style_secondary": false
           }
         }
@@ -36,13 +36,13 @@
         "video_overlay_opacity": 80,
         "stretch": "container",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "desktop_image_width": "small",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-a9820e6c-7cfc-4418-818c-8e87a9d36fc3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 84,
