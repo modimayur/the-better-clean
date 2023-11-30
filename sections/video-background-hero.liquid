@@ -22,6 +22,10 @@
     opacity: {{ section.settings.video_overlay_opacity | divided_by: 100.0 }};
     position: absolute;
   }
+  .video-background-hero .image-with-text__content {
+    padding: 0;
+    background: transparent;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -34,7 +38,7 @@
   endif
 -%}
 
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="video-background-hero section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   {%- if section.settings.video_url != blank -%}
     <video autoplay loop playsinline muted> 
       <source src="{{ section.settings.video_url }}">
