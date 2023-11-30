@@ -362,7 +362,13 @@
             render 'icon-cart'
           endif
         -%}
-        {% render 'icon-plus' %}
+        {%- liquid
+          if cart == empty
+            render 'icon-cart-alt-empty'
+          else
+            render 'icon-cart-alt'
+          endif
+        -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
         {%- if cart != empty -%}
           <div class="cart-count-bubble">
