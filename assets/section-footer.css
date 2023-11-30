@@ -153,9 +153,13 @@
   margin-top: 0;
 }
 
+.footer-block--menu .footer-block__details-content li:last-child {
+  margin-top: 10px;
+}
 .footer-block--menu .footer-block__details-content li:last-child a {
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
+  letter-spacing: .06rem;
 }
 
 @media screen and (max-width: 749px) {
