@@ -66,13 +66,28 @@
     .js #MainContent {
       margin-top: -114px;
     }
-
+    .js .header__icon--cart .icon-cart,
+    .js .header__icon--cart .icon-cart-empty {
+      display: none !important;
+    }
+    .js .header__icon--cart .icon-cart-alt,
+    .js .header__icon--cart .icon-cart-alt-empty {
+      display: inherit !important;
+    }
   {%- endif -%}
 
   .js .primary-logo {
     display: inherit;
   }
   .js .alt-logo {
+    display: none;
+  }
+  .js .header__icon--cart .icon-cart,
+  .js .header__icon--cart .icon-cart-empty {
+    display: inherit;
+  }
+  .js .header__icon--cart .icon-cart-alt,
+  .js .header__icon--cart .icon-cart-alt-empty {
     display: none;
   }
 
