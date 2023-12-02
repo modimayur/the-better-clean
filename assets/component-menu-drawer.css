@@ -118,6 +118,8 @@ details[open].menu-opening > .menu-drawer__submenu {
 .menu-drawer__menu-item {
   padding: 1.1rem 3rem;
   text-decoration: none;
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
   font-size: 1.8rem;
 }
 
