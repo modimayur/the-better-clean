@@ -16,6 +16,7 @@ cart-items .title-wrapper-with-link {
   font-weight: var(--font-body-weight);
   font-size: calc(var(--font-heading-scale) * 1.3rem);
   letter-spacing: .06rem;
+  color: rgb(var(--color-foreground)) !important;
 }
 
 .cart-item__quantity-wrapper {
