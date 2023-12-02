@@ -3627,3 +3627,9 @@ details-disclosure > details {
 .scrolling-text a {
   text-decoration: underline;
 }
+
+@media (max-width: 750px) {
+  .scrolling-text {
+    height: 65px;
+  }
+}
