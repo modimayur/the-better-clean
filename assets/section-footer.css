@@ -437,7 +437,7 @@
     justify-content: flex-start;
   }
   .footer-block__image-wrapper {
-      max-width: min(100%, 120px);
+      max-width: 120px !important;
   }
 }
 
