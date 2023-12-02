@@ -288,7 +288,7 @@ body,
 .color-inverse, 
 .color-accent-1, 
 .color-accent-2 {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-foreground)) !important;
 }
 
 .text-body {
