@@ -224,7 +224,3 @@ cart-items {
     gap: 1rem;
   }
 }
-
-.cart__login-paragraph .underlined-link {
-  color: rgb(var(--color-foreground));
-}
