@@ -30,7 +30,7 @@ cart-items.is-empty .title-wrapper-with-link,
 }
 
 .cart__login-title {
-  margin: 5.5rem 0 1rem;
+  margin: 5.5rem 0 0.5rem;
 }
 
 .cart__login-paragraph {
@@ -223,4 +223,8 @@ cart-items {
     display: flex;
     gap: 1rem;
   }
+}
+
+.cart__login-paragraph {
+  color: rgba(var(--color-foreground), 1);
 }
