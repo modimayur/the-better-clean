@@ -244,6 +244,7 @@ details[open].menu-opening > .menu-drawer__submenu {
 }
 
 .menu-drawer__account .icon-account {
+  display: none;
   height: 2rem;
   width: 2rem;
   margin-right: 1rem;
