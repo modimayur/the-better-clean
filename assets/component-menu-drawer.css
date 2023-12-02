@@ -233,8 +233,10 @@ details[open].menu-opening > .menu-drawer__submenu {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  padding: 1rem 0;
-  font-size: 1.4rem;
+  padding: 1rem 0 3em;
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
+  font-size: 3.8rem;
   color: rgb(var(--color-foreground));
   margin-bottom: 0;
 }
