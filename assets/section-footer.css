@@ -27,7 +27,7 @@
   }
 
   .footer__content-top {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -61,7 +61,7 @@
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
     flex-wrap: wrap;
-    padding: 2.5rem 0;
+    padding: 3rem 0;
     row-gap: 1.5rem;
   }
 
@@ -524,7 +524,7 @@
 } */
 
 .policies li a {
-  padding: 0.6rem;
+  padding: 0.3rem 0.6rem;
   display: block;
 }
 
