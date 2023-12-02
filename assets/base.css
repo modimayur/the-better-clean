@@ -661,7 +661,7 @@ details > * {
 .underlined-link,
 .customer a {
   /* color: rgba(var(--color-link), var(--alpha-link)); */
-  color: rgba(var(--color-foreground), 1);
+  color: rgb(var(--color-foreground));
 }
 
 .inline-richtext a,
@@ -672,7 +672,7 @@ details > * {
 .underlined-link:hover,
 .customer a:hover,
 .inline-richtext a:hover {
-  color: rgb(var(--color-link));
+  color: rgb(var(--color-foreground));
   text-decoration-thickness: 0.2rem;
 }
 
