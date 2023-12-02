@@ -660,7 +660,8 @@ details > * {
 
 .underlined-link,
 .customer a {
-  color: rgba(var(--color-link), var(--alpha-link));
+  /* color: rgba(var(--color-link), var(--alpha-link)); */
+  color: rgb(var(--color-foreground));
 }
 
 .inline-richtext a,
