@@ -61,7 +61,7 @@
 @media screen and (max-width: 749px) {
   .footer__content-bottom {
     flex-wrap: wrap;
-    padding: 2rem 0;
+    padding: 2.5rem 0;
     row-gap: 1.5rem;
   }
 
@@ -451,6 +451,9 @@
   .footer__content-bottom-wrapper--center {
     justify-content: center;
   }
+  .footer__copyright {
+    text-align: center;
+  }
 }
 
 .footer-block__image-wrapper {
@@ -521,7 +524,7 @@
 } */
 
 .policies li a {
-  padding: 0.6rem 0;
+  padding: 0.6rem 1rem;
   display: block;
 }
 
