@@ -439,6 +439,11 @@
   .footer-block__image-wrapper {
       max-width: 120px !important;
   }
+  .footer-block--newsletter p {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    margin-top: 0.8rem;
+  }
 }
 
 .footer-block__image-wrapper {
