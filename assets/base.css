@@ -389,7 +389,8 @@ h3,
 
 h4,
 .h4 {
-  font-family: var(--font-heading-family);
+  /* font-family: var(--font-heading-family); */
+  font-family: 'Biennale';
   font-style: var(--font-heading-style);
   font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
