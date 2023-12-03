@@ -161,7 +161,7 @@ cart-remove-button .icon-remove {
   width: 1.5rem;
 }
 
-cart-remove-button .icon-remove svg path {
+cart-remove-button .icon-remove path {
   fill: #2D2D2D;
 }
 
