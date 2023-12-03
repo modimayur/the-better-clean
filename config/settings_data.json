@@ -122,9 +122,12 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/TheBetter_LogoPrimary.png",
     "checkout_body_background_color": "#eddfd2",
     "checkout_sidebar_background_color": "#7f9686",
-    "checkout_heading_font": "Open Sans",
-    "checkout_body_font": "Source Sans Pro",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
     "checkout_accent_color": "#7f9686",
+    "checkout_button_color": "#d86a48",
+    "checkout_error_color": "#d86a48",
+    "checkout_layout": "onepage",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
