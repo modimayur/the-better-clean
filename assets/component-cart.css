@@ -196,7 +196,8 @@ cart-items {
 }
 
 .cart__checkout-button {
-  max-width: 36rem;
+  /* max-width: 36rem; */
+  min-width: calc(30rem + var(--buttons-border-width) * 2);
   background-color: #D86A48;
   
 }
