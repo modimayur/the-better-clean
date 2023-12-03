@@ -201,11 +201,11 @@ cart-items {
   background-color: #D86A48;
   
 }
-.cart__checkout-button:before {
-  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba(((216,106,72),var(--shadow-opacity));
+button.cart__checkout-button:before {
+  box-shadow: var(--shadow-horizontal-offset) var(--shadow-vertical-offset) var(--shadow-blur-radius) rgba((216,106,72),var(--shadow-opacity));
 }
-.cart__checkout-button:after {
-  0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 var(--buttons-border-width) rgba(((216,106,72),var(--alpha-button-background));
+button.cart__checkout-button:after {
+  0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text),var(--border-opacity)),0 0 0 var(--buttons-border-width) rgba((216,106,72),var(--alpha-button-background));
 }
 
 .cart__ctas {
