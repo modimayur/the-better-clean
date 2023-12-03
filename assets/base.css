@@ -3667,7 +3667,7 @@ details-disclosure > details {
 .shopify-policy__body {
   max-width: 840px;
 }
-@media screen and (min-width: 750px)
+@media screen and (min-width: 750px) {
   .shopify-policy__container {
       padding: 75px 5rem;
   }
