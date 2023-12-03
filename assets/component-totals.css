@@ -37,6 +37,6 @@
 
 @media all and (min-width: 750px) {
   .totals {
-    justify-content: center;
+    justify-content: flex-end;
   }
 }
