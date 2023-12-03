@@ -161,6 +161,10 @@ cart-remove-button .icon-remove {
   width: 1.5rem;
 }
 
+cart-remove-button .icon-remove svg path {
+  fill: #2D2D2D;
+}
+
 .cart-item .loading__spinner {
   top: 0;
   left: auto;
