@@ -34,6 +34,7 @@ cart-items .title-wrapper-with-link {
 .cart-item__image-container {
   display: inline-flex;
   align-items: flex-start;
+  border-color: #2D2D2D;
 }
 
 .cart-item__image-container:after {
