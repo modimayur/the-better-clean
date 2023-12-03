@@ -3,7 +3,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
-        "color_scheme": "scheme-8cf3ab1d-d252-442a-8303-286f5a361ec1",
+        "color_scheme": "background-1",
         "padding_top": 100,
         "padding_bottom": 60
       }
