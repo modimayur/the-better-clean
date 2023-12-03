@@ -317,6 +317,7 @@ cart-remove-button .icon-remove {
 
   .cart-item__price-wrapper > *:only-child:not(.cart-item__discounted-prices) {
     margin-top: 1rem;
+    color: #2D2D2D;
   }
 
   .cart-item__error {
