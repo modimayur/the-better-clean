@@ -83,6 +83,7 @@ cart-items {
 }
 
 .cart__note {
+  display: none;
   height: fit-content;
   top: 2.5rem;
 }
@@ -134,7 +135,7 @@ cart-items {
 
   .cart__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     border: 0;
   }
 
