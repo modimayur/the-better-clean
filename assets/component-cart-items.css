@@ -82,6 +82,7 @@ cart-items .title-wrapper-with-link {
 }
 
 .cart-item__name {
+  color: #2D2D2D;
   text-decoration: none;
   display: block;
 }
