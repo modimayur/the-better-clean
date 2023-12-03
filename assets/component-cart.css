@@ -189,6 +189,7 @@ cart-items {
 }
 
 .tax-note {
+  font-size: 1.4rem;
   margin: 2.2rem 0 1.6rem auto;
   text-align: center;
   display: block;
