@@ -153,9 +153,9 @@ cart-items {
   }
 }
 
-.cart__ctas button {
+/* .cart__ctas button {
   width: 100%;
-}
+} */
 
 .cart__ctas > *:not(noscript:first-child) + * {
   margin-top: 1rem;
@@ -231,6 +231,7 @@ cart-items {
   .cart__ctas {
     display: flex;
     gap: 1rem;
+    justify-content: flex-end;
   }
 }
 
