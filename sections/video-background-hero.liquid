@@ -3,6 +3,7 @@
 {%- style -%}
   .section-{{ section.id }}-padding {
     background-color: #2D2D2D;
+    overflow: hidden;
   }
   .section-{{ section.id }}-padding .page-width {
     padding-top: calc({{ section.settings.padding_top | times: 0.75 | round: 0 }}px + 100px);
