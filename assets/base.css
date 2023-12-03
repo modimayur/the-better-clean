@@ -2181,16 +2181,16 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .cart-count-bubble {
   position: absolute;
-  background-color: rgb(var(--color-button));
-  color: rgb(var(--color-button-text));
-  height: 1.7rem;
-  width: 1.7rem;
+  background-color: #EDDFD2;
+  color: #7F9686;
+  height: 1.6rem;
+  width: 1.6rem;
   border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.9rem;
-  bottom: 1.2rem;
+  font-size: 1rem;
+  bottom: 1.3rem;
   left: 1.4rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
   font-family: 'Staatliches';
