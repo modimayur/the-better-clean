@@ -458,7 +458,7 @@
 }
 
 .footer-block__image-wrapper {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   overflow: hidden !important;
 }
 
@@ -470,6 +470,10 @@
 
 .footer-block__brand-info {
   text-align: left;
+}
+.footer-block__brand-info .rte p {
+  font-size: 1.1rem;
+  max-width: 420px;
 }
 
 .footer-block:only-child .footer-block__brand-info {
