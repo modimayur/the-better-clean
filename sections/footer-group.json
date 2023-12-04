@@ -9,7 +9,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/TheBetter_FooterLogo.svg",
-            "image_width": 250,
+            "image_width": 160,
             "alignment": ""
           }
         },
