@@ -450,7 +450,7 @@
   }
   .footer-block__image-wrapper {
     max-width: 120px !important;
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
   }
   .footer-block--newsletter p {
     font-size: 1.4rem;
