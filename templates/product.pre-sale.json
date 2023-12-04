@@ -254,7 +254,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-1.jpg",
             "title": "Step 1",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<\/p>",
+            "text": "<p>Choose if you need a full or half sheet. Tear sheet in half for washed up to 5kg.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -264,7 +264,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-2.jpg",
             "title": "Step 2",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<\/p>",
+            "text": "<p>Place the sheet in the drum of your washing machine, or fold and place into the detergent dispenser.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -274,7 +274,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-3.jpg",
             "title": "Step 3",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.<\/p>",
+            "text": "<p>Select the cycle you need, and sit back and wait for our Laundry Detergent Sheets to work their magic.<\/p>",
             "link_label": "",
             "link": ""
           }
