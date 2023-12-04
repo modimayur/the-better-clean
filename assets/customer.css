@@ -24,6 +24,11 @@
 .customer button {
   margin: 4rem 0 1.5rem;
 }
+@media (max-width: 749px) {
+  .customer button {
+    width: 100%;
+  }
+}
 
 .customer ul {
   line-height: calc(1 + 0.6 / var(--font-body-scale));
