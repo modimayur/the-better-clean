@@ -1838,13 +1838,16 @@ details[open] > .share-button__fallback {
 
 .customer .field {
   text-align: center;
+  color: #2D2D2D;
 }
 .customer .field label {
   left: 50%;
   transform: translate(-50%);
   color: #2D2D2D;
 }
-.customer .field:focus ~ .field__label {
+.customer .field input:focus ~ label,
+.customer .field input:not(:placeholder-shown) ~ label,
+.customer .field input:-webkit-autofill ~ label {
     left: 50%;
 }
 
