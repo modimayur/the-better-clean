@@ -119,7 +119,7 @@
     "show_cart_note": true,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
-    "checkout_logo_image": "shopify:\/\/shop_images\/TheBetter_LogoPrimary.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/TheBetter_Logo-primary.svg",
     "checkout_body_background_color": "#eddfd2",
     "checkout_sidebar_background_color": "#7f9686",
     "checkout_heading_font": "Helvetica Neue",
