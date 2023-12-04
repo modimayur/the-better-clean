@@ -1838,6 +1838,8 @@ details[open] > .share-button__fallback {
 
 .customer .field {
   text-align: center;
+}
+.customer .field input {
   color: #2D2D2D;
 }
 .customer .field label {
