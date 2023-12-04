@@ -336,12 +336,12 @@
 }
 
 .login a[href='#recover'] {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .login .field + a {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .login p {
