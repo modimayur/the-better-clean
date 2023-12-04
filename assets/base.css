@@ -1719,6 +1719,9 @@ details[open] > .share-button__fallback {
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
+.customer .field:after {
+  box-shadow: 0 0 0 var(--inputs-border-width) #2D2D2D;
+}
 
 .select__select {
   font-family: var(--font-body-family);
@@ -1831,6 +1834,17 @@ details[open] > .share-button__fallback {
   color: rgba(var(--color-foreground), 1);
   letter-spacing: 0.1rem;
   line-height: 1.5;
+}
+
+.customer .field {
+  text-align: center;
+}
+.customer .field label {
+  left: 50%;
+  transform: translate(-50%);
+}
+.customer .field:focus ~ .field__label {
+    left: 50%;
 }
 
 .field__input:focus ~ .field__label,
