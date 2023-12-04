@@ -13,6 +13,12 @@
             "alignment": ""
           }
         },
+        "1b833435-0b84-4656-bb38-e8763af88e6f": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
         "243992c3-cf5e-4b16-809a-66f92b890a6c": {
           "type": "link_list",
           "settings": {
@@ -23,6 +29,7 @@
       },
       "block_order": [
         "a07b3d07-c0b2-4777-91f4-49cd932834a9",
+        "1b833435-0b84-4656-bb38-e8763af88e6f",
         "243992c3-cf5e-4b16-809a-66f92b890a6c"
       ],
       "settings": {
