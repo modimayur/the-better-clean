@@ -153,7 +153,7 @@
         "layout": "none",
         "color_scheme": "accent-1",
         "container_color_scheme": "",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image": "shopify:\/\/shop_images\/nadia-rudenko-N0zYX-8L8uY-unsplash_1_1.jpg",
         "image_ratio": "large",
         "desktop_layout": "image_second",
