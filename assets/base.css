@@ -1842,6 +1842,7 @@ details[open] > .share-button__fallback {
 .customer .field label {
   left: 50%;
   transform: translate(-50%);
+  color: #2D2D2D;
 }
 .customer .field:focus ~ .field__label {
     left: 50%;
