@@ -22,7 +22,7 @@
           "type": "button",
           "settings": {
             "button_label": "Join the waitlist",
-            "button_link": "#",
+            "button_link": "#subscribe",
             "button_style_secondary": false
           }
         }
