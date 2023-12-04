@@ -419,6 +419,7 @@
 
 .footer-block-image {
   display: flex;
+  flex-direction: column;
 }
 
 .footer-block-image.left {
