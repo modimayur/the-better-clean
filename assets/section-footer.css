@@ -441,8 +441,16 @@
   .footer-block-image.right {
     justify-content: flex-start;
   }
+  .footer-block-image {
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer-block__brand-info .rte p {
+    padding-left: 3rem;
+  }
   .footer-block__image-wrapper {
-      max-width: 120px !important;
+    max-width: 120px !important;
+    margin-bottom: 0;
   }
   .footer-block--newsletter p {
     font-size: 1.4rem;
