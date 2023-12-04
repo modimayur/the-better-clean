@@ -30,6 +30,7 @@
 .newsletter-form__message {
   justify-content: center;
   margin-bottom: 0;
+  width: 100%;
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
   color: #D86A48;
