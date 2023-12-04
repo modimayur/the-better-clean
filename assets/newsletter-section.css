@@ -75,6 +75,12 @@
     margin-bottom: 65px;
     max-width: 100%;
   }
+  .newsletter-form__field-wrapper .field__input {
+    text-align: center;
+  }
+  .field__input:focus ~ .field__label {
+    left: 50%;
+  }
   .newsletter-form__field-wrapper .field__label {
     left: 50%;
     transform: translateX(-50%);
