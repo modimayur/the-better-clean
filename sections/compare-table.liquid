@@ -121,7 +121,7 @@
          <ul class="block-price {% if block.settings.column-mostpopular != blank %} popular {% endif %}">
             {% if block.settings.column-title != blank %}
             <li class="h5 alt-heading" style="background-color:{{block.settings.column-title-color}};color:{{block.settings.column-title-txt-color}};font-size:{{block.settings.column-title-sz}}px;font-weight: bold;">
-              {{block.settings.column-title}}
+              {% if block.settings.column-title != blank %}{{block.settings.column-title}}{% endif %}
                {% if block.settings.column-mostpopular != blank %}
                <sup class="most-popular"> <i class="fa fa-star " aria-hidden="true"></i> {{block.settings.column-mostpopular}} </sup>
                {% endif %}
@@ -147,6 +147,12 @@
             {% endif %} 
              {% if block.settings.text-7 != blank %}
              <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-7}}</li>
+            {% endif %}
+            {% if block.settings.text-8 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-8}}</li>
+            {% endif %}
+            {% if block.settings.text-9 != blank %}
+             <li style="background-color:{{block.settings.column-color}};color:{{block.settings.column-txt-color}};font-size:{{block.settings.column-txt-sz}}px">{{block.settings.text-9}}</li>
             {% endif %}
          </ul>
       </li>
