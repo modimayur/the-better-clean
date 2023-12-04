@@ -1956,6 +1956,7 @@ input[type='checkbox'] {
 
 .form__message .icon,
 .customer .form__message svg {
+  display: none;
   flex-shrink: 0;
   height: 1.3rem;
   margin-right: 0.5rem;
