@@ -1851,7 +1851,7 @@ details[open] > .share-button__fallback {
 .customer .field input:focus ~ label,
 .customer .field input:not(:placeholder-shown) ~ label,
 .customer .field input:-webkit-autofill ~ label {
-    left: 50%;
+    left: 50% !important;
 }
 
 .field__input:focus ~ .field__label,
