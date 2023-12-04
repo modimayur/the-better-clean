@@ -37,6 +37,9 @@
 
 .newsletter-form__message--success {
   margin-top: 2rem;
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
+  color: #D86A48;
 }
 
 @media screen and (min-width: 750px) {
