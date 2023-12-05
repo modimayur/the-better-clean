@@ -3693,6 +3693,10 @@ details-disclosure > details {
   }
 }
 
+.swipe-more {
+  display: none;
+}
+
 
 /* Policies */
 
