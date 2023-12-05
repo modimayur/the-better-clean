@@ -1410,6 +1410,18 @@ a.product__text {
   width: var(--icon-size);
   object-fit: contain;
 }
+@media (max-width: 749px) {
+  .icon-with-text img {
+    height: calc(var(--icon-size) - 10px);
+    width: calc(var(--icon-size) - 10px);
+  }
+  .icon-with-text--horizontal {
+    column-gap: 2rem;
+  }
+  .h6.icon-title {
+    font-size: 12px;
+  }
+}
 
 .icon-with-text--vertical img {
   margin-right: var(--icon-spacing);
