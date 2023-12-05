@@ -3681,6 +3681,7 @@ details-disclosure > details {
   .swipe-left-flex {
     display: flex;
     align-items: center;
+    color: #D86A48;
   }
   .swipe-left-icon {
     height: 1rem;
