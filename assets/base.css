@@ -3667,13 +3667,29 @@ details-disclosure > details {
   text-decoration: underline;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 749px) {
   .scrolling-text {
     height: 65px;
   }
   .title-wrapper-with-link {
     justify-content: center;
     gap: 2rem;
+  }
+  .swipe-more {
+    display: inherit !important;
+  }
+  .swipe-more .swipe-more-flex {
+    display: flex;
+    align-items: center;
+  }
+  .swipe-more .swipe-more-flex .icon {
+    height: 1rem;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    margin-right: 10px;
   }
 }
 
