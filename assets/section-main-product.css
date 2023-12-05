@@ -185,7 +185,7 @@ variant-selects .product-form__input {
 variant-radios .product-form__input .form__label,
 variant-selects .product-form__input .form__label {
   color: rgb(var(--color-foreground));
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   letter-spacing: 0.02rem;
   line-height: calc(1 + 0.6 / var(--font-body-scale));
   display: flex;
@@ -1664,6 +1664,14 @@ a.product__text {
 
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
+  }
+}
+
+@media (max-width: 749px) {
+  variant-radios .product-form__input .form__label,
+  variant-selects .product-form__input .form__label,
+  .product-form__quantity .form__label {
+    font-size: 1.5rem;
   }
 }
 
