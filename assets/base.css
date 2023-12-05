@@ -3675,14 +3675,14 @@ details-disclosure > details {
     justify-content: center;
     gap: 2rem;
   }
-  .swipe-more {
+  .swipe-left {
     display: inherit !important;
   }
-  .swipe-more .swipe-more-flex {
+  .swipe-left-flex {
     display: flex;
     align-items: center;
   }
-  .swipe-more .swipe-more-flex .icon {
+  .swipe-left-icon {
     height: 1rem;
     width: 20px;
     display: flex;
@@ -3693,7 +3693,7 @@ details-disclosure > details {
   }
 }
 
-.swipe-more {
+.swipe-left {
   display: none;
 }
 
