@@ -282,6 +282,9 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     font-display: swap;
 }
 
+html {
+  overflow-x: hidden;
+}
 body.gradient {
   max-width: 100%;
   overflow-x: hidden;
