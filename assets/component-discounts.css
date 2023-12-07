@@ -6,14 +6,15 @@
   display: flex;
   align-items: center;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
+  color: #2d2d2d;
 }
 
 .discounts__discount svg {
-  color: rgba(var(--color-button), var(--alpha-button-background));
+  color: #2d2d2d;
 }
 
 .discounts__discount--position {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 @media screen and (min-width: 750px) {
