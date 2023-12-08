@@ -2374,9 +2374,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
   align-items: center;
 }
 
-.announcement-bar__link:hover {
+/* .announcement-bar__link:hover {
   text-decoration: underline;
-}
+} */
 
 .announcement-bar__link .icon-arrow {
   display: inline-block;
@@ -2397,7 +2397,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 .announcement-bar__message span span {
   font-weight: var(--font-heading-weight);
-  /* text-decoration: underline; */
+  text-decoration: underline;
   padding-left: 5px;
 }
 
