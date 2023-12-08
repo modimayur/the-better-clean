@@ -2393,7 +2393,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding: 1rem 0;
   margin: 0;
   letter-spacing: 0.06rem;
-  min-height: 3.8rem;
+  /* min-height: 3.8rem; */
 }
 .announcement-bar__message span span {
   font-weight: var(--font-heading-weight);
