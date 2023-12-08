@@ -8,17 +8,16 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "FREE SHIPPING OVER $60 <span>SHOP NOW<\/span>",
+            "link": "shopify:\/\/products\/laundry-detergent-sheets"
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
-        "color_scheme": "background-2",
+        "color_scheme": "inverse",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
