@@ -2395,9 +2395,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
   letter-spacing: 0.06rem;
   min-height: 3.8rem;
 }
-.announcement-bar__message span {
+.announcement-bar__message span span {
   font-weight: var(--font-heading-weight);
-  text-decoration: underline;
+  /* text-decoration: underline; */
   padding-left: 10px;
 }
 
