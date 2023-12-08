@@ -2483,7 +2483,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   background-color: transparent;
   border-top: 4px solid rgb(var(--color-foreground));
   border-bottom: 4px solid rgb(var(--color-foreground));
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .header-wrapper--border-bottom {
