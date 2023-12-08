@@ -42,9 +42,6 @@
           {%- endif -%}
           <p class="announcement-bar__message h5">
             <span>{{ section.blocks.first.settings.text }}</span>
-            {%- if section.blocks.first.settings.link != blank -%}
-              {% render 'icon-arrow' %}
-            {%- endif -%}
           </p>
           {%- if section.blocks.first.settings.link != blank -%}
             </a>
