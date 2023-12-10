@@ -3733,11 +3733,6 @@ details-disclosure > details {
 
 /* Free Shipping Bar */
 
-/* .shopify-section-group-header-group .page-width {
-  max-width: none;
-  padding: 0;
-} */
-
 #fsb_bar {
   font-family: 'Biennale';
   font-weight: var(--font-body-weight);
