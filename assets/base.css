@@ -3733,7 +3733,7 @@ details-disclosure > details {
 
 /* Free Shipping Bar */
 
-.fsb_bar {
+#fsb_bar {
   font-family: 'Biennale';
   font-weight: var(--font-body-weight);
   text-transform: uppercase;
