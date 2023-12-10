@@ -3747,5 +3747,5 @@ details-disclosure > details {
 #fsb_bar span.link {
   font-weight: var(--font-heading-weight);
   color: #2D2D2D;
-  paddin-left: 6px;
+  padding-left: 4px;
 }
