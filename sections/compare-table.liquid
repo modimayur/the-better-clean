@@ -52,15 +52,15 @@
     .block-price li {
       font-size: 1.5rem !important;
     }
-    .swipe-left {
+    .pricing-table-swipe-left {
       display: inherit !important;
     }
-    .swipe-left-flex {
+    .pricing-table-swipe-left-flex {
       display: flex;
       align-items: center;
       color: #D86A48;
     }
-    .swipe-left-icon {
+    .pricing-table-swipe-left-icon {
       height: 1rem;
       width: 20px;
       display: flex;
@@ -71,7 +71,7 @@
     }
 }
   
-.swipe-left {
+.pricing-table-swipe-left {
   display: none;
 }
 .block-price {
@@ -182,9 +182,9 @@
       </li>
       {% endfor %}
    </ul>
-   <div clas="swipe-left" style="display: none;">
-     <h5 class="swipe-left-flex alt-heading">
-       <span class="swipe-left-icon">{% render 'icon-caret' %}</span> Swipe for more
+   <div clas="pricing-table-swipe-left" style="display: none;">
+     <h5 class="pricing-table-swipe-left-flex alt-heading">
+       <span class="pricing-table-swipe-left-icon">{% render 'icon-caret' %}</span> Swipe for more
      </h5>
    </div>
 </div>
