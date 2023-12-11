@@ -3685,15 +3685,15 @@ details-disclosure > details {
     justify-content: center;
     gap: 2rem;
   }
-  .swipe-left {
+  .pricing-table-swipe-left {
     display: inherit !important;
   }
-  .swipe-left-flex {
+  .pricing-table-swipe-left-flex {
     display: flex;
     align-items: center;
     color: #D86A48;
   }
-  .swipe-left-icon {
+  .pricing-table-swipe-left-icon {
     height: 1rem;
     width: 20px;
     display: flex;
@@ -3704,7 +3704,7 @@ details-disclosure > details {
   }
 }
 
-.swipe-left {
+.pricing-table-swipe-left {
   display: none;
 }
 
