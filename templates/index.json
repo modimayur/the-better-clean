@@ -21,8 +21,8 @@
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Join the waitlist",
-            "button_link": "#subscribe",
+            "button_label": "Pre-Order Now",
+            "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
             "button_style_secondary": false
           }
         }
