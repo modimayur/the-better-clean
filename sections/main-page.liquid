@@ -17,14 +17,14 @@
 
 <div class="main-page-hero">
   <div class="main-page-hero-background">
-      {%- if section.settings.image -%}
+      {% if section.settings.background %}
         {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
         {{
-          section.settings.image
+          section.settings.background
           | image_url: width: 1500
           | image_tag: widths: widths
         }}
-      {%- endif -%}
+      {% endif %}
   </div>
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
@@ -44,12 +44,12 @@
   "settings": [
     {
       "type": "image_picker",
-      "id": "image",
+      "id": "background",
       "label": "Desktop Background"
     },
     {
       "type": "image_picker",
-      "id": "image_2",
+      "id": "background_2",
       "label": "Mobile Background"
     },
     {
