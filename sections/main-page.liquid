@@ -12,7 +12,7 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
     .main-page-hero-background {
-      background-image: url('{{ section.settings.background.src | image_url: 'master' }}');
+      background-image: url('{{ section.settings.background.src | image_url: width: 3840 }}');
       background-size: cover;
     }
   }
@@ -21,7 +21,7 @@
 <div class="main-page-hero">
   <div class="main-page-hero-background">
     <img class="test2" src="{{ section.settings.background.src | image_url: '200px' }}" width="200" height="200">
-    <img class="test3" src="{{ section.settings.background.src | image_url: '200' }}" width="200" height="200">
+    <img class="test3" src="{{ section.settings.background | image_url: width: 3840 }}" width="200" height="200">
     <div class="page-width page-width--narrow section-{{ section.id }}-padding">
       <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
         {{ page.title | escape }}
