@@ -21,3 +21,14 @@
   width: 52.5rem;
   height: 52.5rem;
 }
+
+.main-page-hero {
+  position: relative;
+}
+.main-page-hero-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
