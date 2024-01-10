@@ -5,6 +5,13 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .main-page-hero-background {
+    background-size: cover;
+    background-position: center;
+  }
+  .main-page-hero-background .main-page-title {
+    color: var(--gradient-background);
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -13,7 +20,6 @@
     }
     .main-page-hero-background {
       background-image: url('{{ section.settings.background_img | image_url: width: 3840 }}');
-      background-size: cover;
       padding-top: 200px;
     }
   }
