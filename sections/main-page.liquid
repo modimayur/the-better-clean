@@ -17,7 +17,7 @@
 <div class="main-page-hero">
   {%- if section.settings.image != blank -%}
     <div class="main-page-hero-background">
-      {{ section.settings.image }}
+      <img src="{{ section.settings.image | image_url }}" loading="lazy"  height="100%" width="100%" />
     </div>
   {%- endif -%}
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
