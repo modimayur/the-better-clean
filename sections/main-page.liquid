@@ -16,7 +16,28 @@
 
 <div class="main-page-hero">
   <div class="main-page-hero-background">
-      {{ section.settings.image | image_url: width: 1500 }}
+      {%- if section.settings.image != blank -%}
+              {%- if section.settings.image_behavior == 'ambient' or section.settings.image_behavior == 'zoom-in' -%}
+                {%- assign widths = '198, 432, 642, 900, 1284, 1800' -%}
+                {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 1.6667 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 1.667), calc((100vw - 50px) / 1.667)
+            {%- endcapture -%}
+              {%- else -%}
+                {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                {%- capture sizes -%}
+              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+            {%- endcapture -%}
+              {%- endif -%}
+              {{
+                section.settings.image
+                | image_url: width: 1500
+                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+              }}
+            {%- else -%}
+              {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
   </div>
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
