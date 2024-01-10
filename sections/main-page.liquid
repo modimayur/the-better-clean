@@ -14,12 +14,15 @@
     .main-page-hero-background {
       background-image: url('{{ section.settings.background_img | image_url: width: 3840 }}');
       background-size: cover;
+      padding-top: 200px;
     }
   }
 {%- endstyle -%}
 
 <div class="main-page-hero">
-  <div class="main-page-hero-background">  
+  {%- if section.settings.background_img != blank -%}
+  <div class="main-page-hero-background">
+  {% endif %} 
     <div class="page-width page-width--narrow section-{{ section.id }}-padding">
       <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
         {{ page.title | escape }}
@@ -28,7 +31,9 @@
         {{ page.content }}
       </div>
     </div>
+  {%- if section.settings.background_img != blank -%}
   </div>
+  {% endif %}
 </div>
 
 {% schema %}
