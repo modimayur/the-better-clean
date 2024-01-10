@@ -3,8 +3,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBetter_OurStroy.jpg",
-        "image_2": "shopify:\/\/shop_images\/TheBetter_OurStroy.jpg",
+        "background": "shopify:\/\/shop_images\/TheBetter_OurStroy.jpg",
         "padding_top": 36,
         "padding_bottom": 36
       }
