@@ -3,40 +3,13 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "image": "shopify:\/\/shop_images\/TheBetter_OurStroy.jpg",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "710e8af8-e008-4591-bb4e-bd407fbd7925": {
-      "type": "image-banner",
-      "blocks": {
-        "template--17158705250556__710e8af8-e008-4591-bb4e-bd407fbd7925-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--17158705250556__710e8af8-e008-4591-bb4e-bd407fbd7925-heading-1"
-      ],
-      "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     }
   },
   "order": [
-    "main",
-    "710e8af8-e008-4591-bb4e-bd407fbd7925"
+    "main"
   ]
 }
