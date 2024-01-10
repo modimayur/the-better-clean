@@ -23,6 +23,9 @@
       "block_order": [
         "template--17158705250556__a548e521-6c2b-4bbc-aa50-22d5639f23c8-heading-1"
       ],
+      "custom_css": [
+        ".rich-text__heading strong {color: #7F9686;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
