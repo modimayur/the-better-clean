@@ -25,7 +25,7 @@
 .main-page-hero {
   position: relative;
 }
-.main-page-hero-background {
+.main-page-hero-background img {
   position: absolute;
   left: 0;
   right: 0;
