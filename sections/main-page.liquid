@@ -11,19 +11,19 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    .main-page-hero-background {
+    .section-{{ section.id }}-padding .main-page-hero-background {
       background-image: url('{{ section.settings.background_img.src | image_url: width: 3840 }}');
       background-size: cover;
     }
-    .main-page-hero-background {
+    .section-{{ section.id }}-padding .main-page-hero-background {
       background-image: url('{{ section.settings.background_img | image_url: width: 3840 }}');
       background-size: cover;
     }
-    .main-page-hero-background {
+    .section-{{ section.id }}-padding .main-page-hero-background {
       background-image: url('{{ section.settings.background_img.src | image_url: 'master' }}');
       background-size: cover;
     }
-    .main-page-hero-background {
+    .section-{{ section.id }}-padding .main-page-hero-background {
       background-image: url('{{ section.settings.background_img | image_url: 'master' }}');
       background-size: cover;
     }
