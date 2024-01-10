@@ -1,5 +1,4 @@
 {{ 'section-main-page.css' | asset_url | stylesheet_tag }}
-{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -17,14 +16,7 @@
 
 <div class="main-page-hero">
   <div class="main-page-hero-background">
-      {% if section.settings.background %}
-        {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-        {{
-          section.settings.background
-          | image_url: width: 1500
-          | image_tag: widths: widths
-        }}
-      {% endif %}
+        {{ section.settings.background | image_url: 'master' }}
   </div>
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
