@@ -15,29 +15,15 @@
   }
 {%- endstyle -%}
 
-{%- liquid
-  assign fetch_priority = 'auto'
-  if section.index == 1
-    assign fetch_priority = 'high'
-  endif
-  if section.settings.color_scheme == section.settings.section_color_scheme and section.settings.content_layout == 'no-overlap'
-    assign remove_color_classes = true
-  endif
--%}
-
 <div class="main-page-hero">
   <div class="main-page-hero-background">
       {%- if section.settings.image != blank -%}
         {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                {%- capture sizes -%}
-              (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-              (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-            {%- endcapture -%}
-              {{
-                section.settings.image
-                | image_url: width: 1500
-                | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-              }}
+        {{
+          section.settings.image
+          | image_url: width: 1500
+          | image_tag: widths: widths
+        }}
       {%- endif -%}
   </div>
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
