@@ -16,7 +16,7 @@
 
 <div class="main-page-hero">
   <div class="main-page-hero-background">
-      <img src="{{ section.settings.image | image_url }}" loading="lazy" height="100%" width="100%" />
+      <img src="{{ section.settings.image | image_url: 'large' }}" height="100%" width="100%" />
   </div>
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
