@@ -128,12 +128,84 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "7dc885c6-92d4-4bfe-96c8-b80ac23beb45": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Many Sheets Should I Use Per Wash?",
+            "icon": "none",
+            "row_content": "<p>Generally, half a sheet is designed for a standard 5kg load. For larger loads or heavily soiled items we advise using a whole sheet. It's always a good practice to follow the instructions on the packaging for optimal performance.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Ingredients Do You Use?",
+            "icon": "none",
+            "row_content": "<p>Our laundry detergent sheets combine plant-based surfactants, enzymes, and glycerin for effective cleaning and fabric conditioning. Citric acid aids in pH adjustment and water softening. Natural fragrances offer a pleasing scent, and biodegradable starch ensures sheet stability. Thoughtfully crafted, our formula prioritises both cleaning efficacy and environmental consciousness.<\/p>",
+            "page": ""
+          }
+        },
+        "91ab2f41-5a2c-4c14-8e8a-13dd6af37ffb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Do Laundry Sheets Work?",
+            "icon": "none",
+            "row_content": "<p>Our laundry sheets utilise simple cleaning technology. The sheets dissolve in water, releasing powerful cleaning agents and enzymes that target stains and dirt, leaving your clothes fresh and clean.<\/p>",
+            "page": ""
+          }
+        },
+        "6e03b8f1-e4ed-4639-9864-123c33abf1f0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Your Detergent Sheets Certified Biodegradable?",
+            "icon": "none",
+            "row_content": "<p>100%! Our laundry sheets hold OECD-301B certification, a globally recognized standard for chemical testing. Following these guidelines, we've conducted a thorough assessment of biodegradability over 28 days in an aerobic environment. This certification assures that our laundry sheets dissolve and biodegrade swiftly and cleanly, meeting rigorous international safety standards.<\/p>",
+            "page": ""
+          }
+        },
+        "e9f0533e-2152-4403-90a8-585ba65fd97e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Laundry Detergent Sheets Safe for Wool, Silk, and Delicates?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! Our detergent sheets are formulated to be gentle yet effective. They are safe for use on all fabrics, including wool, silk, and delicate items. You can trust our sheets to care for your clothes.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-1",
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-2",
+        "91ab2f41-5a2c-4c14-8e8a-13dd6af37ffb",
+        "6e03b8f1-e4ed-4639-9864-123c33abf1f0",
+        "e9f0533e-2152-4403-90a8-585ba65fd97e"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
     "main",
     "a548e521-6c2b-4bbc-aa50-22d5639f23c8",
     "d0405587-cd45-415c-8985-3ec924084bd7",
-    "image_banner_tMFWXw"
+    "image_banner_tMFWXw",
+    "7dc885c6-92d4-4bfe-96c8-b80ac23beb45"
   ]
 }
