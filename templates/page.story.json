@@ -118,7 +118,7 @@
       "custom_css": [
         ".image-with-text__heading {font-family: \"Staatliches\";}",
         ".image-with-text__heading strong {color: #2d2d2d;}",
-        ".h6.icon-title {color: #EDDFD2;}"
+        ".h6.icon-title {color: #eddfd2;}"
       ],
       "settings": {
         "icon_1": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_1.svg",
@@ -137,7 +137,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "accent-1",
