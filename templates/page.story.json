@@ -84,6 +84,65 @@
         "padding_bottom": 60
       }
     },
+    "icons_with_text_HkTFF6": {
+      "type": "icons-with-text",
+      "blocks": {
+        "heading_r8kciT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Impact",
+            "heading_size": "h2"
+          }
+        },
+        "text_AphD6R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Think about it: with four weekly washing loads being the Australian average, and our box catering up to 160 washes, the math, and savings – stack up quickly. By the way, did we mention no phosphates, bleaches, or whiteners? It's not just about washing Better; it's about making Better choices.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_rnz78G": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_r8kciT",
+        "text_AphD6R",
+        "button_rnz78G"
+      ],
+      "settings": {
+        "icon_1": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_1.svg",
+        "icon_heading_1": "Made from cornstarch",
+        "icon_2": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_2.svg",
+        "icon_heading_2": "Biodegradable\u2028EU OECD 301B",
+        "icon_3": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_3.svg",
+        "icon_heading_3": "Septic & grey\u2028water friendly",
+        "icon_4": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_4.svg",
+        "icon_heading_4": "Minimal suds for a max clean",
+        "icon_5": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_5.svg",
+        "icon_heading_5": "cost-effective washing solution",
+        "icon_6": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_6.svg",
+        "icon_heading_6": "plant-based\u2028ingredients",
+        "stretch": "container",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_tMFWXw": {
       "type": "image-banner",
       "blocks": {
@@ -229,7 +288,7 @@
         "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1"
       ],
       "custom_css": [
-        "h2 strong {color: #D86A48;}"
+        "h2 strong {color: #d86a48;}"
       ],
       "settings": {
         "color_scheme": "inverse",
@@ -243,6 +302,7 @@
     "main",
     "a548e521-6c2b-4bbc-aa50-22d5639f23c8",
     "d0405587-cd45-415c-8985-3ec924084bd7",
+    "icons_with_text_HkTFF6",
     "image_banner_tMFWXw",
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45",
     "abbd74b8-ff9e-4498-b253-dbab370e742b"
