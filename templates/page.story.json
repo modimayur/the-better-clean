@@ -117,7 +117,8 @@
       ],
       "custom_css": [
         ".image-with-text__heading {font-family: \"Staatliches\";}",
-        ".image-with-text__heading strong {color: #2d2d2d;}"
+        ".image-with-text__heading strong {color: #2d2d2d;}",
+        ".h6.icon-title {color: #EDDFD2;}"
       ],
       "settings": {
         "icon_1": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_1.svg",
