@@ -468,3 +468,8 @@
     align-items: center;
   }
 }
+@media (max-width: 750px) {
+  .icons-with-text .image-with-text .grid {
+    flex-direction: column-reverse;
+  }
+}
