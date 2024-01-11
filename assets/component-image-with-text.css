@@ -452,9 +452,19 @@
 }
 .icons-with-text .icon-with-text--horizontal .icon-with-text__item {
   width: 28%;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .icons-with-text .icon-with-text--horizontal .icon-with-text__item .h6.icon-title {
   color: #eddfd2;
   font-size: 16px;
+  margin: 0 auto;
+  max-width: 110px;
+}
+@media (min-width: 750px) {
+  .icons-with-text .image-with-text__content {
+    padding: 0 7rem 0 0;
+  }
+  .icons-with-text .image-with-text .grid {
+    align-items: center;
+  }
 }
