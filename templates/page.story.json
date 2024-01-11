@@ -83,11 +83,52 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "image_banner_tMFWXw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_rzMUka": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trade the plastic bottles, messy liquids and powders for simple, earth conscious sheets designed to be kind to the earth, and your wallet.",
+            "heading_size": "h2"
+          }
+        },
+        "buttons_phfRcM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/products\/laundry-detergent-sheets",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rzMUka",
+        "buttons_phfRcM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBetter_EnvironmentBack.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "a548e521-6c2b-4bbc-aa50-22d5639f23c8",
-    "d0405587-cd45-415c-8985-3ec924084bd7"
+    "d0405587-cd45-415c-8985-3ec924084bd7",
+    "image_banner_tMFWXw"
   ]
 }
