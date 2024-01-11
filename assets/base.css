@@ -401,6 +401,7 @@ h3,
   h3,
   .h3 {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
+    line-height: 1.3;
   }
 }
 
