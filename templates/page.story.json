@@ -111,7 +111,7 @@
         "buttons_phfRcM"
       ],
       "custom_css": [
-        ".banner__box {border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity)); max-width: 60rem; background: var(--gradient-background);}",
+        ".banner__box {border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity)); max-width: 60rem; background: var(--gradient-background); margin: 5rem 2rem; border-radius: var(--text-boxes-radius);}",
         ".banner__heading {margin-bottom: 2rem;}",
         ".banner__heading strong {color: #7f9686;}"
       ],
