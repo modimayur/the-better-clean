@@ -444,3 +444,12 @@
     padding: 2rem 5rem;
   }
 }
+
+/* Icons with Text */
+
+.icons-with-text .icon-with-text--horizontal {
+  flex-wrap: wrap;
+}
+.icons-with-text .icon-with-text--horizontal .icon-with-text__item {
+  width: 28%;
+}
