@@ -90,7 +90,7 @@
         "heading_r8kciT": {
           "type": "heading",
           "settings": {
-            "heading": "Our Impact",
+            "heading": "Our <strong>Impact<\/strong>",
             "heading_size": "h2"
           }
         },
@@ -115,6 +115,10 @@
         "text_AphD6R",
         "button_rnz78G"
       ],
+      "custom_css": [
+        ".image-with-text__heading {font-family: \"Staatliches\";}",
+        ".image-with-text__heading strong {color: #2d2d2d;}"
+      ],
       "settings": {
         "icon_1": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_1.svg",
         "icon_heading_1": "Made from cornstarch",
@@ -128,7 +132,7 @@
         "icon_heading_5": "cost-effective washing solution",
         "icon_6": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_6.svg",
         "icon_heading_6": "plant-based\u2028ingredients",
-        "stretch": "container",
+        "stretch": "full",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
