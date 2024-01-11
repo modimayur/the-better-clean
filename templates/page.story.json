@@ -90,8 +90,8 @@
         "heading_rzMUka": {
           "type": "heading",
           "settings": {
-            "heading": "Trade the plastic bottles, messy liquids and powders for simple, earth conscious sheets designed to be kind to the earth, and your wallet.",
-            "heading_size": "h2"
+            "heading": "Trade the plastic bottles, messy liquids and powders for <strong>simple<\/strong>, earth conscious sheets designed to be <strong>kind to the earth<\/strong>, and your wallet.",
+            "heading_size": "h3"
           }
         },
         "buttons_phfRcM": {
@@ -109,6 +109,11 @@
       "block_order": [
         "heading_rzMUka",
         "buttons_phfRcM"
+      ],
+      "custom_css": [
+        ".banner__box {border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));}",
+        ".banner__heading {margin-bottom: 2rem;}",
+        ".banner__heading strong {color: #7f9686;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TheBetter_EnvironmentBack.jpg",
