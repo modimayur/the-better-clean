@@ -436,5 +436,11 @@
 }
 .page-width--full .image-with-text__grid .image-with-text__content {
   /* margin-right: calc((100vw - var(--page-width) + 0rem) / 2); */
-  padding-right: 5rem;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 750px) {
+  .page-width--full .image-with-text__grid .image-with-text__content {
+    padding-right: 5rem;
+  }
 }
