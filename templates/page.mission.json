@@ -138,6 +138,14 @@
     "image_with_text_XzTaCq": {
       "type": "image-with-text",
       "blocks": {
+        "caption_PQUT46": {
+          "type": "caption",
+          "settings": {
+            "caption": ".",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
         "heading_DqwWTr": {
           "type": "heading",
           "settings": {
@@ -162,6 +170,7 @@
         }
       },
       "block_order": [
+        "caption_PQUT46",
         "heading_DqwWTr",
         "text_YfCJ4q",
         "button_UdVyPb"
@@ -170,7 +179,7 @@
         ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit;}",
         ".image-with-text__heading strong {color: #2d2d2d;}",
         ".image-with-text__media img {border-radius: 0;}",
-        ".image-with-text__content {padding-top: 7rem; padding-bottom: 7rem; }",
+        ".image-with-text__content {padding-top: 7rem; padding-bottom: 7rem;}",
         "@media (min-width: 1340px) {.image-with-text__content {padding: 0 10rem 0 0; margin-left: calc((100vw - 1300px + 7rem) \/ 2); }}",
         "@media (max-width: 750px) {.image-with-text .grid {flex-direction: column-reverse; }}"
       ],
