@@ -200,41 +200,57 @@
         "padding_bottom": 0
       }
     },
-    "abbd74b8-ff9e-4498-b253-dbab370e742b": {
-      "type": "newsletter",
+    "slideshow_fEY9YE": {
+      "type": "slideshow",
       "blocks": {
-        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-heading-1": {
-          "type": "heading",
+        "slide_pJzKVk": {
+          "type": "slide",
           "settings": {
-            "heading": "Sign-up to receive <strong>15% off<\/strong> your first order",
-            "heading_size": "h1"
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-email_form-1": {
-          "type": "email_form",
+        "slide_XDeRxE": {
+          "type": "slide",
           "settings": {
-          }
-        },
-        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>The Better™ email program will send promotional emails to users who subscribe through this form. By submitting your email, you are consenting to our Terms and Conditions and our Privacy Policy, including for us to use that email to send you marketing information and tell you really cool things. To opt out, check unsubscribe from our emails. 15% Off offer only valid during pre-sale from 05.12.23 - 26.01.24.<\/p>"
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-heading-1",
-        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-email_form-1",
-        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1"
-      ],
-      "custom_css": [
-        "h2 strong {color: #d86a48;}"
+        "slide_pJzKVk",
+        "slide_XDeRxE"
       ],
       "settings": {
-        "color_scheme": "inverse",
-        "full_width": true,
-        "padding_top": 92,
-        "padding_bottom": 100
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     }
   },
@@ -244,6 +260,6 @@
     "overflow_image_with_text_xihJGi",
     "marquee_DwtCkF",
     "image_with_text_XzTaCq",
-    "abbd74b8-ff9e-4498-b253-dbab370e742b"
+    "slideshow_fEY9YE"
   ]
 }
