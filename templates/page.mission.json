@@ -126,7 +126,7 @@
         "text_ziUziz"
       ],
       "custom_css": [
-        ".scrolling-text span strong {font-weight: inherit; color: #2D2D2D;}"
+        ".scrolling-text span strong {font-weight: inherit; color: #2d2d2d;}"
       ],
       "settings": {
         "speed": 20,
@@ -167,15 +167,16 @@
         "button_UdVyPb"
       ],
       "settings": {
-        "stretch": "container",
+        "image": "shopify:\/\/shop_images\/Mask_group_60.jpg",
+        "stretch": "full",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
