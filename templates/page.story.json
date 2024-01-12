@@ -36,24 +36,24 @@
         "padding_bottom": 100
       }
     },
-    "d0405587-cd45-415c-8985-3ec924084bd7": {
-      "type": "image-with-text",
+    "overflow_image_with_text_xihJGi": {
+      "type": "overflow-image-with-text",
       "blocks": {
-        "template--17158705250556__d0405587-cd45-415c-8985-3ec924084bd7-heading-1": {
+        "heading_MxCHWB": {
           "type": "heading",
           "settings": {
             "heading": "Here in Byron Bay, we’re focusing on simplicity and sustainability",
             "heading_size": "h1"
           }
         },
-        "template--17158705250556__d0405587-cd45-415c-8985-3ec924084bd7-text-1": {
+        "text_pKR7CP": {
           "type": "text",
           "settings": {
             "text": "<p>Everyone deserves a Better way to clean. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
             "text_style": "body"
           }
         },
-        "template--17158705250556__d0405587-cd45-415c-8985-3ec924084bd7-button-1": {
+        "button_cYzKtx": {
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
@@ -63,9 +63,9 @@
         }
       },
       "block_order": [
-        "template--17158705250556__d0405587-cd45-415c-8985-3ec924084bd7-heading-1",
-        "template--17158705250556__d0405587-cd45-415c-8985-3ec924084bd7-text-1",
-        "template--17158705250556__d0405587-cd45-415c-8985-3ec924084bd7-button-1"
+        "heading_MxCHWB",
+        "text_pKR7CP",
+        "button_cYzKtx"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TheBetter_OurStory_shape.png",
@@ -80,8 +80,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 60,
-        "padding_bottom": 60
+        "padding_top": 80,
+        "padding_bottom": 80
       }
     },
     "icons_with_text_HkTFF6": {
@@ -305,7 +305,7 @@
   "order": [
     "main",
     "a548e521-6c2b-4bbc-aa50-22d5639f23c8",
-    "d0405587-cd45-415c-8985-3ec924084bd7",
+    "overflow_image_with_text_xihJGi",
     "icons_with_text_HkTFF6",
     "image_banner_tMFWXw",
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45",
