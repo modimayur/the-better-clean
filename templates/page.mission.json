@@ -1,0 +1,312 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "background_img": "shopify:\/\/shop_images\/TheBetter_OurStroy.jpg",
+        "background_img_2": "shopify:\/\/shop_images\/TheBetter_OurStroy_HeroMob.jpg",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "a548e521-6c2b-4bbc-aa50-22d5639f23c8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17158705250556__a548e521-6c2b-4bbc-aa50-22d5639f23c8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Born of shared values surrounding <strong>conscious practices<\/strong> and considered consumption, The Better isn’t just a brand – it's a <strong>lifestyle<\/strong>.",
+            "heading_size": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--17158705250556__a548e521-6c2b-4bbc-aa50-22d5639f23c8-heading-1"
+      ],
+      "custom_css": [
+        ".rich-text__heading strong {color: #7f9686;}",
+        "@media (min-width: 750px) {.rich-text__blocks {max-width: 90%; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "overflow_image_with_text_xihJGi": {
+      "type": "overflow-image-with-text",
+      "blocks": {
+        "heading_MxCHWB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Here in Byron Bay, we’re focusing on simplicity and sustainability",
+            "heading_size": "h1"
+          }
+        },
+        "text_pKR7CP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everyone deserves a Better way to clean. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_cYzKtx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MxCHWB",
+        "text_pKR7CP",
+        "button_cYzKtx"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBetter_StoryByronShape.png",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "icons_with_text_HkTFF6": {
+      "type": "icons-with-text",
+      "blocks": {
+        "heading_r8kciT": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our <strong>Impact<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_AphD6R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Think about it: with four weekly washing loads being the Australian average, and our box catering up to 160 washes, the math, and savings – stack up quickly. By the way, did we mention no phosphates, bleaches, or whiteners? It's not just about washing Better; it's about making Better choices.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_rnz78G": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_r8kciT",
+        "text_AphD6R",
+        "button_rnz78G"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {font-family: \"Staatliches\";}",
+        ".image-with-text__heading strong {color: #2d2d2d;}"
+      ],
+      "settings": {
+        "icon_1": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_1.svg",
+        "icon_heading_1": "Made from cornstarch",
+        "icon_2": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_2.svg",
+        "icon_heading_2": "Biodegradable\u2028EU OECD 301B",
+        "icon_3": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_3.svg",
+        "icon_heading_3": "Septic & grey\u2028water friendly",
+        "icon_4": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_4.svg",
+        "icon_heading_4": "Minimal suds for a max clean",
+        "icon_5": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_5.svg",
+        "icon_heading_5": "cost-effective washing solution",
+        "icon_6": "shopify:\/\/shop_images\/TheBetter_ImpactIcon_6.svg",
+        "icon_heading_6": "plant-based\u2028ingredients",
+        "stretch": "container",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_banner_tMFWXw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_rzMUka": {
+          "type": "heading",
+          "settings": {
+            "heading": "Trade the plastic bottles, messy liquids and powders for <strong>simple<\/strong>, earth conscious sheets designed to be <strong>kind to the earth<\/strong>, and your wallet.",
+            "heading_size": "h3"
+          }
+        },
+        "buttons_phfRcM": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/products\/laundry-detergent-sheets",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rzMUka",
+        "buttons_phfRcM"
+      ],
+      "custom_css": [
+        ".banner__box {border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity)); max-width: 60rem; background: var(--gradient-background); margin: 6rem 2rem; border-radius: var(--text-boxes-radius);}",
+        ".banner__heading {margin-bottom: 2rem;}",
+        ".banner__heading strong {color: #7f9686;}",
+        "@media (max-width: 750px) {.banner__box {padding: 4rem 2rem; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBetter_EnvironmentBack.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "7dc885c6-92d4-4bfe-96c8-b80ac23beb45": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Many Sheets Should I Use Per Wash?",
+            "icon": "none",
+            "row_content": "<p>Generally, half a sheet is designed for a standard 5kg load. For larger loads or heavily soiled items we advise using a whole sheet. It's always a good practice to follow the instructions on the packaging for optimal performance.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Ingredients Do You Use?",
+            "icon": "none",
+            "row_content": "<p>Our laundry detergent sheets combine plant-based surfactants, enzymes, and glycerin for effective cleaning and fabric conditioning. Citric acid aids in pH adjustment and water softening. Natural fragrances offer a pleasing scent, and biodegradable starch ensures sheet stability. Thoughtfully crafted, our formula prioritises both cleaning efficacy and environmental consciousness.<\/p>",
+            "page": ""
+          }
+        },
+        "91ab2f41-5a2c-4c14-8e8a-13dd6af37ffb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Do Laundry Sheets Work?",
+            "icon": "none",
+            "row_content": "<p>Our laundry sheets utilise simple cleaning technology. The sheets dissolve in water, releasing powerful cleaning agents and enzymes that target stains and dirt, leaving your clothes fresh and clean.<\/p>",
+            "page": ""
+          }
+        },
+        "6e03b8f1-e4ed-4639-9864-123c33abf1f0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Your Detergent Sheets Certified Biodegradable?",
+            "icon": "none",
+            "row_content": "<p>100%! Our laundry sheets hold OECD-301B certification, a globally recognized standard for chemical testing. Following these guidelines, we've conducted a thorough assessment of biodegradability over 28 days in an aerobic environment. This certification assures that our laundry sheets dissolve and biodegrade swiftly and cleanly, meeting rigorous international safety standards.<\/p>",
+            "page": ""
+          }
+        },
+        "e9f0533e-2152-4403-90a8-585ba65fd97e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Laundry Detergent Sheets Safe for Wool, Silk, and Delicates?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! Our detergent sheets are formulated to be gentle yet effective. They are safe for use on all fabrics, including wool, silk, and delicate items. You can trust our sheets to care for your clothes.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-1",
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-2",
+        "91ab2f41-5a2c-4c14-8e8a-13dd6af37ffb",
+        "6e03b8f1-e4ed-4639-9864-123c33abf1f0",
+        "e9f0533e-2152-4403-90a8-585ba65fd97e"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    },
+    "abbd74b8-ff9e-4498-b253-dbab370e742b": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign-up to receive <strong>15% off<\/strong> your first order",
+            "heading_size": "h1"
+          }
+        },
+        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        },
+        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>The Better™ email program will send promotional emails to users who subscribe through this form. By submitting your email, you are consenting to our Terms and Conditions and our Privacy Policy, including for us to use that email to send you marketing information and tell you really cool things. To opt out, check unsubscribe from our emails. 15% Off offer only valid during pre-sale from 05.12.23 - 26.01.24.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-heading-1",
+        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-email_form-1",
+        "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1"
+      ],
+      "custom_css": [
+        "h2 strong {color: #d86a48;}"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a548e521-6c2b-4bbc-aa50-22d5639f23c8",
+    "overflow_image_with_text_xihJGi",
+    "icons_with_text_HkTFF6",
+    "image_banner_tMFWXw",
+    "7dc885c6-92d4-4bfe-96c8-b80ac23beb45",
+    "abbd74b8-ff9e-4498-b253-dbab370e742b"
+  ]
+}
