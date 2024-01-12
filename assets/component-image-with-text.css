@@ -471,6 +471,10 @@
   .icons-with-text .image-with-text__media-item {
     display: flex;
   }
+  .icons-with-text .icon-with-text--horizontal {
+    max-width: 480px;
+    margin-top: 3rem;
+  }
 }
 @media (max-width: 750px) {
   .icons-with-text .image-with-text__content {
