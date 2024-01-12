@@ -39,25 +39,17 @@
     "overflow_image_with_text_xihJGi": {
       "type": "overflow-image-with-text",
       "blocks": {
-        "caption_dKL6jt": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        },
         "heading_MxCHWB": {
           "type": "heading",
           "settings": {
-            "heading": "Life’s complicated.\u2028Washing shouldn’t be.",
+            "heading": "Here in Byron Bay, we’re focusing on simplicity and sustainability",
             "heading_size": "h1"
           }
         },
         "text_pKR7CP": {
           "type": "text",
           "settings": {
-            "text": "<p>We champion plant-based, biodegradable, vegan, and minimal-ingredient products that won't break the bank, because you shouldn’t have to choose between eco-friendly and budget-friendly.<\/p><p>We're committed to 3 things: top-notch quality, minimal environmental impact, and simplicity. Gone are the days of navigating through the fine print. With The Better, what you see is what you get.<\/p>",
+            "text": "<p>Everyone deserves a Better way to clean. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
             "text_style": "body"
           }
         },
@@ -71,7 +63,6 @@
         }
       },
       "block_order": [
-        "caption_dKL6jt",
         "heading_MxCHWB",
         "text_pKR7CP",
         "button_cYzKtx"
