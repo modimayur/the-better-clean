@@ -183,8 +183,8 @@
         "color_scheme": "accent-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "abbd74b8-ff9e-4498-b253-dbab370e742b": {
