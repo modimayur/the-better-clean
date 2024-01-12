@@ -514,4 +514,7 @@
   .overflow-image-with-text .image-with-text .grid {
     flex-direction: column-reverse;
   }
+  .overflow-image-with-text .image-with-text__content {
+    padding: 0 0 5rem;
+  }
 }
