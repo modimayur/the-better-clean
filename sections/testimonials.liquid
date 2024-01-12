@@ -135,23 +135,13 @@
                 {{ block.settings.heading }}
               </h2>
             {%- endif -%}
-            {%- if block.settings.subheading != blank -%}
+            {%- if block.settings.testimonial != blank -%}
               <div class="banner__text rte" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.subheading }}</p>
-              </div>
-            {%- endif -%}
-            {%- if block.settings.button_label != blank -%}
-              <div class="banner__buttons">
-                <a
-                  {% if block.settings.link %}
-                    href="{{ block.settings.link }}"
-                  {% else %}
-                    role="link" aria-disabled="true"
-                  {% endif %}
-                  class="button {% if block.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
-                >
-                  {{- block.settings.button_label | escape -}}
-                </a>
+                <p>{{ block.settings.testimonial }}</p>
+                <p>
+                  <strong>{{ block.settings.person }}</strong><br>
+                  {{ block.settings.date }}
+                </p>
               </div>
             {%- endif -%}
           </div>
@@ -404,21 +394,21 @@
         },
         {
           "type": "inline_richtext",
-          "id": "subheading",
+          "id": "testimonial",
           "default": "Tell your brand's story through images",
           "label": "t:sections.slideshow.blocks.slide.settings.subheading.label"
         },
         {
           "type": "text",
-          "id": "button_label",
-          "default": "Button label",
-          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
-          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
+          "id": "person",
+          "default": "Username",
+          "label": "Person"
         },
         {
-          "type": "url",
-          "id": "link",
-          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
+          "type": "text",
+          "id": "name",
+          "default": "dd/mm/yyyy",
+          "label": "Date"
         },
         {
           "type": "checkbox",
