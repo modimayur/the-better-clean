@@ -213,3 +213,6 @@ slideshow-component:not(.page-width) .slider-buttons {
 #testimonial-slider h2.banner__heading {
   padding: 2rem 0;
 }
+#testimonial-slider .slideshow__text.banner__box {
+  border: var(--media-border-width) solid rgba(var(--color-foreground),var(--media-border-opacity));
+}
