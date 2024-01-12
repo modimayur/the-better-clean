@@ -206,11 +206,11 @@
         "slide_k79DGU": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "heading": "Lorem ipsum dolor sit amet",
+            "heading_size": "h3",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "person": "Username",
+            "date": "dd\/mm\/yyyy",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -223,11 +223,11 @@
         "slide_maQATA": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "heading": "Lorem ipsum dolor sit amet",
+            "heading_size": "h3",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "person": "Username",
+            "date": "dd\/mm\/yyyy",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -236,11 +236,65 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_xjFyi6": {
+          "type": "slide",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet",
+            "heading_size": "h3",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "person": "Username",
+            "date": "dd\/mm\/yyyy",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_tNbGW3": {
+          "type": "slide",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet",
+            "heading_size": "h3",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "person": "Username",
+            "date": "dd\/mm\/yyyy",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_tdizDX": {
+          "type": "slide",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet",
+            "heading_size": "h3",
+            "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "person": "Username",
+            "date": "dd\/mm\/yyyy",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_k79DGU",
-        "slide_maQATA"
+        "slide_maQATA",
+        "slide_xjFyi6",
+        "slide_tNbGW3",
+        "slide_tdizDX"
       ],
       "settings": {
         "layout": "full_bleed",
