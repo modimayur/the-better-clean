@@ -470,7 +470,7 @@
 }
 @media (max-width: 750px) {
   .icons-with-text .image-with-text__content {
-    padding: 5rem 2rem;
+    padding: 0 0 5rem;
   }
   .icons-with-text .image-with-text .grid {
     flex-direction: column-reverse;
