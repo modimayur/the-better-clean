@@ -125,8 +125,11 @@
         "text_NghrMA",
         "text_ziUziz"
       ],
+      "custom_css": [
+        ".scrolling-text span strong {font-weight: inherit; color: #2D2D2D;}"
+      ],
       "settings": {
-        "speed": 100,
+        "speed": 20,
         "pause_on_hover": true,
         "color_background_main": "#e3deb4",
         "color_text_main": "rgba(0,0,0,0)"
