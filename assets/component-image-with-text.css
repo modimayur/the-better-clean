@@ -511,4 +511,7 @@
     width: 100%;
     height: 100%;
   }
+  .overflow-image-with-text .image-with-text .grid {
+    flex-direction: column-reverse;
+  }
 }
