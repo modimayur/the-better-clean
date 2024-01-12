@@ -180,8 +180,8 @@
         ".image-with-text__heading strong {color: #2d2d2d;}",
         ".image-with-text__media img {border-radius: 0;}",
         ".image-with-text__content {padding-top: 7rem; padding-bottom: 7rem;}",
-        ".image-with-text__text {}",
-        "@media (min-width: 1340px) {.image-with-text__content {padding: 0 10rem 0 0; margin-left: calc((100vw - 1300px + 7rem) \/ 2); }}"
+        "@media (min-width: 1340px) {.image-with-text__content {padding: 0 10rem 0 0; margin-left: calc((100vw - 1300px + 7rem) \/ 2); }}",
+        "@media (max-width: 750px) {.image-with-text .grid {flex-direction: column-reverse; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_60.jpg",
