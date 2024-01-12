@@ -449,9 +449,10 @@
 
 .icons-with-text .icon-with-text--horizontal {
   flex-wrap: wrap;
+  column-gap: 2rem;
 }
 .icons-with-text .icon-with-text--horizontal .icon-with-text__item {
-  width: 28%;
+  width: 29%;
   margin-bottom: 3rem;
 }
 .icons-with-text .icon-with-text--horizontal .icon-with-text__item .h6.icon-title {
