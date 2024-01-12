@@ -204,3 +204,9 @@ slideshow-component:not(.page-width) .slider-buttons {
   opacity: 0;
   transform: scale(0.8);
 }
+
+/* Testimonials */
+
+#testimonial-slider .grid--1-col .grid__item {
+ width: 50%; 
+}
