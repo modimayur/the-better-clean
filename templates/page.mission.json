@@ -199,6 +199,59 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "testimonials_GkHhUN": {
+      "type": "testimonials",
+      "blocks": {
+        "slide_k79DGU": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_maQATA": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_k79DGU",
+        "slide_maQATA"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -206,6 +259,7 @@
     "a548e521-6c2b-4bbc-aa50-22d5639f23c8",
     "overflow_image_with_text_xihJGi",
     "marquee_DwtCkF",
-    "image_with_text_XzTaCq"
+    "image_with_text_XzTaCq",
+    "testimonials_GkHhUN"
   ]
 }
