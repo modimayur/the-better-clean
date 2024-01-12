@@ -24,7 +24,7 @@
         "template--17158705250556__a548e521-6c2b-4bbc-aa50-22d5639f23c8-heading-1"
       ],
       "custom_css": [
-        ".rich-text__heading strong {color: #D86A48;}",
+        ".rich-text__heading strong {color: #d86a48;}",
         "@media (min-width: 750px) {.rich-text__blocks {max-width: 90%; }}"
       ],
       "settings": {
@@ -39,17 +39,25 @@
     "overflow_image_with_text_xihJGi": {
       "type": "overflow-image-with-text",
       "blocks": {
+        "caption_iPV3HK": {
+          "type": "caption",
+          "settings": {
+            "caption": "Our Belief",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "heading_MxCHWB": {
           "type": "heading",
           "settings": {
-            "heading": "Here in Byron Bay, we’re focusing on simplicity and sustainability",
+            "heading": "Life’s complicated.\u2028Washing shouldn’t be.",
             "heading_size": "h1"
           }
         },
         "text_pKR7CP": {
           "type": "text",
           "settings": {
-            "text": "<p>Everyone deserves a Better way to clean. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text": "<p>We champion plant-based, biodegradable, vegan, and minimal-ingredient products that won't break the bank, because you shouldn’t have to choose between eco-friendly and budget-friendly.<\/p><p>We're committed to 3 things: top-notch quality, minimal environmental impact, and simplicity. Gone are the days of navigating through the fine print. With The Better, what you see is what you get.<\/p>",
             "text_style": "body"
           }
         },
@@ -63,12 +71,13 @@
         }
       },
       "block_order": [
+        "caption_iPV3HK",
         "heading_MxCHWB",
         "text_pKR7CP",
         "button_cYzKtx"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBetter_StoryByronShape.png",
+        "image": "shopify:\/\/shop_images\/TheBetter_MissionBeliefShape.png",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
