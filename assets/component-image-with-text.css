@@ -461,6 +461,9 @@
   margin: 0 auto;
   max-width: 110px;
 }
+.icons-with-text .image-with-text .image-with-text__text-item > * {
+  border-radius: 0;
+}
 @media (min-width: 750px) {
   .icons-with-text .image-with-text__content {
     padding: 0 7rem 0 0;
