@@ -169,7 +169,7 @@
       "custom_css": [
         ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit;}",
         ".image-with-text__heading strong {color: #2d2d2d;}",
-        "@media (min-width: 1340px) {.image-with-text__content {padding-left: 0; margin-left: calc((100vw - 1300px + 7rem) \/ 2); }}"
+        "@media (min-width: 1340px) {.image-with-text__content {padding: 0 0 0 5rem; margin-left: calc((100vw - 1300px + 7rem) \/ 2); }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_60.jpg",
