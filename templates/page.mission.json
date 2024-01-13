@@ -211,7 +211,6 @@
             "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "person": "Username",
             "date": "dd\/mm\/yyyy",
-            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -228,7 +227,6 @@
             "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "person": "Username",
             "date": "dd\/mm\/yyyy",
-            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -245,7 +243,6 @@
             "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "person": "Username",
             "date": "dd\/mm\/yyyy",
-            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -262,7 +259,6 @@
             "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "person": "Username",
             "date": "dd\/mm\/yyyy",
-            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -279,7 +275,6 @@
             "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
             "person": "Username",
             "date": "dd\/mm\/yyyy",
-            "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
@@ -295,6 +290,12 @@
         "slide_xjFyi6",
         "slide_tNbGW3",
         "slide_tdizDX"
+      ],
+      "custom_css": [
+        ".slideshow {display: flex; justify-content: center; overflow: hidden;}",
+        ".slideshow .slideshow__slide {flex: 0 0 50%; max-width: 50%; transition: transform 0.5s ease;}",
+        ".slideshow .slideshow__slide:focus-within {transform: translateX(0%);}",
+        ".slideshow .slideshow__slide:not(:focus-within) {transform: translateX(-50%);}"
       ],
       "settings": {
         "layout": "full_bleed",
