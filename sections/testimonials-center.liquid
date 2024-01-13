@@ -58,10 +58,16 @@
   {%- endfor -%}
 </slideshow-component>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var slider = new SlideshowComponent('testimonial-slider', {
+      autoRotate: true,
+      changeSlidesSpeed: 5000,
+      // Other options...
+    });
+  });
+</script>
 
-{%- if request.design_mode -%}
-  <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
 
 {% schema %}
 {
