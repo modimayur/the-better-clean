@@ -292,10 +292,7 @@
         "slide_tdizDX"
       ],
       "custom_css": [
-        ".slideshow {display: flex; justify-content: center; overflow: hidden;}",
-        ".slideshow .slideshow__slide {flex: 0 0 50%; max-width: 50%; transition: transform 0.5s ease;}",
-        ".slideshow .slideshow__slide:focus-within {transform: translateX(0%);}",
-        ".slideshow .slideshow__slide:not(:focus-within) {transform: translateX(-50%);}"
+
       ],
       "settings": {
         "layout": "full_bleed",
