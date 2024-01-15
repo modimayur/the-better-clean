@@ -10,6 +10,9 @@
   #product-with-text {
     position: relative;
   }
+  #product-with-text .image-with-text__content {
+    border-radius: 0;
+  }
   #product-with-text .image-with-text__heading {
     font-family: "Staatliches";
     font-weight: inherit;
@@ -36,6 +39,14 @@
       width: 100vw;
       height: 220px;
       background: #EDDFD2;
+    }
+  }
+  @media screen and (max-width: 749px) {
+    #product-with-text .image-with-text .grid {
+      flex-direction: column-reverse;
+    }
+    #product-with-text .image-with-text__content {
+      padding: 0;
     }
   }
   @media screen and (min-width: 750px) {
