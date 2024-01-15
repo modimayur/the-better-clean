@@ -11,7 +11,7 @@
     }
   }
   .pricing_table_main h3.alt-heading {
-    max-width: 345px;
+    max-width: 450px;
     margin: 0 0 3rem;
     line-height: 1.15;
   }
@@ -139,7 +139,7 @@
     endcase 
   -%}  
    {% if section.settings.price-title != blank %}
-     <h3 class="h3 alt-heading">{{ section.settings.price-title }}</h3>
+     <h3 class="h2 alt-heading">{{ section.settings.price-title }}</h3>
    {% endif %}
    <ul class="page-width grid pricing-table-container">
       {% for block in section.blocks %}
