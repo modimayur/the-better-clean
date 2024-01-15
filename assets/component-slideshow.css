@@ -217,30 +217,9 @@ slideshow-component:not(.page-width) .slider-buttons {
   max-width: inherit;
   border: var(--media-border-width) solid rgba(var(--color-foreground),var(--media-border-opacity));
 }
-#testimonial-slider .slideshow__text-wrapper.banner__content {
+.slideshow__text-wrapper.banner__content {
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-#testimonial-slider .slideshow__slide {
-  /* Add these styles to center the slides */
-  display: flex;
-  justify-content: center;
-}
 
-#testimonial-slider .center-slider {
-  /* Add these styles to center the active slide */
-  justify-content: flex-start;
-  scroll-snap-type: x mandatory;
-  overflow-x: scroll;
-}
-
-#testimonial-slider .center-slide-item {
-  /* Add these styles to center the active slide */
-  flex-shrink: 0;
-}
-
-/* Adjustments for the grid layout */
-#testimonial-slider .grid--1-col .grid__item {
-  width: 50%;
-}
