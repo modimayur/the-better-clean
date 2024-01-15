@@ -21,7 +21,7 @@
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Pre-Order Now",
+            "button_label": "Shop Now",
             "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
             "button_style_secondary": false
           }
@@ -59,7 +59,7 @@
         "text_yPP8kT": {
           "type": "text",
           "settings": {
-            "marquee_text": "<strong>Our promise<\/strong>"
+            "marquee_text": "<strong>Our Mission<\/strong>"
           }
         },
         "text_gQaPC9": {
