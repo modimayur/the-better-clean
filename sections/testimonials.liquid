@@ -231,12 +231,15 @@
       var testimonialSlider = document.getElementById('testimonial-slider');
 
       if (testimonialSlider) {
-        // Set the initial scroll position to start on the second slide
-        var initialSlideWidth = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
-        testimonialSlider.querySelector('.slider').scrollTo({
-          left: initialSlideWidth,
-          behavior: 'smooth' // Optionally, you can add smooth scrolling
-        });
+        // Delay the scroll to the second slide to ensure the DOM is fully loaded
+        setTimeout(function() {
+          // Set the initial scroll position to start on the second slide
+          var initialSlideWidth = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
+          testimonialSlider.querySelector('.slider').scrollTo({
+            left: initialSlideWidth,
+            behavior: 'smooth' // Optionally, you can add smooth scrolling
+          });
+        }, 500); // Adjust the delay time if needed
 
         testimonialSlider.addEventListener('click', function(event) {
           event.preventDefault();
