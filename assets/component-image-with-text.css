@@ -507,6 +507,7 @@
   .overflow-image-with-text .image-with-text__media img {
     display: flex;
     width: 33vw;
+    max-width: 480px;
     height: 100%;
   }
   .overflow-image-with-text .image-with-text .image-with-text__content {
