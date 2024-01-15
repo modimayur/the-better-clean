@@ -243,7 +243,10 @@
 
           if (newIndex !== currentIndex) {
             // Calculate the scroll position to center the current slide
-            var slideScrollPosition = testimonialSlider.querySelector('.slideshow__slide').clientWidth * newIndex;
+            var containerWidth = testimonialSlider.querySelector('.slider').clientWidth;
+            var slideWidth = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
+            var offset = (containerWidth - slideWidth) / 2;
+            var slideScrollPosition = (slideWidth * newIndex) - offset;
 
             // Scroll to the new position
             testimonialSlider.querySelector('.slider').scrollTo({
