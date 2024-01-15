@@ -86,10 +86,10 @@
       ],
       "custom_css": [
         ".gradient {position: relative;}",
-        ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit; max-width: 340px;}",
-        ".image-with-text__text p {max-width: 340px;}",
+        ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit;}",
         ".image-with-text__heading strong {color: #d86a48;}",
-        ".image-with-text__content {padding-top: 0;}"
+        ".image-with-text__content {padding-top: 0;}",
+        "@media (min-width: 990px) {.image-with-text__content {max-width: 500px; margin: 0 auto;}}"
       ],
       "settings": {
         "product": "laundry-detergent-sheets",
