@@ -22,6 +22,19 @@
         display: block;
       }
     }
+    #testimonial-slider .slider {
+      display: flex;
+      width: 200%; /* Total width for two slides */
+      transition: transform 0.5s ease; /* Add a smooth transition effect */
+    }
+
+    #testimonial-slider .slider__slide {
+      flex: 0 0 50%; /* Each slide takes 50% of the container */
+    }
+
+    #testimonial-slider .slider__slide--center {
+      transform: translateX(50%); /* Center the active slide */
+    }
   {%- endstyle -%}
 {%- endif -%}
 
@@ -227,40 +240,41 @@
 
 {% capture sliderComponentScript %}
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var testimonialSlider = document.getElementById('testimonial-slider');
+      document.addEventListener('DOMContentLoaded', function() {
+        var testimonialSlider = document.getElementById('testimonial-slider');
 
-      if (testimonialSlider) {
-        testimonialSlider.addEventListener('click', function(event) {
-          event.preventDefault();
+        if (testimonialSlider) {
+          testimonialSlider.addEventListener('click', function(event) {
+            event.preventDefault();
 
-          var currentIndex = testimonialSlider.querySelector('.slider-counter__link--active').getAttribute('data-slide-index');
-          var totalSlides = testimonialSlider.querySelectorAll('.slider-counter__link').length;
+            var currentIndex = testimonialSlider.querySelector('.slider-counter__link--active').getAttribute('data-slide-index');
+            var totalSlides = testimonialSlider.querySelectorAll('.slider-counter__link').length;
 
-          // Calculate the new index based on the clicked link
-          var clickedIndex = event.target.getAttribute('data-slide-index');
-          var newIndex = parseInt(clickedIndex);
+            // Calculate the new index based on the clicked link
+            var clickedIndex = event.target.getAttribute('data-slide-index');
+            var newIndex = parseInt(clickedIndex);
 
-          if (newIndex !== currentIndex) {
-            // Calculate the scroll position to center the current slide
-            var containerWidth = testimonialSlider.querySelector('.slider').clientWidth;
-            var slideWidth = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
-            var offset = (containerWidth - slideWidth) / 2;
-            var slideScrollPosition = (slideWidth * newIndex) - offset;
+            if (newIndex !== currentIndex) {
+              // Calculate the scroll position to center the current slide
+              var slideScrollPosition = testimonialSlider.querySelector('.slideshow__slide').clientWidth * newIndex;
 
-            // Scroll to the new position
-            testimonialSlider.querySelector('.slider').scrollTo({
-              left: slideScrollPosition,
-              behavior: 'smooth' // Optionally, you can add smooth scrolling
-            });
+              // Scroll to the new position
+              testimonialSlider.querySelector('.slider').scrollTo({
+                left: slideScrollPosition,
+                behavior: 'smooth' // Optionally, you can add smooth scrolling
+              });
 
-            // Update the current page
-            testimonialSlider.querySelector('.slider-counter__link--active').classList.remove('slider-counter__link--active');
-            event.target.classList.add('slider-counter__link--active');
-          }
-        });
-      }
-    });
+              // Update the current page
+              testimonialSlider.querySelectorAll('.slider__slide').forEach(function(slide) {
+                slide.classList.remove('slider__slide--center');
+              });
+              testimonialSlider.querySelector('.slider__slide:nth-child(' + (newIndex + 1) + ')').classList.add('slider__slide--center');
+              testimonialSlider.querySelector('.slider-counter__link--active').classList.remove('slider-counter__link--active');
+              event.target.classList.add('slider-counter__link--active');
+            }
+          });
+        }
+      });
   </script>
 {% endcapture %}
 
