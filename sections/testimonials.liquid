@@ -231,15 +231,9 @@
       var testimonialSlider = document.getElementById('testimonial-slider');
 
       if (testimonialSlider) {
-        // Delay the scroll to the second slide to ensure the DOM is fully loaded
-        setTimeout(function() {
-          // Set the initial scroll position to start on the second slide
-          var initialSlideWidth = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
-          testimonialSlider.querySelector('.slider').scrollTo({
-            left: initialSlideWidth,
-            behavior: 'smooth' // Optionally, you can add smooth scrolling
-          });
-        }, 500); // Adjust the delay time if needed
+        // Set the initial scroll position to start on the second slide
+        var initialSlideWidth = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
+        testimonialSlider.querySelector('.slider').scrollLeft = initialSlideWidth;
 
         testimonialSlider.addEventListener('click', function(event) {
           event.preventDefault();
@@ -255,11 +249,8 @@
             // Calculate the scroll position to center the current slide
             var slideScrollPosition = initialSlideWidth * newIndex;
 
-            // Scroll to the new position
-            testimonialSlider.querySelector('.slider').scrollTo({
-              left: slideScrollPosition,
-              behavior: 'smooth' // Optionally, you can add smooth scrolling
-            });
+            // Set the scroll position directly
+            testimonialSlider.querySelector('.slider').scrollLeft = slideScrollPosition;
 
             // Update the current page
             testimonialSlider.querySelectorAll('.slider__slide').forEach(function(slide) {
