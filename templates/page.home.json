@@ -53,33 +53,51 @@
         "padding_bottom": 100
       }
     },
-    "collage_tLJ3cc": {
-      "type": "collage",
+    "product_with_text_QHWJXn": {
+      "type": "product-with-text",
       "blocks": {
-        "product_9HYPJ7": {
-          "type": "product",
+        "heading_iCzr7G": {
+          "type": "heading",
           "settings": {
-            "product": "",
-            "second_image": false
+            "heading": "Image with text",
+            "heading_size": "h1"
           }
         },
-        "image_jaPLeb": {
-          "type": "image",
+        "text_Ew6zQP": {
+          "type": "text",
           "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_CBL66f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "product_9HYPJ7",
-        "image_jaPLeb"
+        "heading_iCzr7G",
+        "text_Ew6zQP",
+        "button_CBL66f"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "product": "laundry-detergent-sheets",
+        "second_image": true,
+        "stretch": "container",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -214,7 +232,7 @@
   },
   "order": [
     "58c2e787-6e85-4e09-b2a2-aad339cf0031",
-    "collage_tLJ3cc",
+    "product_with_text_QHWJXn",
     "overflow_image_with_text_cAG38A",
     "marquee_DwtCkF",
     "abbd74b8-ff9e-4498-b253-dbab370e742b"
