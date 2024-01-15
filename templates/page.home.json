@@ -59,7 +59,7 @@
         "heading_iCzr7G": {
           "type": "heading",
           "settings": {
-            "heading": "Explore Our\u2028Cleaning Products",
+            "heading": "Explore Our\u2028Cleaning <strong>Products<\/strong>",
             "heading_size": "h2"
           }
         },
@@ -85,7 +85,9 @@
         "button_CBL66f"
       ],
       "custom_css": [
-        ".gradient {position: relative;}"
+        ".gradient {position: relative;}",
+        ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit;}",
+        ".image-with-text__heading strong {color: #2d2d2d;}"
       ],
       "settings": {
         "product": "laundry-detergent-sheets",
