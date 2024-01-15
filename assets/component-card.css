@@ -150,6 +150,8 @@
 }
 
 .card:not(.ratio)>.card__content {
+  height: 120px;
+  border-top: var(--border-width) solid rgba(var(--color-foreground),var(--border-opacity));
   grid-template-rows: max-content minmax(0, 1fr) max-content auto;
 }
 
