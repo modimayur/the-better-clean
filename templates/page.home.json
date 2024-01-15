@@ -85,11 +85,7 @@
         "button_CBL66f"
       ],
       "custom_css": [
-        ".gradient {position: relative;}",
-        ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit;}",
-        ".image-with-text__heading strong {color: #d86a48;}",
-        ".image-with-text__content {padding-top: 0;}",
-        "@media (min-width: 990px) {.image-with-text__content {max-width: 500px; margin: 0 auto; } .gradient {margin-bottom: -160px; }}"
+
       ],
       "settings": {
         "product": "laundry-detergent-sheets",
