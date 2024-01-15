@@ -395,20 +395,3 @@ slider-component.slider-component-full-width {
   transform: rotate(90deg) scale(1.1);
 }
 
-
-/* Testimonials */
-
-#testimonial-slider .grid--1-col .grid__item {
- width: 50%; 
-}
-#testimonial-slider h2.banner__heading {
-  padding: 1.5rem 0;
-}
-#testimonial-slider .slideshow__text.banner__box {
-  max-width: inherit;
-  border: var(--media-border-width) solid rgba(var(--color-foreground),var(--media-border-opacity));
-}
-.slideshow__text-wrapper.banner__content {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
