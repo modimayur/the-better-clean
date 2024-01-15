@@ -53,6 +53,83 @@
         "padding_bottom": 100
       }
     },
+    "collage_tLJ3cc": {
+      "type": "collage",
+      "blocks": {
+        "product_9HYPJ7": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "image_jaPLeb": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_9HYPJ7",
+        "image_jaPLeb"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "overflow_image_with_text_cAG38A": {
+      "type": "overflow-image-with-text",
+      "blocks": {
+        "heading_kqphK3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Life’s complicated. Washing shouldn’t be.",
+            "heading_size": "h1"
+          }
+        },
+        "text_L7MAbd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Born in Byron Bay, The Better has been created by two mates dedicated to reshaping everyday cleaning. Our shared vision? Crafting plant-based household essentials that don't compromise on affordability, the environment, or hygiene. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_aHCpNK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/our-story",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kqphK3",
+        "text_L7MAbd",
+        "button_aHCpNK"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBetter_MissionBeliefShape.png",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "marquee_DwtCkF": {
       "type": "marquee",
       "blocks": {
@@ -133,58 +210,13 @@
         "padding_top": 92,
         "padding_bottom": 100
       }
-    },
-    "overflow_image_with_text_cAG38A": {
-      "type": "overflow-image-with-text",
-      "blocks": {
-        "heading_kqphK3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Life’s complicated. Washing shouldn’t be.",
-            "heading_size": "h1"
-          }
-        },
-        "text_L7MAbd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Born in Byron Bay, The Better has been created by two mates dedicated to reshaping everyday cleaning. Our shared vision? Crafting plant-based household essentials that don't compromise on affordability, the environment, or hygiene. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_aHCpNK": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/our-story",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_kqphK3",
-        "text_L7MAbd",
-        "button_aHCpNK"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/TheBetter_MissionBeliefShape.png",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "58c2e787-6e85-4e09-b2a2-aad339cf0031",
+    "collage_tLJ3cc",
+    "overflow_image_with_text_cAG38A",
     "marquee_DwtCkF",
-    "abbd74b8-ff9e-4498-b253-dbab370e742b",
-    "overflow_image_with_text_cAG38A"
+    "abbd74b8-ff9e-4498-b253-dbab370e742b"
   ]
 }
