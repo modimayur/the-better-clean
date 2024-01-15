@@ -51,48 +51,48 @@
         "padding_bottom": 100
       }
     },
-    "8d334ab4-a871-4f17-8b62-be3103b25bac": {
+    "marquee_DwtCkF": {
       "type": "marquee",
       "blocks": {
-        "template--16967081165052__8d334ab4-a871-4f17-8b62-be3103b25bac-text-1": {
+        "text_yPP8kT": {
           "type": "text",
           "settings": {
-            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+            "marquee_text": "<strong>Our promise<\/strong>"
           }
         },
-        "2e1971d6-0747-43f7-aa38-2766e244b629": {
+        "text_gQaPC9": {
           "type": "text",
           "settings": {
-            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+            "marquee_text": "top-notch quality"
           }
         },
-        "9c29e356-9a32-4485-b789-361068b997f0": {
+        "text_NghrMA": {
           "type": "text",
           "settings": {
-            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+            "marquee_text": "Minimal enviromentatl impact"
           }
         },
-        "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936": {
+        "text_ziUziz": {
           "type": "text",
           "settings": {
-            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
+            "marquee_text": "simplicity"
           }
         }
       },
       "block_order": [
-        "template--16967081165052__8d334ab4-a871-4f17-8b62-be3103b25bac-text-1",
-        "2e1971d6-0747-43f7-aa38-2766e244b629",
-        "9c29e356-9a32-4485-b789-361068b997f0",
-        "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936"
+        "text_yPP8kT",
+        "text_gQaPC9",
+        "text_NghrMA",
+        "text_ziUziz"
       ],
       "custom_css": [
-        ".scrolling-text span strong {color: #2d2d2d; padding-left: 10px;}"
+        ".scrolling-text span strong {font-weight: inherit; color: #2d2d2d;}"
       ],
       "settings": {
-        "speed": 40,
+        "speed": 20,
         "pause_on_hover": true,
         "color_background_main": "#e3deb4",
-        "color_text_main": "#7f9686"
+        "color_text_main": "rgba(0,0,0,0)"
       }
     },
     "abbd74b8-ff9e-4498-b253-dbab370e742b": {
@@ -135,7 +135,7 @@
   },
   "order": [
     "58c2e787-6e85-4e09-b2a2-aad339cf0031",
-    "8d334ab4-a871-4f17-8b62-be3103b25bac",
+    "marquee_DwtCkF",
     "abbd74b8-ff9e-4498-b253-dbab370e742b"
   ]
 }
