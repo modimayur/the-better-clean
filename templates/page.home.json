@@ -87,7 +87,8 @@
       "custom_css": [
         ".gradient {position: relative;}",
         ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit; max-width: 280px;}",
-        ".image-with-text__heading strong {color: #d86a48;}"
+        ".image-with-text__heading strong {color: #d86a48;}",
+        ".image-with-text__content {padding-top: 0;}"
       ],
       "settings": {
         "product": "laundry-detergent-sheets",
