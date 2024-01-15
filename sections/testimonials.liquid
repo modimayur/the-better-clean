@@ -231,6 +231,13 @@
       var testimonialSlider = document.getElementById('testimonial-slider');
 
       if (testimonialSlider) {
+        // Set the initial scroll position to start on the second slide
+        var initialSlideWidth = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
+        testimonialSlider.querySelector('.slider').scrollTo({
+          left: initialSlideWidth,
+          behavior: 'smooth' // Optionally, you can add smooth scrolling
+        });
+
         testimonialSlider.addEventListener('click', function(event) {
           event.preventDefault();
 
@@ -243,7 +250,7 @@
 
           if (newIndex !== currentIndex) {
             // Calculate the scroll position to center the current slide
-            var slideScrollPosition = testimonialSlider.querySelector('.slideshow__slide').clientWidth * newIndex;
+            var slideScrollPosition = initialSlideWidth * newIndex;
 
             // Scroll to the new position
             testimonialSlider.querySelector('.slider').scrollTo({
@@ -252,6 +259,10 @@
             });
 
             // Update the current page
+            testimonialSlider.querySelectorAll('.slider__slide').forEach(function(slide) {
+              slide.classList.remove('slider__slide--center');
+            });
+            testimonialSlider.querySelector('.slider__slide:nth-child(' + (newIndex + 1) + ')').classList.add('slider__slide--center');
             testimonialSlider.querySelector('.slider-counter__link--active').classList.remove('slider-counter__link--active');
             event.target.classList.add('slider-counter__link--active');
           }
