@@ -225,55 +225,6 @@
   {%- endif -%}
 </slideshow-component>
 
-{% capture sliderComponentScript %}
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var testimonialSlider = document.getElementById('testimonial-slider');
-
-      if (testimonialSlider) {
-        // Delay the scroll to the second slide to ensure the DOM is fully loaded
-        setTimeout(function() {
-          // Set the initial scroll position to start on the second slide
-          testimonialSlider.querySelector('.slider').scrollLeft = testimonialSlider.querySelector('.slideshow__slide').clientWidth;
-        }, 500); // Adjust the delay time if needed
-
-        testimonialSlider.addEventListener('click', function(event) {
-          event.preventDefault();
-
-          var currentIndex = testimonialSlider.querySelector('.slider-counter__link--active').getAttribute('data-slide-index');
-          var totalSlides = testimonialSlider.querySelectorAll('.slider-counter__link').length;
-
-          // Calculate the new index based on the clicked link
-          var clickedIndex = event.target.getAttribute('data-slide-index');
-          var newIndex = parseInt(clickedIndex);
-
-          if (newIndex !== currentIndex) {
-            // Calculate the scroll position to center the current slide
-            var slideScrollPosition = testimonialSlider.querySelector('.slideshow__slide').clientWidth * newIndex;
-
-            // Set the scroll position directly
-            testimonialSlider.querySelector('.slider').scrollTo({
-              left: slideScrollPosition,
-              behavior: 'smooth' // Optionally, you can add smooth scrolling
-            });
-
-            // Update the current page
-            testimonialSlider.querySelectorAll('.slider__slide').forEach(function(slide) {
-              slide.classList.remove('slider__slide--center');
-            });
-            testimonialSlider.querySelector('.slider__slide:nth-child(' + (newIndex + 1) + ')').classList.add('slider__slide--center');
-            testimonialSlider.querySelector('.slider-counter__link--active').classList.remove('slider-counter__link--active');
-            event.target.classList.add('slider-counter__link--active');
-          }
-        });
-      }
-    });
-  </script>
-{% endcapture %}
-
-{{ sliderComponentScript | strip_html }}
-
-
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
