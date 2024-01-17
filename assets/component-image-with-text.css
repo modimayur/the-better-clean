@@ -526,6 +526,9 @@
   .overflow-image-with-text .image-with-text .image-with-text__content {
     padding: 5rem 0 5rem 3rem;
   }
+  .overflow-image-with-text .image-with-text__grid--reverse .image-with-text .image-with-text__content {
+    padding: 5rem 8rem 5rem 0;
+  }
 }
 @media (max-width: 750px) {
   .overflow-image-with-text .image-with-text__media img {
