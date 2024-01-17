@@ -492,6 +492,8 @@
 .image-with-text__text--caption.subtitle--medium {
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
+  letter-spacing: 0;
+  margin-bottom: 20px !important;
 }
 
 /* Overflow Image with Text */
