@@ -499,6 +499,7 @@
     left: calc((100vw - var(--page-width) + 33rem) / -3);
   }
   .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
+    left: 0;
     right: calc((100vw - var(--page-width) + 33rem) / -3);
   }
 }
@@ -509,6 +510,7 @@
   }
   .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
     position: absolute;
+    left: 0;
     right: -10vw;
   }
   .overflow-image-with-text .image-with-text__media img {
