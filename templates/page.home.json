@@ -146,7 +146,7 @@
         "button_aHCpNK"
       ],
       "custom_css": [
-
+        ".image-with-text__text--caption.subtitle--medium strong {color: #2D2D2D;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TheBetter_storyhomepage.png",
