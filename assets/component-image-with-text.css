@@ -488,6 +488,10 @@
     justify-content: space-around;
     column-gap: 6rem;
   }
+  .icons-with-heading .icon-with-text img {
+    height: inherit;
+    width: 100%;
+  }
 }
 @media (max-width: 750px) {
   .icons-with-text .image-with-text__content {
