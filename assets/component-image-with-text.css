@@ -489,7 +489,7 @@
   }
 }
 
-.image-with-text__text--caption.subtitle--medium {
+.image-with-text__text--caption.subtitle--large {
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
   letter-spacing: 0.05rem;

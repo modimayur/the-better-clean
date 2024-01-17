@@ -113,7 +113,7 @@
           "settings": {
             "caption": "<strong>ABOUT<\/strong> THE BETTER",
             "text_style": "subtitle",
-            "text_size": "medium"
+            "text_size": "large"
           }
         },
         "heading_kqphK3": {
@@ -146,7 +146,7 @@
         "button_aHCpNK"
       ],
       "custom_css": [
-        ".image-with-text__text--caption.subtitle--medium strong {color: #2D2D2D;}"
+        ".image-with-text__text--caption.subtitle--medium strong {color: #2d2d2d;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TheBetter_storyhomepage.png",
