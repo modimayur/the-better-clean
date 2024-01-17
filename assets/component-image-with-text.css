@@ -509,6 +509,13 @@
   .icons-with-heading h2.image-with-text__heading {
     text-align: center;
   }
+  .icons-with-heading .icon-with-text--horizontal .icon-with-text__item {
+    width: 40%;
+  }
+  .icons-with-heading .icon-with-text img {
+    height: inherit;
+    width: 70%;
+  }
 }
 
 .image-with-text__text--caption.subtitle--large {
