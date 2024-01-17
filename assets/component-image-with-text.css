@@ -456,7 +456,7 @@
   margin-bottom: 3rem;
 }
 .icons-with-heading .icon-with-text--horizontal .icon-with-text__item {
-  width: 24%;
+  width: 15%;
   margin-bottom: 3rem;
 }
 .icons-with-text .icon-with-text--horizontal .icon-with-text__item .h6.icon-title {
@@ -482,6 +482,10 @@
   .icons-with-text .icon-with-text--horizontal {
     max-width: 480px;
     margin-top: 3rem;
+  }
+  .icons-with-heading .icon-with-text--horizontal {
+    max-width: 800px;
+    column-gap: 6rem;
   }
 }
 @media (max-width: 750px) {
