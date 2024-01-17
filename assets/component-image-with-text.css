@@ -503,7 +503,7 @@
     right: calc((100vw - var(--page-width) + 33rem) / -3);
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1140px) {
   .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
     top: -10vw;
   }
@@ -516,6 +516,7 @@
   .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
     left: auto;
     right: -10vw;
+    top: 5vw;
   }
   .overflow-image-with-text .image-with-text__media img {
     display: flex;
