@@ -511,10 +511,14 @@
   }
   .icons-with-heading .icon-with-text--horizontal .icon-with-text__item {
     width: 40%;
+    margin-bottom: 3rem;
   }
   .icons-with-heading .icon-with-text img {
     height: inherit;
     width: 70%;
+  }
+  .icons-with-heading .icon-with-text--horizontal .icon-with-text__item .h6.icon-title {
+    max-width: 125px;
   }
 }
 
