@@ -455,6 +455,10 @@
   width: 29%;
   margin-bottom: 3rem;
 }
+.icons-with-heading .icon-with-text--horizontal .icon-with-text__item {
+  width: 24%;
+  margin-bottom: 3rem;
+}
 .icons-with-text .icon-with-text--horizontal .icon-with-text__item .h6.icon-title {
   color: #eddfd2;
   font-size: 16px;
