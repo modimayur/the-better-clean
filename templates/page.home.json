@@ -111,9 +111,9 @@
         "caption_8VejVa": {
           "type": "caption",
           "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "caption": "ABOUT THE BETTER",
+            "text_style": "subtitle",
+            "text_size": "small"
           }
         },
         "heading_kqphK3": {
