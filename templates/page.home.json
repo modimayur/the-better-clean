@@ -108,6 +108,14 @@
     "overflow_image_with_text_cAG38A": {
       "type": "overflow-image-with-text",
       "blocks": {
+        "caption_8VejVa": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_kqphK3": {
           "type": "heading",
           "settings": {
@@ -132,6 +140,7 @@
         }
       },
       "block_order": [
+        "caption_8VejVa",
         "heading_kqphK3",
         "text_L7MAbd",
         "button_aHCpNK"
