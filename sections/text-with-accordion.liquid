@@ -109,39 +109,41 @@
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
-              
-              {%- for block in section.blocks -%}
-              <div
-                class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
-                {{ block.shopify_attributes }}
-              >
-                <details
-                  id="Details-{{ block.id }}-{{ section.id }}"
-                  {% if section.settings.open_first_collapsible_row and forloop.first %}
-                    open
-                  {% endif %}
+              <div class="banner__content page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+                <div class="banner__box content-container content-container--full-width-mobile">
+                {%- for block in section.blocks -%}
+                <div
+                  class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
+                  {{ block.shopify_attributes }}
                 >
-                  <summary id="Summary-{{ block.id }}-{{ section.id }}">
-                    {% render 'icon-accordion', icon: block.settings.icon %}
-                    <h3 class="accordion__title inline-richtext h3">
-                      {{ block.settings.heading | default: block.settings.page.title }}
-                    </h3>
-                    {% render 'icon-accordion-plus' %}
-                    {% render 'icon-accordion-minus' %}
-                  </summary>
-                  <div
-                    class="accordion__content rte"
-                    id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
-                    role="region"
-                    aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                  <details
+                    id="Details-{{ block.id }}-{{ section.id }}"
+                    {% if section.settings.open_first_collapsible_row and forloop.first %}
+                      open
+                    {% endif %}
                   >
-                    {{ block.settings.row_content }}
-                    {{ block.settings.page.content }}
-                  </div>
-                </details>
+                    <summary id="Summary-{{ block.id }}-{{ section.id }}">
+                      {% render 'icon-accordion', icon: block.settings.icon %}
+                      <h3 class="accordion__title inline-richtext h3">
+                        {{ block.settings.heading | default: block.settings.page.title }}
+                      </h3>
+                      {% render 'icon-accordion-plus' %}
+                      {% render 'icon-accordion-minus' %}
+                    </summary>
+                    <div
+                      class="accordion__content rte"
+                      id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
+                      role="region"
+                      aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
+                    >
+                      {{ block.settings.row_content }}
+                      {{ block.settings.page.content }}
+                    </div>
+                  </details>
+                </div>
+                {%- endfor -%}
+                </div>
               </div>
-            {%- endfor -%}
-            
               <div
                 class="collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
                 {% if section.settings.image_ratio == 'adapt' %}
