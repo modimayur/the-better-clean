@@ -507,7 +507,7 @@
     flex-direction: column-reverse;
   }
   .icons-with-heading h2.image-with-text__heading {
-    text-align: center;
+    margin: 20px auto 0 !important;
   }
   .icons-with-heading .icon-with-text--horizontal .icon-with-text__item {
     width: 40%;
