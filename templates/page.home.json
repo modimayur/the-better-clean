@@ -222,10 +222,14 @@
         "heading_aFJnq7"
       ],
       "settings": {
-        "icon_heading_1": "Heading",
-        "icon_heading_2": "Heading",
-        "icon_heading_3": "Heading",
-        "icon_heading_4": "Heading",
+        "icon_1": "shopify:\/\/shop_images\/TheBetter_WhyIcon1.svg",
+        "icon_heading_1": "Plant-based formula",
+        "icon_2": "shopify:\/\/shop_images\/TheBetter_WhyIcon2.svg",
+        "icon_heading_2": "Biodegradable\u2028EU OECD 301B",
+        "icon_3": "shopify:\/\/shop_images\/TheBetter_WhyIcon3.svg",
+        "icon_heading_3": "cost-effective washing solution",
+        "icon_4": "shopify:\/\/shop_images\/TheBetter_WhyIcon4.svg",
+        "icon_heading_4": "money back guarantee",
         "stretch": "container",
         "height": "small",
         "desktop_image_width": "medium",
