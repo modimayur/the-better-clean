@@ -489,7 +489,7 @@
   }
 }
 
-.image-with-text__text--caption.subtitle--small {
+.image-with-text__text--caption.subtitle--medium {
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
 }
