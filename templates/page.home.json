@@ -207,6 +207,40 @@
         "color_text_main": "rgba(0,0,0,0)"
       }
     },
+    "icons_with_heading_LGTiKy": {
+      "type": "icons-with-heading",
+      "blocks": {
+        "heading_aFJnq7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why choose\u2028The Better?",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aFJnq7"
+      ],
+      "settings": {
+        "icon_heading_1": "Heading",
+        "icon_heading_2": "Heading",
+        "icon_heading_3": "Heading",
+        "icon_heading_4": "Heading",
+        "stretch": "container",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "abbd74b8-ff9e-4498-b253-dbab370e742b": {
       "type": "newsletter",
       "blocks": {
@@ -250,6 +284,7 @@
     "product_with_text_QHWJXn",
     "overflow_image_with_text_cAG38A",
     "marquee_DwtCkF",
+    "icons_with_heading_LGTiKy",
     "abbd74b8-ff9e-4498-b253-dbab370e742b"
   ]
 }
