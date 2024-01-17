@@ -505,7 +505,7 @@
 }
 @media (min-width: 1140px) {
   .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
-    top: -10vw;
+    top: -10vw !important;
   }
 }
 @media (min-width: 750px) {
