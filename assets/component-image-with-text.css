@@ -511,7 +511,7 @@
   .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
     left: auto;
     right: -10vw;
-    top: -5vw;
+    top: -10vw;
   }
   .overflow-image-with-text .image-with-text__media img {
     display: flex;
