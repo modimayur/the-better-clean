@@ -492,7 +492,7 @@
 .image-with-text__text--caption.subtitle--medium {
   font-family: 'Staatliches';
   font-weight: var(--font-body-weight);
-  letter-spacing: 0;
+  letter-spacing: 0.05rem;
   margin-bottom: 20px !important;
 }
 
