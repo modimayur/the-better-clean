@@ -485,6 +485,7 @@
   }
   .icons-with-heading .icon-with-text--horizontal {
     max-width: 800px;
+    justify-content: space-around;
     column-gap: 6rem;
   }
 }
