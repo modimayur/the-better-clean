@@ -489,6 +489,11 @@
   }
 }
 
+.image-with-text__text--caption.subtitle--small {
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
+}
+
 /* Overflow Image with Text */
 
 .overflow-image-with-text .image-with-text .image-with-text__text-item > * {
