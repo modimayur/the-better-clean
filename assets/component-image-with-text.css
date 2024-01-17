@@ -498,11 +498,18 @@
   .overflow-image-with-text .image-with-text__media {
     left: calc((100vw - var(--page-width) + 33rem) / -3);
   }
+  .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
+    right: calc((100vw - var(--page-width) + 33rem) / -3);
+  }
 }
 @media (min-width: 750px) {
   .overflow-image-with-text .image-with-text__media {
     position: absolute;
     left: -10vw;
+  }
+  .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media {
+    position: absolute;
+    right: -10vw;
   }
   .overflow-image-with-text .image-with-text__media img {
     display: flex;
