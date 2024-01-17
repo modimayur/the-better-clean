@@ -245,6 +245,68 @@
         "padding_bottom": 60
       }
     },
+    "text_with_accordion_QDrBTg": {
+      "type": "text-with-accordion",
+      "blocks": {
+        "collapsible_row_Tpwrbf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_6ajfVz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UrMVjn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_VHhXaH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Tpwrbf",
+        "collapsible_row_6ajfVz",
+        "collapsible_row_UrMVjn",
+        "collapsible_row_VHhXaH"
+      ],
+      "settings": {
+        "heading": "",
+        "text": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/nadia-rudenko-N0zYX-8L8uY-unsplash_1_1.jpg",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "abbd74b8-ff9e-4498-b253-dbab370e742b": {
       "type": "newsletter",
       "blocks": {
@@ -289,6 +351,7 @@
     "overflow_image_with_text_cAG38A",
     "marquee_DwtCkF",
     "icons_with_heading_LGTiKy",
+    "text_with_accordion_QDrBTg",
     "abbd74b8-ff9e-4498-b253-dbab370e742b"
   ]
 }
