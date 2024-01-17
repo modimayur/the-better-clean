@@ -471,9 +471,6 @@
 .icons-with-text .image-with-text .image-with-text__text-item > * {
   border-radius: 0;
 }
-.icons-with-heading h2.image-with-text__heading {
-  max-width: 300px;
-}
 @media (min-width: 750px) {
   .icons-with-text .image-with-text__content {
     padding: 0 7rem 0 0;
@@ -498,6 +495,9 @@
     height: inherit;
     width: 100%;
   }
+  .icons-with-heading h2.image-with-text__heading {
+    max-width: 300px;
+  }
 }
 @media (max-width: 750px) {
   .icons-with-text .image-with-text__content {
@@ -505,6 +505,9 @@
   }
   .icons-with-text .image-with-text .grid {
     flex-direction: column-reverse;
+  }
+  .icons-with-heading h2.image-with-text__heading {
+    text-align: center;
   }
 }
 
