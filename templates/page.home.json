@@ -369,6 +369,22 @@
         "padding_top": 92,
         "padding_bottom": 100
       }
+    },
+    "image_banner_8GtawT": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TheBetter_fullwidth.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -378,6 +394,7 @@
     "marquee_DwtCkF",
     "icons_with_heading_LGTiKy",
     "text_with_accordion_QDrBTg",
-    "abbd74b8-ff9e-4498-b253-dbab370e742b"
+    "abbd74b8-ff9e-4498-b253-dbab370e742b",
+    "image_banner_8GtawT"
   ]
 }
