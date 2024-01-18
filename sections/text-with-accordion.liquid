@@ -14,30 +14,31 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  .key-features--section .grid {
+  .key-ingredients--section .grid {
     column-gap: 0;
     align-items: center;
   }
-  .key-features--section .collapsible-content__media {
+  .key-ingredients--section .collapsible-content__media {
     border: none;
   }
-  .key-features--section .collapsible-content__media img {
+  .key-ingredients--section .collapsible-content__media img {
     border-radius: 0;
   }
-  .key-features--section .full-width_left-col {
+  .key-ingredients--section .full-width_left-col {
     margin-left: calc((100vw - var(--page-width) + 0rem) / 2);
     padding-left: 5rem;
     padding-right: 7rem;
   }
-  .key-features--section .collapsible-content__heading {
+  .key-ingredients--section .collapsible-content__heading {
     font-family: 'Staatliches';
     font-weight: 400;
     margin-bottom: 3rem;
+    text-align: left;
   }
-  .key-features--section .collapsible-content__grid-item {
+  .key-ingredients--section .collapsible-content__grid-item {
     position: relative;
   }
-  .key-features--section .collapsible-content__grid-item .banner__content {
+  .key-ingredients--section .collapsible-content__grid-item .banner__content {
     position: absolute;
     max-width: calc((var(--page-width) + 0rem) / 2) !important;
     left: 0;
@@ -45,64 +46,64 @@
     padding-left: 7rem;
     z-index: 1;
   }
-  .key-features--section .collapsible-content__grid-item  .banner__box {
+  .key-ingredients--section .collapsible-content__grid-item  .banner__box {
     background-color: #E3DEB4;
     border: var(--media-border-width) solid #2D2D2D;
   }
-  .key-features--section .collapsible-content__grid-item  .banner__box .banner__text p {
+  .key-ingredients--section .collapsible-content__grid-item  .banner__box .banner__text p {
     color: #7F9686;
     line-height: 1.4;
   }
-  .key-features--section .collapsible-content__grid-item  .banner__box .banner__text p strong {
+  .key-ingredients--section .collapsible-content__grid-item  .banner__box .banner__text p strong {
     color: #2D2D2D;
   }
   @media (min-width: 990px) and (max-width: 1300px) {
-    .key-features--section .full-width_left-col {
+    .key-ingredients--section .full-width_left-col {
       margin-left: 0;
       padding-right: 5rem;
     }
-    .key-features--section .collapsible-content__grid-item .banner__content {
+    .key-ingredients--section .collapsible-content__grid-item .banner__content {
       max-width: inherit !important;
       padding-left: 5rem;
     }
   }
   @media (max-width: 989px) {
-    .key-features--section .collapsible-content__grid--reverse {
+    .key-ingredients--section .collapsible-content__grid--reverse {
       flex-direction: column-reverse;
     }
-    .key-features--section .accordion__grid-item,
-    .key-features--section .collapsible-content__grid-item {
+    .key-ingredients--section .accordion__grid-item,
+    .key-ingredients--section .collapsible-content__grid-item {
       width: 100%;
     }
-    .key-features--section .full-width_left-col {
+    .key-ingredients--section .full-width_left-col {
       margin-left: 0;
       padding-right: 5rem;
     }
-    .key-features--section .collapsible-content__grid-item .banner__content {
+    .key-ingredients--section .collapsible-content__grid-item .banner__content {
       max-width: inherit !important;
       padding-left: 5rem;
     }
-    key-features--section .collapsible-content__media--large {
+    .key-ingredients--section .collapsible-content__media--large {
       height: 50rem;
     }
   }
   @media (max-width: 749px) {
-    .key-features--section .full-width_left-col,
-    .key-features--section .collapsible-content__grid-item .banner__content {
+    .key-ingredients--section .full-width_left-col,
+    .key-ingredients--section .collapsible-content__grid-item .banner__content {
       padding: 0 2rem;
     }
-    .key-features--section .collapsible-content__grid-item .banner__box {
+    .key-ingredients--section .collapsible-content__grid-item .banner__box {
       border-radius: 20px;
     }
   }
   @media (max-width: 599px) {
-    .key-features--section .collapsible-content__media--large {
+    .key-ingredients--section .collapsible-content__media--large {
       height: 75rem;
     }
   }
 {%- endstyle -%}
 
-<div class="key-features--section color-{{ section.settings.color_scheme }} gradient">
+<div class="key-ingredients--section color-{{ section.settings.color_scheme }} gradient">
   <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
     <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
       <div class="{% if section.settings.image == blank %}page-width{% endif %}">
