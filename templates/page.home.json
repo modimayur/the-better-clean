@@ -414,7 +414,7 @@
       ],
       "custom_css": [
         ".rich-text__wrapper {margin: auto; width: 100%;}",
-        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; display: flex; align-items: center; justify-content: space-between; } .rich-text__buttons {justify-content: flex-end; }}"
+        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; display: flex; align-items: center; justify-content: space-between; } .rich-text__buttons {justify-content: flex-end; margin-top: 0; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -422,7 +422,7 @@
         "color_scheme": "",
         "full_width": false,
         "padding_top": 100,
-        "padding_bottom": 60
+        "padding_bottom": 40
       }
     },
     "17055571298d1e6679": {
