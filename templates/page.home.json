@@ -412,11 +412,14 @@
         "heading_7yTji6",
         "button_yYerUy"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; display: flex; align-items: center; justify-content: space-between;}}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 100,
         "padding_bottom": 60
       }
