@@ -418,7 +418,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 100,
-        "padding_bottom": 0
+        "padding_bottom": 60
       }
     },
     "17055571298d1e6679": {
@@ -431,7 +431,7 @@
             "title_color": "",
             "title_size": 0,
             "alignment": "left",
-            "margin_top": 70,
+            "margin_top": 0,
             "margin_bottom": 90,
             "html_area": ""
           }
