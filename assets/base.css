@@ -3757,16 +3757,23 @@ details-disclosure > details {
 /* Insta Feed */
 
 #insta-feed {
-  margin: 0 -10px !important;
+  margin: 0 -15px !important;
 }
 #insta-feed img {
   border-radius: 20px !important;
-  width: calc(100% - 10px) !important;
-  height: calc(100% - 10px) !important;
+  width: calc(100% - 30px) !important;
+  height: calc(100% - 30px) !important;
 }
 @media (max-width: 749px) {
   #insta-feed .instafeed-container {
     width: 50% !important;
     padding-top: 50% !important;
+  }
+  #insta-feed {
+    margin: 0 -10px !important;
+  }
+  #insta-feed img {
+    width: calc(100% - 20px) !important;
+    height: calc(100% - 20px) !important;
   }
 }
