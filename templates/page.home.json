@@ -313,6 +313,9 @@
       ],
       "settings": {
         "heading": "keep it simple with earth conscious sheets",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
+        "button_style_secondary": false,
         "heading_size": "h0",
         "heading_alignment": "left",
         "layout": "none",
