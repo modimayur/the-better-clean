@@ -386,6 +386,41 @@
         "show_text_below": true
       }
     },
+    "rich_text_RXJ6Ap": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7yTji6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Follow us",
+            "heading_size": "h1"
+          }
+        },
+        "button_yYerUy": {
+          "type": "button",
+          "settings": {
+            "button_label": "@thebetterclean_",
+            "button_link": "https:\/\/www.instagram.com\/thebetterclean_\/",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7yTji6",
+        "button_yYerUy"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
     "17055571298d1e6679": {
       "type": "apps",
       "blocks": {
@@ -394,7 +429,10 @@
           "settings": {
             "title": "",
             "title_color": "",
-            "alignment": "center",
+            "title_size": 0,
+            "alignment": "left",
+            "margin_top": 70,
+            "margin_bottom": 90,
             "html_area": ""
           }
         }
@@ -416,6 +454,7 @@
     "text_with_accordion_QDrBTg",
     "abbd74b8-ff9e-4498-b253-dbab370e742b",
     "image_banner_8GtawT",
+    "rich_text_RXJ6Ap",
     "17055571298d1e6679"
   ]
 }
