@@ -3757,7 +3757,6 @@ details-disclosure > details {
 /* Insta Feed */
 
 #insta-feed img {
-  border: var(--media-border-width) solid #2D2D2D;
   border-radius: 20px !important;
 }
 @media (max-width: 749px) {
