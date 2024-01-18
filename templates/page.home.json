@@ -251,36 +251,54 @@
         "collapsible_row_Tpwrbf": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Saponins",
+            "icon": "none",
+            "row_content": "<p>Acts as a solvent and carrier for other ingredients, ensuring product efficacy. <\/p>",
             "page": ""
           }
         },
         "collapsible_row_6ajfVz": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Corn Starch",
+            "icon": "none",
+            "row_content": "<p>Natural thickener that enhances cleaning power<\/p>",
             "page": ""
           }
         },
         "collapsible_row_UrMVjn": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Glyceryl Cocoate",
+            "icon": "none",
+            "row_content": "<p>Derived from coconut oil, enhances cleaning and softness<\/p>",
             "page": ""
           }
         },
         "collapsible_row_VHhXaH": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Protease",
+            "icon": "none",
+            "row_content": "<p>Microbial enzyme for effective stain removal<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hckfJt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Camellia Sinensis Seed Oil",
+            "icon": "none",
+            "row_content": "<p>Adds a conditioning element, sourced from tea plants<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bz6itX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sandalwood Capsule",
+            "icon": "none",
+            "row_content": "<p>Infuses a pleasant sandalwood fragrance<\/p>",
             "page": ""
           }
         }
@@ -289,7 +307,9 @@
         "collapsible_row_Tpwrbf",
         "collapsible_row_6ajfVz",
         "collapsible_row_UrMVjn",
-        "collapsible_row_VHhXaH"
+        "collapsible_row_VHhXaH",
+        "collapsible_row_hckfJt",
+        "collapsible_row_bz6itX"
       ],
       "settings": {
         "heading": "dd",
