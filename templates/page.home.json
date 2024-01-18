@@ -413,7 +413,8 @@
         "button_yYerUy"
       ],
       "custom_css": [
-        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; display: flex; align-items: center; justify-content: space-between;}}"
+        ".rich-text__wrapper {margin: auto; width: 100%;}",
+        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; display: flex; align-items: center; justify-content: space-between; } .rich-text__buttons {justify-content: flex-end; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
