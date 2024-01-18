@@ -312,10 +312,10 @@
         "collapsible_row_bz6itX"
       ],
       "custom_css": [
-        ".h2 strong {color: #2D2D2D;}"
+        ".h2 strong {color: #2d2d2d; font-weight: inherit;}"
       ],
       "settings": {
-        "heading": "keep it simple with earth conscious sheets",
+        "heading": "keep it simple with <strong>earth conscious<\/strong> sheets",
         "button_label": "Shop Now",
         "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
         "button_style_secondary": false,
