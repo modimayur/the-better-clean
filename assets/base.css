@@ -3756,8 +3756,13 @@ details-disclosure > details {
 
 /* Insta Feed */
 
+#insta-feed {
+  margin: 0 -10px !important;
+}
 #insta-feed img {
   border-radius: 20px !important;
+  width: calc(100% - 10px) !important;
+  height: calc(100% - 10px) !important;
 }
 @media (max-width: 749px) {
   #insta-feed .instafeed-container {
