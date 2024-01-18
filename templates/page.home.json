@@ -311,6 +311,9 @@
         "collapsible_row_hckfJt",
         "collapsible_row_bz6itX"
       ],
+      "custom_css": [
+        ".h2 strong {color: #2D2D2D;}"
+      ],
       "settings": {
         "heading": "keep it simple with earth conscious sheets",
         "button_label": "Shop Now",
