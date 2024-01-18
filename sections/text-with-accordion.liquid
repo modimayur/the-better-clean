@@ -214,6 +214,11 @@
                       {{ section.settings.button_label | escape }}
                     </a>
               {%- endif -%}
+              {%- if section.settings.diagram != blank -%}
+                <div class="ingredient-diagram">
+                  <img src="{{ section.settings.diagram.src | img_url: 'original' }}" alt="{{ section.settings.diagram.alt }}" width="{{ section.settings.diagram.width }}" height="{{ section.settings.diagram.height }}">
+                </div>
+              {%- endif -%}
             </div>
             
           </div>
