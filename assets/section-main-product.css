@@ -170,7 +170,7 @@
   border: none;
 }
 .product-form__input .quantity {
-  width: 50%;
+  width: calc(50% - 10px);
 }
 
 variant-radios,
