@@ -3799,8 +3799,12 @@ details-disclosure > details {
   border-radius: var(--inputs-radius) !important;
   background-color: transparent !important;
   border: 2px solid #2D2D2D !important;
+  cursor: pointer;
 }
 .js input:checked + .bsub-widget__group-header {
   border-width: 4px !important;
+}
+.js .bsub-widget__group-header:hover {
+  box-shadow: none;
 }
 
