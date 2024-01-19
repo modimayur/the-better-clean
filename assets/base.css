@@ -3823,3 +3823,6 @@ details-disclosure > details {
 .js .bsub-widget__extra-actions {
   display: none;
 }
+.js .bsub-widget__wrapper fieldset {
+  margin: 0;
+}
