@@ -3795,5 +3795,8 @@ details-disclosure > details {
   font-weight: 500;
   letter-spacing: .06rem;
   line-height: calc(1 + .2 / var(--font-body-scale));
+  min-height: calc(4.4rem + var(--buttons-border-width) * 2);
+  border-radius: var(--inputs-radius);
+  background-color: transparent;
 }
 
