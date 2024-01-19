@@ -3812,7 +3812,7 @@ details-disclosure > details {
 }
 .js .bsub-widget__plan-header {
   padding: 4px 0;
-  cursoer: pointer;
+  cursor: pointer;
 }
 .js input:not(:checked) + .bsub-widget__plan-header:hover {
   background: transparent;
