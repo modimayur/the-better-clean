@@ -85,6 +85,10 @@
         "buy_buttons",
         "29a63aba-567a-419b-bb00-d5cbb7182b7e"
       ],
+      "custom_css": [
+        ".product-form__submit {color: #eddfd2; background-color: #7f9686; border-color: #7f9686;}",
+        ".product-form__submit:after {box-shadow: 0 0 0 4px rgba(127, 150, 134, 1), 0 0 0 var(--buttons-border-width) rgba(var(--color-button), var(--alpha-button-background));}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "accent-2",
