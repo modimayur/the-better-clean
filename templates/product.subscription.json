@@ -24,6 +24,26 @@
             "picker_type": "button"
           }
         },
+        "bold_subscriptions_bsub_widget_block_atnNrW": {
+          "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "settings": {
+            "default_subscribe": true,
+            "primary_color": "#2d2d2d",
+            "secondary_color": "#2d2d2d",
+            "background_color": "#eddfd2",
+            "border_radius": 10,
+            "header_text": "",
+            "one_time_text": "One Time Purchase",
+            "recurring_text": "Subscribe and Save",
+            "discount_summary_text": "",
+            "discount_summary_plural_text": "(Save up to {discount})",
+            "frequency_header": "",
+            "frequency_text": "delivery",
+            "billing_frequency_header": "Billing Frequency",
+            "billing_frequency_text": "Every {count} orders",
+            "prepaid_total_text": "You will be billed {price} today"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -60,6 +80,7 @@
         "price",
         "8bf1ba0b-35ae-40dc-a9a5-c9494726a047",
         "variant_picker",
+        "bold_subscriptions_bsub_widget_block_atnNrW",
         "quantity_selector",
         "buy_buttons",
         "29a63aba-567a-419b-bb00-d5cbb7182b7e"
