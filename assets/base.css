@@ -3817,6 +3817,6 @@ details-disclosure > details {
 .js input:not(:checked) + .bsub-widget__plan-header:hover {
   background: transparent;
 }
-.js .bsub-widget__plan-header .bsub-widget__image circle {
+.js .bsub-widget__plan-header .bsub-widget__image svg circle {
   stroke-opacity: 1;
 }
