@@ -3789,5 +3789,11 @@ details-disclosure > details {
 .js .bsub-widget__group-header .bsub-widget__image {
   display: none;
 }
-
+.js .bsub-widget__group-header {
+  font-family: 'Staatliches';
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: .06rem;
+  line-height: calc(1 + .2 / var(--font-body-scale));
+}
 
