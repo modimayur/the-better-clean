@@ -24,6 +24,11 @@
             "picker_type": "button"
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "bold_subscriptions_bsub_widget_block_atnNrW": {
           "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
           "settings": {
@@ -42,11 +47,6 @@
             "billing_frequency_header": "Billing Frequency",
             "billing_frequency_text": "Every {count} orders",
             "prepaid_total_text": "You will be billed {price} today"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -80,8 +80,8 @@
         "price",
         "8bf1ba0b-35ae-40dc-a9a5-c9494726a047",
         "variant_picker",
-        "bold_subscriptions_bsub_widget_block_atnNrW",
         "quantity_selector",
+        "bold_subscriptions_bsub_widget_block_atnNrW",
         "buy_buttons",
         "29a63aba-567a-419b-bb00-d5cbb7182b7e"
       ],
