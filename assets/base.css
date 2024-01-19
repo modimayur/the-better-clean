@@ -3778,3 +3778,13 @@ details-disclosure > details {
     height: calc(100% - 20px) !important;
   }
 }
+
+/* Subscription Widget */
+
+.js .bsub-widget__wrapper {
+  border-radius: 0;
+  border: none;
+  padding: 0;
+}
+
+
