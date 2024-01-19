@@ -3807,4 +3807,9 @@ details-disclosure > details {
 .js .bsub-widget__group-header:hover {
   box-shadow: none;
 }
-
+.js input:checked + .bsub-widget__plan-header {
+  background: transparent;
+}
+.js .bsub-widget__plan-header {
+  padding: 0;
+}
