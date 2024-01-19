@@ -3824,5 +3824,5 @@ details-disclosure > details {
   display: none;
 }
 .js .bsub-widget__wrapper fieldset {
-  margin: 0;
+  margin: 0 !important;
 }
