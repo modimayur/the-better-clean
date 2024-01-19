@@ -3798,9 +3798,9 @@ details-disclosure > details {
   min-height: calc(4.4rem + var(--buttons-border-width) * 2);
   border-radius: var(--inputs-radius) !important;
   background-color: transparent !important;
-  border: 2px solid #2D2D2D;
+  border: 2px solid #2D2D2D !important;
 }
 .js input:checked + .bsub-widget__group-header {
-  border-width: 4px;
+  border-width: 4px !important;
 }
 
