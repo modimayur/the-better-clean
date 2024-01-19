@@ -3831,3 +3831,12 @@ details-disclosure > details {
 .js .bsub-widget__wrapper fieldset {
   margin: 0 !important;
 }
+@media (max-width: 749px) {
+  .js .bsub-widget__groups-container {
+    flex-direction: column;
+  }
+  .js .bsub-widget__group + .bsub-widget__group {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
