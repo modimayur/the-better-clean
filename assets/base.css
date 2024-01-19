@@ -3786,5 +3786,8 @@ details-disclosure > details {
   border: none;
   padding: 0;
 }
+.js .bsub-widget__group-header .bsub-widget__image {
+  display: none;
+}
 
 
