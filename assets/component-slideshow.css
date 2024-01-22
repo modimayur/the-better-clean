@@ -221,12 +221,20 @@ slideshow-component:not(.page-width) .slider-buttons {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media (min-width: 100px) {
+@media (min-width: 1000px) {
   #testimonial-slider .slideshow__text.banner__box {
     min-height: 440px;
   }
   #testimonial-slider .grid--1-col .grid__item {
    width: 50%; 
+  }
+}
+@media (max-width: 749px) {
+  .slideshow__text img {
+    height: 100%;
+  }
+  .banner__box .banner__heading + * {
+    height: inherit;
   }
 }
 
