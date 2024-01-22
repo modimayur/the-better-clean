@@ -236,5 +236,8 @@ slideshow-component:not(.page-width) .slider-buttons {
   .banner__box .banner__heading + * {
     height: inherit;
   }
+  #testimonial-slider .slideshow__text.banner__box {
+    border-radius: 20px;
+  }
 }
 
