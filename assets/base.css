@@ -3852,3 +3852,6 @@ details-disclosure > details {
   top: -55px;
   right: 0;
 }
+#klaviyo-product-reviews-wrapper.reviews_all_container {
+  padding: 100px 0 !important;
+}
