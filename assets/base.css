@@ -3899,6 +3899,9 @@ details-disclosure > details {
   font-weight: 400 !important;
   color: #D86A48 !important;
 }
+.kl_reviews__summary__stars__count {
+  text-transform: capitalize;
+}
 @media only screen and (max-width: 749px) {
   #klaviyo-product-reviews-wrapper.reviews_all_container {
     padding: 75px 0 !important;
