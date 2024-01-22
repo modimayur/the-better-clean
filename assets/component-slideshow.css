@@ -208,7 +208,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 /* Testimonials */
 
 #testimonial-slider .grid--1-col .grid__item {
- width: 50%; 
+ width: 100%; 
 }
 #testimonial-slider h2.banner__heading {
   padding: 1.5rem 0;
@@ -221,9 +221,12 @@ slideshow-component:not(.page-width) .slider-buttons {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media (min-width: 750px) {
+@media (min-width: 100px) {
   #testimonial-slider .slideshow__text.banner__box {
-    min-height: 400px;
+    min-height: 440px;
+  }
+  #testimonial-slider .grid--1-col .grid__item {
+   width: 50%; 
   }
 }
 
