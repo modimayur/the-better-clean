@@ -3877,7 +3877,8 @@ details-disclosure > details {
   display: flex;
 }
 .kl_reviews__summary__average_and_stars {
-  justify-content: flex-start;
+  justify-content: flex-start !important;
+  margin-bottom: 0 !important;
 }
 .kl_reviews__summary__grid--2-1 > div {
   grid-template-columns: 1fr !important;
