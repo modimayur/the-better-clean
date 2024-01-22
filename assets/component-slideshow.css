@@ -213,7 +213,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 #testimonial-slider h3.image-with-text__heading {
   text-align: center;
-  margin-top: 0;
+  margin-top: 0 20px;
 }
 #testimonial-slider .slideshow__controls {
   border: none;
