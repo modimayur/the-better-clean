@@ -207,6 +207,10 @@ slideshow-component:not(.page-width) .slider-buttons {
 
 /* Testimonials */
 
+#testimonial-slider {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 #testimonial-slider h3.image-with-text__heading {
   text-align: center;
   margin-top: 0;
@@ -237,6 +241,10 @@ slideshow-component:not(.page-width) .slider-buttons {
   }
 }
 @media (max-width: 749px) {
+  #testimonial-slider {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
   .slideshow__text img {
     height: 100%;
   }
