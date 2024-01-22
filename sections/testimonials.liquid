@@ -136,15 +136,14 @@
                 {{ block.settings.heading }}
               </h2>
             {%- endif -%}
-            {%- if block.settings.testimonial != blank -%}
               <div class="banner__text rte" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.testimonial }}</p>
-                <p>
-                  <strong>{{ block.settings.person }}</strong><br>
-                  {{ block.settings.date }}
-                </p>
+                {%- if block.settings.testimonial != blank -%}
+                  <p>{{ block.settings.testimonial }}</p>
+                {%- endif -%}
+                {%- if block.settings.person != blank -%}
+                  <p>{{ block.settings.person }}</p>
+                {%- endif -%}
               </div>
-            {%- endif -%}
           </div>
         </div>
       </div>
