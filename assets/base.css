@@ -3857,8 +3857,8 @@ details-disclosure > details {
 }
 .kl_reviews__summary.kl_reviews__summary.kl_reviews__summary h2 {
   font-family: 'Staatliches' !important;
-  font-weight: 400;
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-weight: 400 !important;
+  font-size: calc(var(--font-heading-scale) * 3rem) !important;
   margin-top: 0 !important;
   border-bottom: none !important;
   padding-bottom: 0 !important;
