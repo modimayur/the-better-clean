@@ -3894,6 +3894,11 @@ details-disclosure > details {
 .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__list__tabs {
   border-width: 4px !important;
 }
+.kl_reviews__summary__average {
+  font-family: 'Staatliches' !important;
+  font-weight: 400 !important;
+  color: #D86A48 !important;
+}
 @media only screen and (max-width: 749px) {
   #klaviyo-product-reviews-wrapper.reviews_all_container {
     padding: 75px 0 !important;
