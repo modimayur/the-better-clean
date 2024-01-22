@@ -3852,6 +3852,16 @@ details-disclosure > details {
   top: -55px;
   right: 0;
 }
+#shopify-block-klaviyo_reviews_average_rating_HKcCt7 .kl_reviews__star_rating_widget.kl_reviews__star_rating_widget.kl_reviews__star_rating_widget {
+  flex-direction: row-reverse;
+}
+#shopify-block-klaviyo_reviews_average_rating_HKcCt7 .kl_reviews__star_rating_widget.kl_reviews__star_rating_widget.kl_reviews__star_rating_widget .kl_reviews__stars_badge {
+  padding-right: 0 !important;
+}
+#shopify-block-klaviyo_reviews_average_rating_HKcCt7 .kl_reviews__star_rating_widget.kl_reviews__star_rating_widget.kl_reviews__star_rating_widget .kl_reviews__star_rating_widget__label {
+  text-transform: capitalize;
+  margin-right: 10px;
+}
 #klaviyo-product-reviews-wrapper.reviews_all_container {
   padding: 100px 0 !important;
 }
