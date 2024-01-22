@@ -3855,3 +3855,16 @@ details-disclosure > details {
 #klaviyo-product-reviews-wrapper.reviews_all_container {
   padding: 100px 0 !important;
 }
+.kl_reviews__summary.kl_reviews__summary.kl_reviews__summary h2 {
+  font-family: 'Staatliches' !important;
+  font-weight: 400;
+  font-size: calc(var(--font-heading-scale) * 3rem);
+  margin-top: 0 !important;
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+@media only screen and (max-width: 749px) {
+  .kl_reviews__summary.kl_reviews__summary.kl_reviews__summary h2 {
+    font-size: calc(var(--font-heading-scale) * 2rem);
+  }
+}
