@@ -216,7 +216,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   margin-top: 0;
 }
 #testimonial-slider .slideshow__controls {
-  border-top: none;
+  border: none;
 }
 #testimonial-slider .grid--1-col .grid__item {
  width: 100%; 
@@ -244,6 +244,9 @@ slideshow-component:not(.page-width) .slider-buttons {
   #testimonial-slider {
     padding-top: 75px;
     padding-bottom: 75px;
+  }
+  #testimonial-slider .slideshow.banner {
+    margin: 3rem 10px;
   }
   .slideshow__text img {
     height: 100%;
