@@ -207,6 +207,9 @@ slideshow-component:not(.page-width) .slider-buttons {
 
 /* Testimonials */
 
+#testimonial-slider .slideshow__controls {
+  border-top: none;
+}
 #testimonial-slider .grid--1-col .grid__item {
  width: 100%; 
 }
