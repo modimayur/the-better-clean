@@ -3873,8 +3873,15 @@ details-disclosure > details {
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
-.kl_reviews__summary__grid--1-2, .kl_reviews__summary__grid--2-1 {
+.kl_reviews__summary__grid--2-1 {
   display: flex;
+}
+.kl_reviews__summary__average_and_stars {
+  justify-content: flex-start;
+}
+.kl_reviews__summary__grid--2-1 > div {
+  grid-template-columns: 1fr !important;
+  max-width: 100% !important;
 }
 @media only screen and (max-width: 749px) {
   #klaviyo-product-reviews-wrapper.reviews_all_container {
