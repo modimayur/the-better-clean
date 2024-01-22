@@ -3867,6 +3867,9 @@ details-disclosure > details {
   display: flex;
 }
 @media only screen and (max-width: 749px) {
+  #klaviyo-product-reviews-wrapper.reviews_all_container {
+    padding: 75px 0 !important;
+  }
   .kl_reviews__summary.kl_reviews__summary.kl_reviews__summary h2 {
     font-size: calc(var(--font-heading-scale) * 2rem);
   }
