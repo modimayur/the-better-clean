@@ -3863,6 +3863,9 @@ details-disclosure > details {
   border-bottom: none !important;
   padding-bottom: 0 !important;
 }
+.kl_reviews__summary__grid--1-2, .kl_reviews__summary__grid--2-1 {
+  display: flex;
+}
 @media only screen and (max-width: 749px) {
   .kl_reviews__summary.kl_reviews__summary.kl_reviews__summary h2 {
     font-size: calc(var(--font-heading-scale) * 2rem);
