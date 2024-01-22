@@ -3840,3 +3840,15 @@ details-disclosure > details {
     margin-top: 1rem;
   }
 }
+
+/* Klaviyo Reviews */
+
+#shopify-block-klaviyo_reviews_average_rating_HKcCt7 {
+  position: relative;
+  margin: 0 !important;
+}
+#shopify-block-klaviyo_reviews_average_rating_HKcCt7 .klaviyo-star-rating-widget {
+  position: absolute;
+  top: -55px;
+  right: 0;
+}
