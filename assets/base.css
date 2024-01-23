@@ -3958,4 +3958,8 @@ details-disclosure > details {
   .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__search input[type=text] {
     width: 100% !important;
   }
+  .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters .kl_reviews__search {
+    width: 100%;
+    display: flex;
+  }
 }
