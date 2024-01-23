@@ -18,8 +18,8 @@
 {% endif %}
 																								
 
-{% stylesheet %}
-  <style>
+
+<style>
       /* Add your styling for the popup here */
       .popup {
           display: none;
@@ -54,11 +54,9 @@
           cursor: pointer;
           font-size: 20px;
       }
-  </style>
-{% endstylesheet %}
+</style>
 
-{% javascript %}
-  <script>
+<script>
       // Function to show the popup with a 3-second delay
       function showPopupWithDelay() {
           setTimeout(function () {
@@ -73,8 +71,7 @@
 
       // Show the popup on page load
       document.addEventListener("DOMContentLoaded", showPopupWithDelay);
-  </script>
-{% endjavascript %}
+</script>
 
 {% schema %}
   {
