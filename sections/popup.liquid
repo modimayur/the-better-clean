@@ -6,7 +6,7 @@
   <div id="popupOverlay" class="newsletter--popup-overlay"></div>
   <div id="myPopup" class="newsletter--popup">
       <div class="color-{{ section.settings.color_scheme }} newsletter--popup-content">
-          <span class="close" onclick="closePopup()">{% render 'icon-close' %}</span>
+          <span class="newsletter--popup-close" onclick="closePopup()">{% render 'icon-close' %}</span>
           <div class="newsletter--popup-columns">
               <div class="newsletter--popup-column newsletter--popup-column-image">
                   <img src="{{ section.settings.image | image_url }}" height="auto" width="auto" loading="lazy">
@@ -179,18 +179,23 @@
       .newsletter--popup-column-content .newsletter-form {
         max-width: none;
       }
+      .newsletter--popup-column-content .newsletter-form__field-wrapper .field {
+        margin-bottom: 15px;
+      }
       .newsletter--popup-column-content .newsletter-form__field-wrapper .subscription--button {
         position: relative;
         right: 0;
         width: 100%;
-        margin-top: 15px;
       }
-      .close {
+      .newsletter--popup-close {
           position: absolute;
-          top: 10px;
-          right: 10px;
+          top: 24px;
+          right: 24px;
           cursor: pointer;
-          font-size: 20px;
+      }
+      .newsletter--popup-close svg {
+        width: 24px;
+        height: 24px;
       }
 </style>
 
