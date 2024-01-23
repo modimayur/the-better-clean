@@ -42,9 +42,9 @@
         "caption_iPV3HK": {
           "type": "caption",
           "settings": {
-            "caption": "Our Belief",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "caption": "Our <strong>Belief<\/strong>",
+            "text_style": "subtitle",
+            "text_size": "large"
           }
         },
         "heading_MxCHWB": {
