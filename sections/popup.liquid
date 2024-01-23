@@ -1,15 +1,15 @@
 <!-- popup.liquid -->
 {% if template == 'article' %}
-  <div id="myPopup" class="popup">
-      <div class="popup-content">
+  <div id="myPopup" class="newsletter--popup">
+      <div class="newsletter--popup-content">
           <span class="close" onclick="closePopup()">&times;</span>
-          <div class="popup-columns">
-              <div class="popup-column">
+          <div class="newsletter--popup-columns">
+              <div class="newsletter--popup-column">
                   {% assign popupImage = 'path/to/your/image.jpg' | asset_url %}
                   <img src="{{ popupImage | img_url: '600x' }}" alt="Image">
               </div>
-              <div class="popup-column">
-                  <p>This is your text content. Customize as needed.</p>
+              <div class="newsletter--popupp-column">
+                  {{ section.settings.custom_liquid }}
               </div>
           </div>
       </div>
@@ -21,7 +21,7 @@
 
 <style>
       /* Add your styling for the popup here */
-      .popup {
+      .newsletter--popup {
           display: none;
           position: fixed;
           top: 50%;
@@ -34,15 +34,15 @@
           max-width: 600px; /* Set a maximum width for the popup */
       }
 
-      .popup-content {
+      .newsletter--popup-content {
           /* Add styles for the popup content */
       }
 
-      .popup-columns {
+      .newsletter--popup-columns {
           display: flex;
       }
 
-      .popup-column {
+      .newsletter--popup-column {
           flex: 1;
           padding: 0 10px;
       }
