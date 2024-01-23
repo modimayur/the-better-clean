@@ -199,6 +199,28 @@
         width: 20px;
         height: 20px;
       }
+      @media (max-width: 749px) {
+        .newsletter--popup {
+          left: calc(50% - 20px);
+          width: calc(100% - 40px);
+        }
+        .newsletter--popup-columns {
+          flex-direction: column-reverse;
+        }
+        .newsletter--popup-column-content {
+          padding: 4rem 25px;
+        }
+        .newsletter--popup-column-content .newsletter-form__field-wrapper .subscription--button {
+          bottom: 0;
+        }
+        .newsletter--popup-column-image {
+          border-right: none;
+          border-top: 4px solid #2D2D2D;
+        }
+        .newsletter--popup-column-image img {
+          height: 55vw;
+        }
+      }
 </style>
 
 <script>
