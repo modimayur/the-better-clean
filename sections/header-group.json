@@ -64,7 +64,8 @@
     "popup_Mc9ccQ": {
       "type": "popup",
       "settings": {
-        "custom_liquid": "",
+        "image": "shopify:\/\/shop_images\/087A6511_2.jpg",
+        "heading": "Ready to <strong>save<\/strong> on laundry?",
         "color_scheme": "inverse"
       }
     }
