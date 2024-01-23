@@ -1,6 +1,6 @@
 <!-- popup.liquid -->
 {% if template == 'article' %}
-  <div id="myPopup-overlay"></div>
+  <div id="popupOverlay" class="newsletter--popup-overlay"></div>
   <div id="myPopup" class="newsletter--popup">
       <div class="color-{{ section.settings.color_scheme }} newsletter--popup-content">
           <span class="close" onclick="closePopup()">&times;</span>
@@ -22,7 +22,7 @@
 
 
 <style>
-      #myPopup-overlay {
+      .newsletter--popup-overlay {
           display: none;
           position: fixed;
           top: 0;
@@ -80,15 +80,20 @@
           // Check if a cookie exists indicating the popup was closed within the last day
           var popupClosedRecently = getCookie("popupClosedRecently");
           if (!popupClosedRecently) {
+              // Show the overlay
+              document.getElementById("popupOverlay").style.display = "block";
+
+              // Show the popup after a 3-second delay
               setTimeout(function () {
                   document.getElementById("myPopup").style.display = "block";
               }, 3000); // 3000 milliseconds = 3 seconds
           }
       }
 
-      // Function to close the popup and set a cookie to prevent it from showing for a day
+      // Function to close the popup and overlay, and set a cookie to prevent it from showing for a day
       function closePopup() {
           document.getElementById("myPopup").style.display = "none";
+          document.getElementById("popupOverlay").style.display = "none";
           // Set a cookie to indicate that the popup was closed recently
           setCookie("popupClosedRecently", "true", 1); // 1 day expiration
       }
