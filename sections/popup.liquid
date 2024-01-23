@@ -16,7 +16,7 @@
                     {{ section.settings.heading }}
                   </h2>
                   <div class="image-with-text__text rte">
-                    <p>{{ section.settings.text }}</p>
+                    {{ section.settings.text }}
                   </div>
 
                   {% form 'customer', class: 'newsletter-form' %}
@@ -113,7 +113,7 @@
           border-radius: 20px;
           z-index: 10000;
           width: 100%;
-          max-width: 1000px; /* Set a maximum width for the popup */
+          max-width: 900px; /* Set a maximum width for the popup */
           overflow: hidden;
       }
       .newsletter--popup-content {
@@ -146,6 +146,9 @@
       .newsletter--popup-column-content h2 strong {
         color: #D86A48;
         font-weight: inherit;
+      }
+      .newsletter--popup-column-content .rte p {
+        margin-bottom: 2rem;
       }
       .newsletter--popup-column-content .newsletter-form {
         max-width: none;
