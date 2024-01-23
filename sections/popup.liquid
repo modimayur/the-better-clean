@@ -232,13 +232,15 @@
 </style>
 
 <script>
-      // Function to show the popup with a 3-second delay
-      function showPopupWithDelay() {
+      // Function to show the overlay and popup with a 3-second delay
+      function showOverlayAndPopupWithDelay() {
           // Check if a cookie exists indicating the popup was closed within the last day
           var popupClosedRecently = getCookie("popupClosedRecently");
           if (!popupClosedRecently) {
-              // Show the overlay
-              document.getElementById("popupOverlay").style.display = "block";
+              // Show the overlay after a 3-second delay
+              setTimeout(function () {
+                  document.getElementById("popupOverlay").style.display = "block";
+              }, 3000); // 3000 milliseconds = 3 seconds
 
               // Show the popup after a 3-second delay
               setTimeout(function () {
@@ -278,8 +280,8 @@
           return null;
       }
 
-      // Show the popup on page load
-      document.addEventListener("DOMContentLoaded", showPopupWithDelay);
+      // Show the overlay and popup on page load
+      document.addEventListener("DOMContentLoaded", showOverlayAndPopupWithDelay);
 </script>
 
 {% schema %}
