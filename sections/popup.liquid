@@ -1,11 +1,9 @@
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
-
 <!-- popup.liquid -->
 {% if template == 'article' %}
   <div id="myPopup" class="newsletter--popup">
       <div class="color-{{ section.settings.color_scheme }} newsletter--popup-content">
           <span class="close" onclick="closePopup()">&times;</span>
-          <div class="newsletter--popup-columns banner__content">
+          <div class="newsletter--popup-columns">
               <div class="newsletter--popup-column">
                   <img src="{{ section.settings.image | image_url }}" height="auto" width="auto" loading="lazy">
               </div>
@@ -46,7 +44,7 @@
       }
 
       .newsletter--popup-column {
-          flex: 1;
+          flex: 0 0 50%;
           padding: 0 10px;
       }
 
