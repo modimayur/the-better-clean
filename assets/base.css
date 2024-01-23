@@ -3907,7 +3907,7 @@ details-disclosure > details {
     padding: 75px 0 !important;
   }
   .kl_reviews__summary.kl_reviews__summary.kl_reviews__summary h2 {
-    font-size: calc(var(--font-heading-scale) * 2rem);
+    font-size: calc(var(--font-heading-scale) * 2rem) !important;
   }
   .kl_reviews__reviews_list.kl_reviews__reviews_list button.kl_reviews__button {
     margin: -20px 0 0 !important;
@@ -3915,5 +3915,18 @@ details-disclosure > details {
   .kl_reviews__reviews_list.kl_reviews__reviews_list button.kl_reviews__button button {
     width: 100% !important;
     text-align: center;
+  }
+  .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters {
+    flex-wrap: nowrap !important;
+    margin-bottom: 40px !important;
+  }
+  .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill svg {
+    right: 10px !important;
+  }
+  kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill select {
+    padding-right: 34px !important;
+  }
+  kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill select#kl_reviews__sort_by_reviews {
+    padding-right: 20px !important;
   }
 }
