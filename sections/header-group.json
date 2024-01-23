@@ -66,6 +66,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/087A6511_2.jpg",
         "heading": "Ready to <strong>save<\/strong> on laundry?",
+        "text": "<p>To celebrate our launch, get 15% off your first purchase when you sign up to our newsletter!<\/p>",
         "color_scheme": "inverse"
       }
     }
