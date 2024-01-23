@@ -3917,12 +3917,18 @@ details-disclosure > details {
 }
 .kl_reviews__review__title {
   order: 2;
+  margin-bottom: 8px !important;
 }
 .kl_reviews__review_item.kl_reviews__review_item.kl_reviews__review_item p.kl_reviews__review__content {
   order: 3;
+  margin-bottom: 10px !important;
 }
 .kl_reviews__review__author {
   order: 4;
+  margin-bottom: 0 !important;
+}
+.kl_reviews__review_item.kl_reviews__review_item.kl_reviews__review_item {
+  padding-bottom: 30px !important;
 }
 @media only screen and (max-width: 749px) {
   #klaviyo-product-reviews-wrapper.reviews_all_container {
