@@ -6,7 +6,7 @@
   <div id="popupOverlay" class="newsletter--popup-overlay"></div>
   <div id="myPopup" class="newsletter--popup">
       <div class="color-{{ section.settings.color_scheme }} newsletter--popup-content">
-          <span class="close" onclick="closePopup()">&times;</span>
+          <span class="close" onclick="closePopup()">{% render 'icon-close' %}</span>
           <div class="newsletter--popup-columns">
               <div class="newsletter--popup-column newsletter--popup-column-image">
                   <img src="{{ section.settings.image | image_url }}" height="auto" width="auto" loading="lazy">
@@ -20,6 +20,31 @@
                   </div>
 
                   {% form 'customer', class: 'newsletter-form' %}
+                  <div class="field">
+                        <input
+                          id="NewsletterForm--{{ section.id }}"
+                          type="name"
+                          name="contact[first_name]"
+                          class="field__input"
+                          value="{{ form.first_name }}"
+                          aria-required="true"
+                          autocorrect="off"
+                          autocapitalize="off"
+                          autocomplete="name"
+                          {% if form.errors %}
+                            autofocus
+                            aria-invalid="true"
+                            aria-describedby="Newsletter-error--{{ section.id }}"
+                          {% elsif form.posted_successfully? %}
+                            aria-describedby="Newsletter-success--{{ section.id }}"
+                          {% endif %}
+                          placeholder="First Name"
+                          required
+                        >
+                        <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                          First Name
+                        </label>
+                    </div>
                     <input type="hidden" name="contact[tags]" value="newsletter">
                     <div
                       class="newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
@@ -78,7 +103,7 @@
                         autofocus
                       >
                         {% render 'icon-success' -%}
-                        {{- 'newsletter.success' | t }}
+                        Thanks for signing up, we have emailed you your discount code!
                       </h3>
                     {%- endif -%}
                   {% endform %}
