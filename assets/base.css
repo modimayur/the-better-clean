@@ -3939,8 +3939,6 @@ details-disclosure > details {
   }
   .kl_reviews__reviews_list.kl_reviews__reviews_list button.kl_reviews__button {
     margin: -20px 0 0 !important;
-  }
-  .kl_reviews__reviews_list.kl_reviews__reviews_list button.kl_reviews__button button {
     width: 100% !important;
     text-align: center;
   }
