@@ -30,9 +30,8 @@
           transform: translate(-50%, -50%);
           border: 1px solid #ccc;
           padding: 20px;
-          background: #fff;
           z-index: 1000;
-          max-width: 600px; /* Set a maximum width for the popup */
+          max-width: 1000px; /* Set a maximum width for the popup */
       }
 
       .newsletter--popup-content {
@@ -47,7 +46,11 @@
           flex: 0 0 50%;
           padding: 0 10px;
       }
-
+      .newsletter--popup-column img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
       .close {
           position: absolute;
           top: 10px;
