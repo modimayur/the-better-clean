@@ -52,16 +52,16 @@
                         <label class="field__label" for="NewsletterForm--{{ section.id }}">
                           {{ 'newsletter.label' | t }}
                         </label>
-                        <button
+                      </div>
+                      <button
                           type="submit"
                           class="subscribe__button subscription--button"
                           name="commit"
                           id="Subscribe"
                           aria-label="{{ 'newsletter.button_label' | t }}"
                         >
-                          Subscribe
-                        </button>
-                      </div>
+                          Get 15% Off
+                      </button>
                       {%- if form.errors -%}
                         <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
                           {%- render 'icon-error' -%}
@@ -146,6 +146,12 @@
       .newsletter--popup-column-content h2 strong {
         color: #D86A48;
         font-weight: inherit;
+      }
+      .newsletter--popup-column-content .newsletter-form {
+        max-width: none;
+      }
+      .newsletter--popup-column-content {
+        
       }
       .close {
           position: absolute;
