@@ -564,7 +564,7 @@
     max-width: 480px;
     height: 100%;
   }
-  .overflow-image-with-text .image-with-text__media img {
+  .overflow-image-with-text .image-with-text__grid--reverse .image-with-text__media img {
     width: 50vw;
     max-width: 550px;
   }
