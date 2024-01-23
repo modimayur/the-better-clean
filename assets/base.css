@@ -3930,6 +3930,9 @@ details-disclosure > details {
 .kl_reviews__review_item.kl_reviews__review_item.kl_reviews__review_item {
   padding-bottom: 30px !important;
 }
+.kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters {
+  margin-bottom: 40px !important;
+}
 @media only screen and (max-width: 749px) {
   #klaviyo-product-reviews-wrapper.reviews_all_container {
     padding: 75px 0 !important;
@@ -3944,7 +3947,6 @@ details-disclosure > details {
   }
   .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters {
     flex-wrap: nowrap !important;
-    margin-bottom: 40px !important;
   }
   .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill svg {
     right: 10px !important;
