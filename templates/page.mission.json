@@ -43,7 +43,7 @@
           "type": "caption",
           "settings": {
             "caption": "Our Belief",
-            "text_style": "subtitle",
+            "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
         },
@@ -75,6 +75,9 @@
         "heading_MxCHWB",
         "text_pKR7CP",
         "button_cYzKtx"
+      ],
+      "custom_css": [
+        ".image-with-text__text--caption strong {color: #2d2d2d; font-weight: var(--font-body-weight);}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TheBetter_MissionBeliefShape.png",
