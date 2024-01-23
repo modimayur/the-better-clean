@@ -3909,4 +3909,11 @@ details-disclosure > details {
   .kl_reviews__summary.kl_reviews__summary.kl_reviews__summary h2 {
     font-size: calc(var(--font-heading-scale) * 2rem);
   }
+  .kl_reviews__reviews_list.kl_reviews__reviews_list button.kl_reviews__button {
+    margin: -20px 0 0 !important;
+  }
+  .kl_reviews__reviews_list.kl_reviews__reviews_list button.kl_reviews__button button {
+    width: 100% !important;
+    text-align: center;
+  }
 }
