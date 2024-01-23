@@ -3962,4 +3962,7 @@ details-disclosure > details {
     width: 100%;
     display: flex;
   }
+  #shopify-block-klaviyo_reviews_average_rating_HKcCt7 .klaviyo-star-rating-widget {
+    top: -48px;
+  }
 }
