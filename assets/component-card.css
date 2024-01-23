@@ -145,6 +145,9 @@
 }
 
 .card__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   grid-row-start: 2;
   padding: 1.3rem 1rem;
 }
@@ -479,4 +482,14 @@
   .grid__item:nth-child(8n) .product-card-wrapper:hover .shape--blob {
     clip-path: polygon(var(--shape--blob-5));
   }
+}
+
+/* Reviews */
+
+.product-card-wrapper .kl_reviews__star_rating_widget.kl_reviews__star_rating_widget.kl_reviews__star_rating_widget .kl_reviews__star_rating_widget__label {
+  display: none;
+}
+.product-card-wrapper .kl_reviews__star_rating_widget.kl_reviews__star_rating_widget.kl_reviews__star_rating_widget svg {
+  width: 12px !important;
+  height: 12px !important;
 }
