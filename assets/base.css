@@ -3949,10 +3949,13 @@ details-disclosure > details {
   .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill svg {
     right: 10px !important;
   }
-  kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill select {
+  .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill select {
     padding-right: 34px !important;
   }
-  kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill select#kl_reviews__sort_by_reviews {
+  .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__filters__pill select#kl_reviews__sort_by_reviews {
     padding-right: 20px !important;
+  }
+  .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__search input[type=text] {
+    width: 100% !important;
   }
 }
