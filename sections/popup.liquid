@@ -5,11 +5,12 @@
           <span class="close" onclick="closePopup()">&times;</span>
           <div class="newsletter--popup-columns">
               <div class="newsletter--popup-column">
-                  {% assign popupImage = 'path/to/your/image.jpg' | asset_url %}
-                  <img src="{{ popupImage | img_url: '600x' }}" alt="Image">
+                  <img src="{{ section.settings.image | image_url }}" height="auto" width="auto" loading="lazy">
               </div>
               <div class="newsletter--popupp-column">
-                  {{ section.settings.custom_liquid }}
+                  <h2 class="image-with-text__heading inline-richtext h3">
+                    {{ section.settings.heading }}
+                  </h2>
               </div>
           </div>
       </div>
@@ -112,10 +113,15 @@
   },
   "settings": [
     {
-      "type": "liquid",
-      "id": "custom_liquid",
-      "label": "t:sections.custom-liquid.settings.custom_liquid.label",
-      "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Subscribe Now",
+      "label": "Heading"
     },
     {
       "type": "color_scheme",
