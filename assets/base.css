@@ -3906,7 +3906,23 @@ details-disclosure > details {
   font-weight: 500 !important;
 }
 .kl_reviews__review_item.kl_reviews__review_item.kl_reviews__review_item {
-  border-bottom: 4px solid var(--kl-reviews-reviews-primary-font-color);
+  border-bottom: 4px solid var(--kl-reviews-reviews-primary-font-color) !important;
+}
+.kl_reviews__review_item.kl_reviews__review_item.kl_reviews__review_item > div {
+  display: flex;
+  flex-direction: column;
+}
+.kl_reviews__review_stars_and_time {
+  order: 1;
+}
+.kl_reviews__review__title {
+  order: 2;
+}
+.kl_reviews__review_item.kl_reviews__review_item.kl_reviews__review_item p.kl_reviews__review__content {
+  order: 3;
+}
+.kl_reviews__review__author {
+  order: 4;
 }
 @media only screen and (max-width: 749px) {
   #klaviyo-product-reviews-wrapper.reviews_all_container {
