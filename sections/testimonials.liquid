@@ -36,7 +36,7 @@
   <h3 class="image-with-text__heading inline-richtext h1">
       Don’t just take our word
   </h3>
-  <div class="testimonial-slider" id="testimonial-slider">
+  <div class="testimonial-slider slideshow banner" id="testimonial-slider">
     {%- for block in section.blocks -%}
       <div class="slideshow__slide slider__slide">
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }}{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
