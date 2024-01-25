@@ -303,18 +303,6 @@
     },
     "1706182336fa8a9dae": {
       "type": "apps",
-      "blocks": {
-        "klaviyo_reviews_featured_reviews_carousel_3iTi4z": {
-          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/featured-reviews-carousel\/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {
-            "heading": "Featured Reviews Carousel",
-            "description": "This widget displays all of your \"featured\" reviews. You can feature published reviews in Klaviyo.com\/reviews. This widget looks best with at least three featured reviews and will not display when no reviews are featured."
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_reviews_featured_reviews_carousel_3iTi4z"
-      ],
       "settings": {
         "include_margins": true
       }
