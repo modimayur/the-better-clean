@@ -219,6 +219,9 @@ slideshow-component:not(.page-width) .slider-buttons {
       display: flex;
       flex-direction: column;
     }
+    .testimonial-slider-section .h1 {
+      margin: 0 0 3rem;
+    }
     @media screen and (max-width: 749px) {
       .testimonial-slider-section {
         padding-top: 75px;
