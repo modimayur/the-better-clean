@@ -66,28 +66,28 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer="defer"></script>
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="defer"></script>
-    
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-  $(document).ready(function(){
-    $('#testimonial-slider').slick({
-      infinite: true,
-      slidesToShow: 2, // Show two slides
-      slidesToScroll: 1,
-      dots: true,
-      centerMode: true, // Enable center mode
-      centerPadding: '0', // No padding when centered
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
+    $(document).ready(function(){
+      $('#testimonial-slider').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        dots: true,
+        centerMode: true,
+        centerPadding: '0',
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1,
+            }
           }
-        }
-      ]
+        ]
+      });
     });
   });
-      });
 </script>
 
 {%- if request.design_mode -%}
