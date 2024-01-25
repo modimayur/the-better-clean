@@ -33,6 +33,22 @@
   
 </style>
 
+{% javascript %}
+  <script>
+    // Assuming 'myElement' is your custom element using shadow DOM
+    const myElement = document.querySelector('ss-testimonials-carousel');
+
+    // Access the shadow DOM
+    const shadowRoot = ss-testimonials-carousel.shadowRoot;
+
+    // Now you can interact with elements inside the shadow DOM
+    const h2Element = shadowRoot.querySelector('h2');
+    if (h2Element) {
+      h2Element.style.color = 'red';
+    }
+  </script>
+{% endjavascript %}
+
 <div style="background-color:{{ section.settings.background-color }}; position: relative;">
 <div
   class="section-{{ section.id }}-padding"
