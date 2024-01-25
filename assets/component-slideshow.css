@@ -219,7 +219,13 @@ slideshow-component:not(.page-width) .slider-buttons {
   border: none;
 }
 #testimonial-slider .grid--1-col .grid__item {
- width: 100%; 
+  width: 100%;
+  flex: 0 0 calc(50% - 10px);
+  opacity: 0.7;
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+#testimonial-slider .grid--1-col .grid__item.slick-center {
+  opacity: 1;
 }
 #testimonial-slider h2.banner__heading {
   padding: 1.5rem 0;
@@ -235,9 +241,6 @@ slideshow-component:not(.page-width) .slider-buttons {
 @media (min-width: 1000px) {
   #testimonial-slider .slideshow__text.banner__box {
     min-height: 440px;
-  }
-  #testimonial-slider .grid--1-col .grid__item {
-   width: 50%; 
   }
 }
 @media (max-width: 749px) {
