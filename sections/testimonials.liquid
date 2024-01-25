@@ -9,25 +9,14 @@
         padding-top: 75px;
         padding-bottom: 75px;
       }
-      #Slider-{{ section.id }}::before,
-      #Slider-{{ section.id }} .media::before,
-      #Slider-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
-        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
-        display: block;
-      }
+      
     }
     @media screen and (min-width: 750px) {
-      #testimonial-slider {
+      .testimonial-slider-section {
         padding-top: 100px;
         padding-bottom: 100px;
       }
-      #Slider-{{ section.id }}::before,
-      #Slider-{{ section.id }} .media::before {
-        padding-bottom: {{ 1 | divided_by: section.blocks.first.settings.image.aspect_ratio | times: 100 }}%;
-        content: '';
-        display: block;
-      }
+      
     }
   {%- endstyle -%}
 {%- endif -%}
