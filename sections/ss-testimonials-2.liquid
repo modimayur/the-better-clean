@@ -64,7 +64,7 @@
     )()
   </script>
   </div>
-    <ss-testimonials-carousel
+    <ss-testimonials-carousel class="testimonial-carousel-overide"
       heading="{{ section.settings.heading }}"
       {% assign autoplay_delay_in_ms = section.settings.autoplay_delay | times: 1000 | round: 0 %}
       autoplayDelay="{{ autoplay_delay_in_ms }}"
