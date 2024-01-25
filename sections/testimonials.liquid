@@ -63,7 +63,12 @@
   </div>
 </div>
 
-{% javascript %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer="defer"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="defer"></script>
+    
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
   $(document).ready(function(){
     $('#testimonial-slider').slick({
       infinite: true,
@@ -82,7 +87,8 @@
       ]
     });
   });
-{% endjavascript %}
+      });
+</script>
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
