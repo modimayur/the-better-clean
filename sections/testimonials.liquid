@@ -55,14 +55,16 @@
   </div>
 </div>
 
+{{ 'jquery.min.js' | asset_url | script_tag }}
+{{ 'slick.min.js' | asset_url | script_tag }}
+
 {% javascript %}
-  {{ 'slick.min.js' | asset_url | script_tag }}
   $(document).ready(function(){
     $('#testimonial-slider').slick({
       infinite: true,
-      slidesToShow: 1, // Adjust the number of slides to show
+      slidesToShow: 1,
       slidesToScroll: 1,
-      dots: true, // Enable pagination dots
+      dots: true,
       responsive: [
         {
           breakpoint: 768,
@@ -71,7 +73,6 @@
           }
         }
       ]
-      // Add any additional options or styling here
     });
   });
 {% endjavascript %}
