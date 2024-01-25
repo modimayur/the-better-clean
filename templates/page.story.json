@@ -49,7 +49,7 @@
         "text_pKR7CP": {
           "type": "text",
           "settings": {
-            "text": "<p>Everyone deserves a Better way to clean. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text": "<p>Everyone deserves a Better way to clean,  and we are determined<br\/>to create products that are better for you than traditional brands. <br\/>No waste, no harsh chemicals and no big price tag.<\/p>",
             "text_style": "body"
           }
         },
@@ -69,8 +69,6 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TheBetter_StoryByronShape.png",
-        "stretch": "full",
-        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
