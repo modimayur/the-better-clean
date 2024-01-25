@@ -167,13 +167,13 @@
     }
     h2 {
       color: {{section.settings.header_color}} !important;
-      font-size: calc(0.85 * var(--testimonials-heading-font-size, 30px));
+      font-size: 18px;
       text-align: var(--title-align, center);
       margin: 0 0 20px;
     }
     @media screen and (min-width: 750px) {
       h2 {
-        font-size: var(--testimonials-heading-font-size, 30px);
+        font-size: 32px;
       }
     }
     .swiper {
@@ -187,6 +187,7 @@
       z-index: 1;
       opacity: 1;
     }
+    .swiper-slide-prev,
     .swiper-slide-next {
       opacity: 0.5;
     }
@@ -244,7 +245,7 @@
       </div>
     `}};G.styles=Je`
     p {
-      font-size: calc(0.85 * var(--testimonials-p-font-size, 18px));
+      font-size: 14px;
       margin: 0;
       padding: 0 0px 1rem;
       font-weight: 800;
@@ -252,7 +253,7 @@
     cite {
       font-weight: 400;
       font-style: normal;
-      font-size: calc(0.85 * var(--testimonials-author-font-size, 18px));
+      font-size: 14px;
     }
     .info {
       font-size: calc(0.85 * var(--testimonials-info-font-size, 16px));
@@ -260,10 +261,10 @@
     }
     @media screen and (min-width: 750px) {
       p {
-        font-size: var(--testimonials-p-font-size, 18px);
+        font-size: 18px;
       }
       cite {
-        font-size: var(--testimonials-author-font-size, 18px);
+        font-size: 18px;
       }
       .info {
         font-size: var(--testimonials-info-font-size, 16px);
