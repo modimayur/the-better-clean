@@ -207,7 +207,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 
 /* Testimonials */
 
-#testimonial-slider {
+/* #testimonial-slider {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -222,7 +222,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   width: 100%;
   flex: 0 0 calc(50% - 10px);
   opacity: 0.7;
-  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+  transition: opacity 0.3s ease;
 }
 #testimonial-slider .grid--1-col .grid__item[aria-hidden="false"] {
   opacity: 1;
@@ -260,5 +260,5 @@ slideshow-component:not(.page-width) .slider-buttons {
   #testimonial-slider .slideshow__text.banner__box {
     border-radius: 20px;
   }
-}
+} */
 
