@@ -2,8 +2,8 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
-{%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
-  {%- style -%}
+
+{%- style -%}
     .testimonial-slider__slide {
       border: 4px solid black;
       min-height: 450px;
@@ -16,7 +16,6 @@
         padding-top: 75px;
         padding-bottom: 75px;
       }
-      
     }
     @media screen and (min-width: 750px) {
       .testimonial-slider-section {
@@ -25,8 +24,7 @@
       }
       
     }
-  {%- endstyle -%}
-{%- endif -%}
+{%- endstyle -%}
 
 <div class="testimonial-slider-section">
   <h3 class="image-with-text__heading inline-richtext h1" style="text-align: center;">
