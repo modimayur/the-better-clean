@@ -119,11 +119,12 @@
   .footer-block:first-child {
     width: inherit;
     flex: 1;
+    padding-right: 20px;
   }
   .footer-block.footer-block--menu {
     width: inherit;
     flex: none;
-    padding: 0 20px;
+    padding-right: 35px;
   }
   .footer-block.footer-block--newsletter {
     width: inherit;
