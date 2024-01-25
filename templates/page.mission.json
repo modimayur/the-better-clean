@@ -294,12 +294,18 @@
         "slide_69CYnx",
         "slide_U3NWe7"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "layout": "full_bleed"
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "ss_testimonials_2_MK7Bcw": {
@@ -359,7 +365,7 @@
         "card_Ctk4gT"
       ],
       "custom_css": [
-        ".card {padding: 4rem 3rem !important; box-shadow: none !important; border: 4px solid #2D2D2D !important; }"
+        ".card {padding: 4rem 3rem !important; box-shadow: none !important; border: 4px solid #2d2d2d !important;}"
       ],
       "settings": {
         "heading": "Don’t just take our word",
