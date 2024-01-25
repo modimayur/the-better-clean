@@ -166,7 +166,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 4rem;
 }
 .social-contact-flex .list-menu__item--link {
   font-family: 'Staatliches';
