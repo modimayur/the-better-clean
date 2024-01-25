@@ -178,6 +178,10 @@
   .footer-block.footer-block--menu:only-child {
     text-align: left;
   }
+  .social-contact-flex {
+    margin-top: 0;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 750px) {
