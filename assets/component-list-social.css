@@ -15,14 +15,14 @@
 }
 
 .list-social__item .icon {
-  height: 3rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 .list-social__link {
   align-items: center;
   display: flex;
-  padding: 1rem;
+  padding: 0.8rem;
   color: var(--gradient-background);
   background: rgb(var(--color-foreground));
   border-radius: 50%;
