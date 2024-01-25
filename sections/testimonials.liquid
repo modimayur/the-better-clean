@@ -67,33 +67,25 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer="defer"></script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    // Wait for the section to be fully loaded
-    document.addEventListener('section_loaded', function(event) {
-      // Check if the loaded section is your testimonial slider
-      if (event.detail.sectionId === 'testimonial-slider-section') {
-        // Initialize Slick Carousel
-        $('#testimonial-slider').slick({
-          infinite: true,
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          dots: true,
-          centerMode: true,
-          centerPadding: '0',
-          responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 1,
-              }
-            }
-          ]
-        });
-      }
+{% javascript %}
+  $(document).ready(function(){
+    $('#testimonial-slider').slick({
+      infinite: true,
+      slidesToShow: 1, // Adjust the number of slides to show
+      slidesToScroll: 1,
+      dots: true, // Enable pagination dots
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1
+          }
+        }
+      ]
+      // Add any additional options or styling here
     });
   });
-</script>
+{% endjavascript %}
 
 {%- if request.design_mode -%}
   <script src="{{ 'theme-editor.js' | asset_url }}" defer="defer"></script>
