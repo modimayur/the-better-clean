@@ -207,6 +207,28 @@ slideshow-component:not(.page-width) .slider-buttons {
 
 /* Testimonials */
 
+.testimonial-slider__slide {
+  border: 4px solid black;
+  min-height: 450px;
+    }
+    .testimonial-slider__slide-wrapper {
+      padding: 3rem;
+    }
+    .testimonial-slider__slide .h1 {
+      margin: 0 0 40px;
+    }
+    @media screen and (max-width: 749px) {
+      .testimonial-slider-section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+      }
+    }
+    @media screen and (min-width: 750px) {
+      .testimonial-slider-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }     
+}
 /* #testimonial-slider {
   padding-top: 100px;
   padding-bottom: 100px;
