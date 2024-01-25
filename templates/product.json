@@ -1,1 +1,437 @@
-{"sections":{"main":{"type":"main-product","blocks":{"vendor":{"type":"text","settings":{"text":"{{ product.vendor }}","text_style":"uppercase"}},"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button"}},"quantity_selector":{"type":"quantity_selector","settings":{}},"buy_buttons":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true,"show_gift_card_recipient":true}},"description":{"type":"description","settings":{}},"share":{"type":"share","settings":{"share_label":"Share"}}},"block_order":["vendor","title","price","variant_picker","quantity_selector","buy_buttons","description","share"],"settings":{"enable_sticky_info":true,"color_scheme":"background-1","media_size":"medium","constrain_to_viewport":true,"media_fit":"contain","gallery_layout":"stacked","media_position":"left","image_zoom":"lightbox","mobile_thumbnails":"hide","hide_variants":false,"enable_video_looping":false,"padding_top":24,"padding_bottom":24}},"related-products":{"type":"related-products","settings":{"heading":"You may also like","heading_size":"h2","products_to_show":4,"columns_desktop":4,"color_scheme":"background-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":68}}},"order":["main","related-products"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "klaviyo_reviews_average_rating_HKcCt7": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "8bf1ba0b-35ae-40dc-a9a5-c9494726a047": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "bold_subscriptions_bsub_widget_block_atnNrW": {
+          "type": "shopify:\/\/apps\/bold-subscriptions\/blocks\/bsub-widget-block\/9ceb49f0-5fe5-4b5e-943d-f8af8985167d",
+          "settings": {
+            "default_subscribe": false,
+            "primary_color": "#2d2d2d",
+            "secondary_color": "#2d2d2d",
+            "background_color": "#eddfd2",
+            "border_radius": 10,
+            "header_text": "",
+            "one_time_text": "One Time Purchase",
+            "recurring_text": "Subscribe and Save",
+            "discount_summary_text": "",
+            "discount_summary_plural_text": "(Save up to {discount})",
+            "frequency_header": "",
+            "frequency_text": "delivery",
+            "billing_frequency_header": "Billing Frequency",
+            "billing_frequency_text": "Every {count} orders",
+            "prepaid_total_text": "You will be billed {price} today"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "29a63aba-567a-419b-bb00-d5cbb7182b7e": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify:\/\/shop_images\/Group_41.svg",
+            "heading_1": "Plant-based formula",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/Group_42.svg",
+            "heading_2": "Biodegradable EU OECD 301B",
+            "icon_3": "truck",
+            "image_3": "shopify:\/\/shop_images\/Group_43.svg",
+            "heading_3": "Septic & grey water friendly",
+            "icon_4": "truck",
+            "image_4": "shopify:\/\/shop_images\/Group_44.svg",
+            "heading_4": "Minimal suds for a max clean"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "klaviyo_reviews_average_rating_HKcCt7",
+        "8bf1ba0b-35ae-40dc-a9a5-c9494726a047",
+        "variant_picker",
+        "quantity_selector",
+        "bold_subscriptions_bsub_widget_block_atnNrW",
+        "buy_buttons",
+        "29a63aba-567a-419b-bb00-d5cbb7182b7e"
+      ],
+      "custom_css": [
+        ".product-form__submit {color: #eddfd2; background-color: #7f9686; border-color: #7f9686;}",
+        ".product-form__submit:after {box-shadow: 0 0 0 4px rgba(127, 150, 134, 1), 0 0 0 var(--buttons-border-width) rgba(127, 150, 134, 1);}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "accent-2",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 84,
+        "padding_bottom": 100
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 68
+      }
+    },
+    "01f81044-966f-4a70-9409-0a3efd92f9db": {
+      "type": "key-features",
+      "blocks": {
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.short_description.value }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How to Use",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.directions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Storage Instructions",
+            "icon": "none",
+            "row_content": "<p>{{ product.metafields.custom.storage_instructions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-1",
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-2",
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-3",
+        "template--16971171397884__01f81044-966f-4a70-9409-0a3efd92f9db-collapsible_row-4"
+      ],
+      "settings": {
+        "heading": "Key Features",
+        "text": "<strong>100% Aussie<\/strong> owned and operated, The Better was born in Byron Bay by two mates dedicated to reshaping everyday cleaning. Our shared vision? Crafting <strong>plant-based<\/strong> household essentials that don't compromise on <strong>affordability<\/strong>, the <strong>environment<\/strong>, or <strong>hygiene<\/strong>.",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "accent-1",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image": "shopify:\/\/shop_images\/nadia-rudenko-N0zYX-8L8uY-unsplash_1_1.jpg",
+        "image_ratio": "large",
+        "desktop_layout": "image_second",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "2f978ded-5a95-493a-88ee-15b597ec12e1": {
+      "type": "compare-table",
+      "blocks": {
+        "476e5938-d284-4793-9129-bbacb0449bb8": {
+          "type": "text_block",
+          "settings": {
+            "column-title": ".",
+            "column-title-sz": 20,
+            "column-title-color": "#eddfd2",
+            "column-title-txt-color": "#7f9686",
+            "column-mostpopular": "",
+            "text-1": "Cost of 80 standard washes",
+            "text-2": "Cost per wash",
+            "text-3": "365 standard washes",
+            "text-4": "No harsh chemicals",
+            "text-5": "Waste free packaging",
+            "text-6": "Certified biodegradable",
+            "text-7": "30 day money back",
+            "text-8": "",
+            "text-9": "",
+            "column-color": "#eddfd2",
+            "column-txt-color": "#7f9686",
+            "column-txt-sz": 18,
+            "color_price_txt": ""
+          }
+        },
+        "21d7ac42-1d61-4dad-9743-fc37e54b5ae2": {
+          "type": "text_block",
+          "settings": {
+            "column-title": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Logo-Table.svg\">",
+            "column-title-sz": 20,
+            "column-title-color": "#7f9686",
+            "column-title-txt-color": "#eddfd2",
+            "column-mostpopular": "",
+            "text-1": "$34.99",
+            "text-2": "$0.43",
+            "text-3": "$156.95",
+            "text-4": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Tick.svg\">",
+            "text-5": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Tick.svg\">",
+            "text-6": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Tick.svg\">",
+            "text-7": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Tick.svg\">",
+            "text-8": "",
+            "text-9": "",
+            "column-color": "#7f9686",
+            "column-txt-color": "#eddfd2",
+            "column-txt-sz": 18,
+            "color_price_txt": ""
+          }
+        },
+        "7e557103-27a1-4d0e-b404-ecf3c3028d51": {
+          "type": "text_block",
+          "settings": {
+            "column-title": "Regular Brand",
+            "column-title-sz": 20,
+            "column-title-color": "#eddfd2",
+            "column-title-txt-color": "#7f9686",
+            "column-mostpopular": "",
+            "text-1": "$48.00",
+            "text-2": "$0.60",
+            "text-3": "$219.00",
+            "text-4": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Cross.svg\">",
+            "text-5": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Cross.svg\">",
+            "text-6": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Cross.svg\">",
+            "text-7": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Cross.svg\">",
+            "text-8": "",
+            "text-9": "",
+            "column-color": "#eddfd2",
+            "column-txt-color": "#7f9686",
+            "column-txt-sz": 18,
+            "color_price_txt": ""
+          }
+        }
+      },
+      "block_order": [
+        "476e5938-d284-4793-9129-bbacb0449bb8",
+        "21d7ac42-1d61-4dad-9743-fc37e54b5ae2",
+        "7e557103-27a1-4d0e-b404-ecf3c3028d51"
+      ],
+      "settings": {
+        "pricing-visibility": "showboth",
+        "price-title": "<strong>Save<\/strong> more than <strong>$63.00<\/strong> per year with The Better",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "41e24763-cd54-41d8-93c7-bf5258465c37": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-1.jpg",
+            "title": "Step 1",
+            "text": "<p>Choose if you need a full or half sheet. Tear sheet in half for loads up to 5kg.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-2.jpg",
+            "title": "Step 2",
+            "text": "<p>Place the sheet in the drum of your washing machine, or fold and place into the detergent dispenser.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/TheBetter_How-To-Use-3.jpg",
+            "title": "Step 3",
+            "text": "<p>Select the cycle you need, and sit back and wait for our Laundry Detergent Sheets to work their magic.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-1",
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-2",
+        "template--16971171397884__41e24763-cd54-41d8-93c7-bf5258465c37-column-3"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {justify-content: center;}"
+      ],
+      "settings": {
+        "title": "How to use?",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "inverse",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    },
+    "1705929506f1fee517": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_bHEbGy": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_bHEbGy"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "7dc885c6-92d4-4bfe-96c8-b80ac23beb45": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Many Sheets Should I Use Per Wash?",
+            "icon": "none",
+            "row_content": "<p>Generally, half a sheet is designed for a standard 5kg load. For larger loads or heavily soiled items we advise using a whole sheet. It's always a good practice to follow the instructions on the packaging for optimal performance.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What Ingredients Do You Use?",
+            "icon": "none",
+            "row_content": "<p>Our laundry detergent sheets combine plant-based surfactants, enzymes, and glycerin for effective cleaning and fabric conditioning. Citric acid aids in pH adjustment and water softening. Natural fragrances offer a pleasing scent, and biodegradable starch ensures sheet stability. Thoughtfully crafted, our formula prioritises both cleaning efficacy and environmental consciousness.<\/p>",
+            "page": ""
+          }
+        },
+        "91ab2f41-5a2c-4c14-8e8a-13dd6af37ffb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How Do Laundry Sheets Work?",
+            "icon": "none",
+            "row_content": "<p>Our laundry sheets utilise simple cleaning technology. The sheets dissolve in water, releasing powerful cleaning agents and enzymes that target stains and dirt, leaving your clothes fresh and clean.<\/p>",
+            "page": ""
+          }
+        },
+        "6e03b8f1-e4ed-4639-9864-123c33abf1f0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Your Detergent Sheets Certified Biodegradable?",
+            "icon": "none",
+            "row_content": "<p>100%! Our laundry sheets hold OECD-301B certification, a globally recognized standard for chemical testing. Following these guidelines, we've conducted a thorough assessment of biodegradability over 28 days in an aerobic environment. This certification assures that our laundry sheets dissolve and biodegrade swiftly and cleanly, meeting rigorous international safety standards.<\/p>",
+            "page": ""
+          }
+        },
+        "e9f0533e-2152-4403-90a8-585ba65fd97e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are Laundry Detergent Sheets Safe for Wool, Silk, and Delicates?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! Our detergent sheets are formulated to be gentle yet effective. They are safe for use on all fabrics, including wool, silk, and delicate items. You can trust our sheets to care for your clothes.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-1",
+        "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-2",
+        "91ab2f41-5a2c-4c14-8e8a-13dd6af37ffb",
+        "6e03b8f1-e4ed-4639-9864-123c33abf1f0",
+        "e9f0533e-2152-4403-90a8-585ba65fd97e"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "inverse",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 92,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "01f81044-966f-4a70-9409-0a3efd92f9db",
+    "2f978ded-5a95-493a-88ee-15b597ec12e1",
+    "41e24763-cd54-41d8-93c7-bf5258465c37",
+    "1705929506f1fee517",
+    "7dc885c6-92d4-4bfe-96c8-b80ac23beb45"
+  ]
+}
