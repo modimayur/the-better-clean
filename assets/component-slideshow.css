@@ -207,7 +207,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 
 /* Testimonials */
 
-    .testimonial-slider {
+    /* .testimonial-slider {
       height: inherit;
     }
     .testimonial-slider__slide {
@@ -233,7 +233,7 @@ slideshow-component:not(.page-width) .slider-buttons {
         padding-top: 100px;
         padding-bottom: 100px;
       }   
-    }
+    } */
 
 /* #testimonial-slider {
   padding-top: 100px;
