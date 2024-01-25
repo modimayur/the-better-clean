@@ -122,7 +122,8 @@
   }
   .footer-block.footer-block--menu {
     width: inherit;
-    flex: 0 0 240px;
+    flex: none;
+    padding-right: 35px;
   }
   .footer-block.footer-block--newsletter {
     width: inherit;
