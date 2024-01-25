@@ -339,7 +339,7 @@
         "card_L9XdE4"
       ],
       "settings": {
-        "heading": "Testimonials",
+        "heading": "Don’t just take our word",
         "title_align": "center",
         "text_align": "center",
         "autoplay_delay": 5,
@@ -350,10 +350,10 @@
         "info_font_size": 17,
         "image_size": 65,
         "image_border_radius": 50,
-        "text_color": "#000000",
-        "background-color": "#f9f9f9",
-        "card_color": "#FFFFFF",
-        "header_color": "#000000",
+        "text_color": "#2d2d2d",
+        "background-color": "#eddfd2",
+        "card_color": "#eddfd2",
+        "header_color": "#2d2d2d",
         "padding_top": 36,
         "padding_bottom": 36,
         "padding_x": 0,
