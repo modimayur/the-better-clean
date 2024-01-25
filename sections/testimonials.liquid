@@ -59,6 +59,7 @@
 </div>
 
 {% javascript %}
+  {{ 'slick.min.js' | asset_url | script_tag }}
   $(document).ready(function(){
     $('#testimonial-slider').slick({
       infinite: true,
