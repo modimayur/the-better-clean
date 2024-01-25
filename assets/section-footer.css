@@ -124,11 +124,11 @@
   .footer-block.footer-block--menu {
     width: inherit;
     flex: none;
-    padding-right: 35px;
+    padding-right: 30px;
   }
   .footer-block.footer-block--newsletter {
     width: inherit;
-    flex: 0 0 340px;
+    flex: 0 0 360px;
   }
 }
 
@@ -161,6 +161,15 @@
   font-weight: var(--font-body-weight);
   letter-spacing: .06rem;
 } */
+
+.social-contact-flex {
+  display: flex;
+}
+.social-contact-flex .list-menu__item--link {
+  font-family: 'Staatliches';
+  font-weight: var(--font-body-weight);
+  letter-spacing: .06rem;
+}
 
 @media screen and (max-width: 749px) {
   .footer-block.footer-block--menu:only-child {
