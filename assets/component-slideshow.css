@@ -235,7 +235,7 @@ slideshow-component:not(.page-width) .slider-buttons {
       }   
     } */
 
-/* #testimonial-slider {
+#testimonial-slider {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -288,5 +288,5 @@ slideshow-component:not(.page-width) .slider-buttons {
   #testimonial-slider .slideshow__text.banner__box {
     border-radius: 20px;
   }
-} */
+}
 
