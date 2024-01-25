@@ -4,6 +4,13 @@
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
+    .testimonial-slider__slide {
+      border: 4px solid black;
+      min-height: 450px;
+    }
+    .testimonial-slider__slide-wrapper {
+      padding: 3rem;
+    }
     @media screen and (max-width: 749px) {
       .testimonial-slider-section {
         padding-top: 75px;
@@ -27,9 +34,9 @@
   </h3>
   <div class="testimonial-slider slideshow banner" id="testimonial-slider">
     {%- for block in section.blocks -%}
-      <div class="slideshow__slide slider__slide">
-        <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }}{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
-          <div class="slideshow__text color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }}">
+      <div class="testimonial-slider__slide">
+        <div class="testimonial-slider__slide-wrapper color-{{ block.settings.color_scheme }}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+
             <img src="https://cdn.shopify.com/s/files/1/0672/2296/2428/files/TheBetter_TestimonialStars.svg" width="180px" height="100%">
             {%- if block.settings.heading != blank -%}
               <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
@@ -44,7 +51,7 @@
                 <p>{{ block.settings.person }}</p>
               {%- endif -%}
             </div>
-          </div>
+
         </div>
       </div>
     {%- endfor -%}
