@@ -4,12 +4,17 @@
 
 
 {%- style -%}
+    .testimonial-slider {
+      height: inherit;
+    }
     .testimonial-slider__slide {
       border: 4px solid black;
       min-height: 450px;
     }
     .testimonial-slider__slide-wrapper {
       padding: 3rem;
+      display: flex;
+      flex-direction: column;
     }
     @media screen and (max-width: 749px) {
       .testimonial-slider-section {
@@ -66,7 +71,8 @@
       slidesToScroll: 1,
       dots: true,
       centerMode: true,
-      centerPadding: '0',  // Adjust this value as needed
+      centerPadding: '0',
+      initialSlide: 0,  // Set the index of the slide you want to be centered on page load
       responsive: [
         {
           breakpoint: 768,
