@@ -224,7 +224,7 @@ slideshow-component:not(.page-width) .slider-buttons {
   opacity: 0.7;
   transition: opacity 0.3s ease; /* Add a smooth transition effect */
 }
-#testimonial-slider .grid--1-col .grid__item.slick-center {
+#testimonial-slider .grid--1-col .grid__item.active {
   opacity: 1;
 }
 #testimonial-slider h2.banner__heading {
