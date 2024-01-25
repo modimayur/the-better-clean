@@ -70,27 +70,19 @@
   $(document).ready(function(){
     $('#testimonial-slider').slick({
       infinite: true,
-      slidesToShow: 2,
+      slidesToShow: 2, // Show two slides
       slidesToScroll: 1,
       dots: true,
-      centerMode: true,
-      centerPadding: '0', // Adjust the centerPadding value as needed
-      initialSlide: 1,  // Set half of slidesToShow for the initial centered slide
-      swipeToSlide: true, // Allow dragging the slider on touch devices
-      draggable: true, // Make the slider draggable
+      centerMode: true, // Enable center mode
+      centerPadding: '0', // No padding when centered
       responsive: [
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 1
+            slidesToShow: 1,
           }
         }
       ]
-    });
-
-    // Center the active slide on page load
-    $('#testimonial-slider').on('setPosition', function () {
-      $(this).slick('slickGoTo', Math.floor($(this).slick('slickCurrentSlide')));
     });
   });
 {% endjavascript %}
