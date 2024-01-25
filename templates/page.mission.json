@@ -298,14 +298,25 @@
 
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "layout": "full_bleed"
+      }
+    },
+    "1706182336fa8a9dae": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_featured_reviews_carousel_3iTi4z": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/featured-reviews-carousel\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "heading": "Featured Reviews Carousel",
+            "description": "This widget displays all of your \"featured\" reviews. You can feature published reviews in Klaviyo.com\/reviews. This widget looks best with at least three featured reviews and will not display when no reviews are featured."
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_featured_reviews_carousel_3iTi4z"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
@@ -315,6 +326,7 @@
     "overflow_image_with_text_xihJGi",
     "marquee_DwtCkF",
     "image_with_text_XzTaCq",
-    "testimonials_GkHhUN"
+    "testimonials_GkHhUN",
+    "1706182336fa8a9dae"
   ]
 }
