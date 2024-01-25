@@ -128,7 +128,7 @@
   }
   .footer-block.footer-block--newsletter {
     width: inherit;
-    flex: 0 0 380px;
+    flex: 0 0 360px;
   }
 }
 
@@ -164,6 +164,9 @@
 
 .social-contact-flex {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
 }
 .social-contact-flex .list-menu__item--link {
   font-family: 'Staatliches';
