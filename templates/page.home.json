@@ -21,7 +21,7 @@
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Now",
+            "button_label": "Pre-Order Now",
             "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
             "button_style_secondary": false
           }
@@ -32,12 +32,10 @@
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-text-1",
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-button-1"
       ],
-      "custom_css": [
-        ".video-background-hero .image-with-text__media {display: none;}"
-      ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/12f1c495db284c3da68fcb377ccb92ee.mp4",
         "video_overlay_opacity": 70,
+        "image": "shopify:\/\/shop_images\/TheBetter_Laundry-Detergent-Sheets_1.jpg",
         "stretch": "container",
         "height": "adapt",
         "desktop_image_width": "small",
@@ -53,284 +51,48 @@
         "padding_bottom": 100
       }
     },
-    "product_with_text_QHWJXn": {
-      "type": "product-with-text",
-      "blocks": {
-        "heading_iCzr7G": {
-          "type": "heading",
-          "settings": {
-            "heading": "Explore Our\u2028Cleaning <strong>Products<\/strong>",
-            "heading_size": "h2"
-          }
-        },
-        "text_Ew6zQP": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We champion affordable, plant-based and zero waste products that won't break the bank, because you shouldn’t have to choose between eco-friendly and budget-friendly.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_CBL66f": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_iCzr7G",
-        "text_Ew6zQP",
-        "button_CBL66f"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "product": "laundry-detergent-sheets",
-        "second_image": true,
-        "stretch": "container",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "background-2",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "overflow_image_with_text_cAG38A": {
-      "type": "overflow-image-with-text",
-      "blocks": {
-        "caption_8VejVa": {
-          "type": "caption",
-          "settings": {
-            "caption": "<strong>ABOUT<\/strong> THE BETTER",
-            "text_style": "subtitle",
-            "text_size": "large"
-          }
-        },
-        "heading_kqphK3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Life’s complicated. Washing shouldn’t be.",
-            "heading_size": "h1"
-          }
-        },
-        "text_L7MAbd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Born in Byron Bay, The Better has been created by two mates dedicated to reshaping everyday cleaning. Our shared vision? Crafting plant-based household essentials that don't compromise on affordability, the environment, or hygiene. <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_aHCpNK": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/our-story",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "caption_8VejVa",
-        "heading_kqphK3",
-        "text_L7MAbd",
-        "button_aHCpNK"
-      ],
-      "custom_css": [
-        ".image-with-text__text--caption strong {color: #2d2d2d; font-weight: var(--font-body-weight);}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/TheBetter_storyhomepage.png",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 80
-      }
-    },
-    "marquee_DwtCkF": {
+    "8d334ab4-a871-4f17-8b62-be3103b25bac": {
       "type": "marquee",
       "blocks": {
-        "text_yPP8kT": {
+        "template--16967081165052__8d334ab4-a871-4f17-8b62-be3103b25bac-text-1": {
           "type": "text",
           "settings": {
-            "marquee_text": "<strong>Our Mission<\/strong>"
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
           }
         },
-        "text_gQaPC9": {
+        "2e1971d6-0747-43f7-aa38-2766e244b629": {
           "type": "text",
           "settings": {
-            "marquee_text": "top-notch quality"
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
           }
         },
-        "text_NghrMA": {
+        "9c29e356-9a32-4485-b789-361068b997f0": {
           "type": "text",
           "settings": {
-            "marquee_text": "Minimal enviromentatl impact"
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
           }
         },
-        "text_ziUziz": {
+        "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936": {
           "type": "text",
           "settings": {
-            "marquee_text": "simplicity"
+            "marquee_text": "Laundry Detergent Sheets <strong>Pre-Order Now<\/strong>"
           }
         }
       },
       "block_order": [
-        "text_yPP8kT",
-        "text_gQaPC9",
-        "text_NghrMA",
-        "text_ziUziz"
+        "template--16967081165052__8d334ab4-a871-4f17-8b62-be3103b25bac-text-1",
+        "2e1971d6-0747-43f7-aa38-2766e244b629",
+        "9c29e356-9a32-4485-b789-361068b997f0",
+        "f5a7c7e9-54f2-4f5c-810c-5fd58d1c0936"
       ],
       "custom_css": [
-        ".scrolling-text span strong {font-weight: inherit; color: #2d2d2d;}"
+        ".scrolling-text span strong {color: #2d2d2d; padding-left: 10px;}"
       ],
       "settings": {
-        "speed": 20,
+        "speed": 40,
         "pause_on_hover": true,
         "color_background_main": "#e3deb4",
-        "color_text_main": "rgba(0,0,0,0)"
-      }
-    },
-    "icons_with_heading_LGTiKy": {
-      "type": "icons-with-heading",
-      "blocks": {
-        "heading_aFJnq7": {
-          "type": "heading",
-          "settings": {
-            "heading": "Why choose\u2028The Better?",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_aFJnq7"
-      ],
-      "settings": {
-        "icon_1": "shopify:\/\/shop_images\/TheBetter_WhyIcon1.svg",
-        "icon_heading_1": "Plant-based formula",
-        "icon_2": "shopify:\/\/shop_images\/TheBetter_WhyIcon2.svg",
-        "icon_heading_2": "Biodegradable\u2028EU OECD 301B",
-        "icon_3": "shopify:\/\/shop_images\/TheBetter_WhyIcon3.svg",
-        "icon_heading_3": "cost-effective washing solution",
-        "icon_4": "shopify:\/\/shop_images\/TheBetter_WhyIcon4.svg",
-        "icon_heading_4": "money back guarantee",
-        "stretch": "container",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "accent-1",
-        "color_scheme": "accent-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "text_with_accordion_QDrBTg": {
-      "type": "text-with-accordion",
-      "blocks": {
-        "collapsible_row_Tpwrbf": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Saponins",
-            "icon": "none",
-            "row_content": "<p>Acts as a solvent and carrier for other ingredients, ensuring product efficacy. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_6ajfVz": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Corn Starch",
-            "icon": "none",
-            "row_content": "<p>Natural thickener that enhances cleaning power<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_UrMVjn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Glyceryl Cocoate",
-            "icon": "none",
-            "row_content": "<p>Derived from coconut oil, enhances cleaning and softness<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_VHhXaH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Protease",
-            "icon": "none",
-            "row_content": "<p>Microbial enzyme for effective stain removal<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_hckfJt": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Camellia Sinensis Seed Oil",
-            "icon": "none",
-            "row_content": "<p>Adds a conditioning element, sourced from tea plants<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_bz6itX": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Sandalwood Capsule",
-            "icon": "none",
-            "row_content": "<p>Infuses a pleasant sandalwood fragrance<\/p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_Tpwrbf",
-        "collapsible_row_6ajfVz",
-        "collapsible_row_UrMVjn",
-        "collapsible_row_VHhXaH",
-        "collapsible_row_hckfJt",
-        "collapsible_row_bz6itX"
-      ],
-      "custom_css": [
-        ".h2 strong {color: #2d2d2d; font-weight: inherit;}"
-      ],
-      "settings": {
-        "heading": "keep it simple with <strong>earth conscious<\/strong> sheets",
-        "button_label": "Shop Now",
-        "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
-        "button_style_secondary": false,
-        "heading_size": "h0",
-        "diagram": "shopify:\/\/shop_images\/TheBetter_ProductDiagram.png",
-        "heading_alignment": "left",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image": "shopify:\/\/shop_images\/nadia-rudenko-N0zYX-8L8uY-unsplash_1_1.jpg",
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "color_text_main": "#7f9686"
       }
     },
     "abbd74b8-ff9e-4498-b253-dbab370e742b": {
@@ -361,105 +123,19 @@
         "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1"
       ],
       "custom_css": [
-        "h2 strong {color: #d86a48;}"
+        "h2 strong {color: #7f9686;}"
       ],
       "settings": {
-        "color_scheme": "inverse",
+        "color_scheme": "scheme-78dba0c7-7ced-47a1-b611-7a2d3ccaf909",
         "full_width": true,
         "padding_top": 92,
         "padding_bottom": 100
-      }
-    },
-    "image_banner_8GtawT": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/TheBetter_fullwidth.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_RXJ6Ap": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_7yTji6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Follow us",
-            "heading_size": "h1"
-          }
-        },
-        "button_yYerUy": {
-          "type": "button",
-          "settings": {
-            "button_label": "@thebetterclean_",
-            "button_link": "https:\/\/www.instagram.com\/thebetterclean_\/",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_7yTji6",
-        "button_yYerUy"
-      ],
-      "custom_css": [
-        ".rich-text__wrapper {margin: auto; width: 100%;}",
-        "@media screen and (min-width: 990px) {.rich-text__blocks {max-width: 100%; display: flex; align-items: center; justify-content: space-between; } .rich-text__buttons {justify-content: flex-end; margin-top: 0; }}",
-        ".button--primary {margin-bottom: 0;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": false,
-        "padding_top": 100,
-        "padding_bottom": 60
-      }
-    },
-    "17055571298d1e6679": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_HWE7wi": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size": 0,
-            "alignment": "left",
-            "margin_top": 0,
-            "margin_bottom": 90,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_HWE7wi"
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
   "order": [
     "58c2e787-6e85-4e09-b2a2-aad339cf0031",
-    "product_with_text_QHWJXn",
-    "overflow_image_with_text_cAG38A",
-    "marquee_DwtCkF",
-    "icons_with_heading_LGTiKy",
-    "text_with_accordion_QDrBTg",
-    "abbd74b8-ff9e-4498-b253-dbab370e742b",
-    "image_banner_8GtawT",
-    "rich_text_RXJ6Ap",
-    "17055571298d1e6679"
+    "8d334ab4-a871-4f17-8b62-be3103b25bac",
+    "abbd74b8-ff9e-4498-b253-dbab370e742b"
   ]
 }
