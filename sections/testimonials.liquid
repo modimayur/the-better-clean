@@ -87,6 +87,11 @@
         }
       ]
     });
+
+    // Center the active slide on page load
+    $('#testimonial-slider').on('setPosition', function () {
+      $(this).slick('slickGoTo', Math.floor($(this).slick('slickCurrentSlide')));
+    });
   });
 {% endjavascript %}
 
