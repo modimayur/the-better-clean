@@ -22,15 +22,15 @@
         "243992c3-cf5e-4b16-809a-66f92b890a6c": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "Shop",
+            "menu": "footer-shop"
           }
         },
         "link_list_nQMgpW": {
           "type": "link_list",
           "settings": {
             "heading": "Learn",
-            "menu": "footer"
+            "menu": "footer-learn"
           }
         }
       },
