@@ -218,17 +218,14 @@
  * SPDX-License-Identifier: BSD-3-Clause
  */class we extends Gi{constructor(t){if(super(t),this.et=A,t.type!==Bi.CHILD)throw Error(this.constructor.directiveName+"() can only be used in child bindings")}render(t){if(t===A||t==null)return this.vt=void 0,this.et=t;if(t===F)return t;if(typeof t!="string")throw Error(this.constructor.directiveName+"() called with a non-string value");if(t===this.et)return this.vt;this.et=t;const s=[t];return s.raw=s,this.vt={_$litType$:this.constructor.resultType,strings:s,values:[]}}}we.directiveName="unsafeHTML",we.resultType=1;const Ri=Hi(we);var Vi=Object.defineProperty,ji=Object.getOwnPropertyDescriptor,J=(e,t,s,i)=>{for(var n=i>1?void 0:i?ji(t,s):t,r=e.length-1,a;r>=0;r--)(a=e[r])&&(n=(i?a(t,s,n):a(n))||n);return i&&n&&Vi(t,s,n),n};let G=class extends Y{constructor(){super(...arguments),this.icon="",this.heading="Add customer reviews and testimonials to showcase your store’s happy customers.",this.image="",this.author="Author's name",this.info="Los Angeles, CA"}iconTemplate(){switch(this.icon){case"quote":return j`
           <div>
-            <svg
+            <svg 
               aria-hidden="true"
               focusable="false"
               role="presentation"
               class="quote-icon"
-              viewBox="0 0 41 35"
+              viewBox="0 0 37 35"
             >
-              <path
-                d="M10.208 17.711h6.124v16.332H0V21.684C0 8.184 5.444.956 16.332 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766Zm24.498 0h6.124v16.332H24.498V21.684C24.498 8.184 29.942.956 40.83 0v6.125c-4.083 1.14-6.124 4.414-6.124 9.82v1.766Z"
-                fill-rule="evenodd"
-              ></path>
+            <path d="M17.0412 0.773269C17.2715 0.299802 17.7541 0 18.2806 0C18.8089 0 19.2897 0.299802 19.52 0.773269C21.3005 4.42573 24.3644 10.7179 24.3644 10.7179C24.3644 10.7179 31.3311 11.6758 35.3729 12.2334C36.1096 12.3339 36.5612 12.9573 36.5612 13.5989C36.5612 13.9463 36.4296 14.2991 36.1389 14.5788C33.1957 17.3903 28.1283 22.2402 28.1283 22.2402C28.1283 22.2402 29.3659 29.1265 30.0825 33.1208C30.2343 33.9653 29.5798 34.7331 28.7261 34.7331C28.5031 34.7331 28.2801 34.6801 28.0772 34.5704C24.4795 32.6546 18.2806 29.3586 18.2806 29.3586C18.2806 29.3586 12.0816 32.6546 8.48402 34.5704C8.28111 34.6801 8.05626 34.7331 7.83323 34.7331C6.98318 34.7331 6.32508 33.9635 6.47864 33.1208C7.19707 29.1265 8.43466 22.2402 8.43466 22.2402C8.43466 22.2402 3.36546 17.3903 0.42411 14.5788C0.13162 14.2991 0 13.9463 0 13.6008C0 12.9573 0.455187 12.3321 1.19007 12.2334C5.2319 11.6758 12.1968 10.7179 12.1968 10.7179C12.1968 10.7179 15.2625 4.42573 17.0412 0.773269Z" fill="#D86A48"/>
             </svg>
           </div>
         `;case"5 stars":case"4 stars":case"3 stars":case"2 stars":case"1 star":const e="★".repeat(parseInt(this.icon));return j` <span class="testimonial-stars">${e}</span> `;default:return j``}}render(){return j`
