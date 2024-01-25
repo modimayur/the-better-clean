@@ -209,9 +209,9 @@
         "slide_k79DGU": {
           "type": "slide",
           "settings": {
-            "heading": "These sheets effortlessly leave my clothes smelling delightful, impeccably clean, and without any residue (it even removed turmeric!). I cannot express enough how highly I recommend this product.",
+            "heading": "They even removed tumeric!",
             "heading_size": "h3",
-            "testimonial": "",
+            "testimonial": "These sheets effortlessly leave my clothes smelling delightful, impeccably clean, and without any residue (it even removed turmeric!). I cannot express enough how highly I recommend this product.",
             "person": "Casey M",
             "date": "",
             "box_align": "middle-center",
@@ -225,9 +225,9 @@
         "slide_maQATA": {
           "type": "slide",
           "settings": {
-            "heading": "For me, stain removal and freshness are vital and with the added bonus of \" the better\" sheets being environmentally friendly I feel I've hit the jackpot!",
+            "heading": "Great for stain removal",
             "heading_size": "h3",
-            "testimonial": "",
+            "testimonial": "For me, stain removal and freshness are vital and with the added bonus of \" the better\" sheets being environmentally friendly I feel I've hit the jackpot!",
             "person": "Sue D",
             "date": "",
             "box_align": "middle-center",
@@ -241,10 +241,42 @@
         "slide_xjFyi6": {
           "type": "slide",
           "settings": {
-            "heading": "I struggled with finding laundry sheets that actually work, and these sheets do! They remove tough stains, smell good and don't leave any residue.",
+            "heading": "These sheets actually work",
             "heading_size": "h3",
-            "testimonial": "",
+            "testimonial": "I struggled with finding laundry sheets that actually work, and these sheets do! They remove tough stains, smell good and don't leave any residue.",
             "person": "Gordon P",
+            "date": "",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_69CYnx": {
+          "type": "slide",
+          "settings": {
+            "heading": "They’ve made laundry day hassle-free",
+            "heading_size": "h3",
+            "testimonial": "I can’t recommend these laundry sheets enough. They’ve made laundry day hassle-free – no mess, no fuss. The convenience of throwing in a sheet and enjoying an amazing fragrance is a game-changer. My clothes have never smelled this good nor been this clean and fresh! Definitely a must for anyone looking to change over to an eco friendly laundry routine!",
+            "person": "Tahlia J",
+            "date": "",
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_U3NWe7": {
+          "type": "slide",
+          "settings": {
+            "heading": "Getting way more washes!",
+            "heading_size": "h3",
+            "testimonial": "Absolutely loving the washing sheets from The Better Clean. Since switching I am spending much less, getting way more washes and no more messy powder or liquid through my laundry. Also much easier to know how much to use. Plus the design actually looks good in my house. So happy I made the switch. Plant power!!! ",
+            "person": "Tammy S",
             "date": "",
             "box_align": "middle-center",
             "show_text_box": true,
@@ -258,7 +290,9 @@
       "block_order": [
         "slide_k79DGU",
         "slide_maQATA",
-        "slide_xjFyi6"
+        "slide_xjFyi6",
+        "slide_69CYnx",
+        "slide_U3NWe7"
       ],
       "custom_css": [
 
