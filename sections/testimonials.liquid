@@ -69,23 +69,28 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    $(document).ready(function(){
-      $('#testimonial-slider').slick({
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        dots: true,
-        centerMode: true,
-        centerPadding: '0',
-        responsive: [
-          {
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 1,
+    // Wait for the section to be fully loaded
+    document.addEventListener('section_loaded', function(event) {
+      // Check if the loaded section is your testimonial slider
+      if (event.detail.sectionId === 'testimonial-slider-section') {
+        // Initialize Slick Carousel
+        $('#testimonial-slider').slick({
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: true,
+          centerMode: true,
+          centerPadding: '0',
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+              }
             }
-          }
-        ]
-      });
+          ]
+        });
+      }
     });
   });
 </script>
