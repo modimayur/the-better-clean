@@ -175,10 +175,14 @@
       h2 {
         font-size: calc(var(--font-heading-scale) * 4rem);
       }
+      .swiper {
+        padding: 20px 20px 60px;
+        margin: 0 -25vw;
+      }
     }
     .swiper {
-      padding: 20px 20px 60px;
-      margin: 0 -25vw !important;
+      padding: 20px 0px 60px;
+      margin: 0px;
     }
     .swiper-wrapper {
       align-items: center;
@@ -198,10 +202,12 @@
       transform: scale(1);
     }
     .swiper-pagination-bullet {
-      --swiper-pagination-bullet-size: 8px;
+      --swiper-pagination-bullet-size: 10px;
+      opacity: 0.75;
     }
     .swiper-pagination-bullet.swiper-pagination-bullet-active {
-      --swiper-pagination-bullet-size: 12px;
+      --swiper-pagination-bullet-size: 10px;
+      opacity: 1;
     }
     .swiper-pagination {
       display: flex;
