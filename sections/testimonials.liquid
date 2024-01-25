@@ -62,9 +62,11 @@
   $(document).ready(function(){
     $('#testimonial-slider').slick({
       infinite: true,
-      slidesToShow: 1,
+      slidesToShow: 2,  // Adjust the number of slides to show
       slidesToScroll: 1,
       dots: true,
+      centerMode: true,  // Enable center mode
+      centerPadding: '0',  // Adjust the spacing of non-active slides
       responsive: [
         {
           breakpoint: 768,
