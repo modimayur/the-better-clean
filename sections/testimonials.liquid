@@ -38,20 +38,24 @@
   </h3>
   <div class="testimonial-slider" id="testimonial-slider">
     {%- for block in section.blocks -%}
-      <div class="slideshow__text color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }}">
-        <img src="https://cdn.shopify.com/s/files/1/0672/2296/2428/files/TheBetter_TestimonialStars.svg" width="180px" height="100%">
-        {%- if block.settings.heading != blank -%}
-          <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
-            {{ block.settings.heading }}
-          </h2>
-        {%- endif -%}
-        <div class="banner__text rte" {{ block.shopify_attributes }}>
-          {%- if block.settings.testimonial != blank -%}
-            <p>{{ block.settings.testimonial }}</p>
-          {%- endif -%}
-          {%- if block.settings.person != blank -%}
-            <p>{{ block.settings.person }}</p>
-          {%- endif -%}
+      <div class="slideshow__slide slider__slide">
+        <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }}{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+          <div class="slideshow__text color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }}">
+            <img src="https://cdn.shopify.com/s/files/1/0672/2296/2428/files/TheBetter_TestimonialStars.svg" width="180px" height="100%">
+            {%- if block.settings.heading != blank -%}
+              <h2 class="banner__heading inline-richtext {{ block.settings.heading_size }}">
+                {{ block.settings.heading }}
+              </h2>
+            {%- endif -%}
+            <div class="banner__text rte" {{ block.shopify_attributes }}>
+              {%- if block.settings.testimonial != blank -%}
+                <p>{{ block.settings.testimonial }}</p>
+              {%- endif -%}
+              {%- if block.settings.person != blank -%}
+                <p>{{ block.settings.person }}</p>
+              {%- endif -%}
+            </div>
+          </div>
         </div>
       </div>
     {%- endfor -%}
