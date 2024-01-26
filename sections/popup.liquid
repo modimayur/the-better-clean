@@ -2,7 +2,7 @@
 {{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
 
 <!-- popup.liquid -->
-{% if template == 'article' %}
+
   <div id="popupOverlay" class="newsletter--popup-overlay"></div>
   <div id="myPopup" class="newsletter--popup">
       <div class="color-{{ section.settings.color_scheme }} newsletter--popup-content">
@@ -113,7 +113,6 @@
       </div>
   </div>
 
-{% endif %}
 																								
 
 
