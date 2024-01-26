@@ -33,7 +33,8 @@
         "template--16967081165052__58c2e787-6e85-4e09-b2a2-aad339cf0031-button-1"
       ],
       "custom_css": [
-        ".video-background-hero .image-with-text__media {display: none;}"
+        ".video-background-hero .image-with-text__media {display: none;}",
+        "@media (max-width: 750px) {.button--primary {margin-bottom: 0;}}"
       ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/12f1c495db284c3da68fcb377ccb92ee.mp4",
