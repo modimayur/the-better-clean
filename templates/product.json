@@ -400,6 +400,15 @@
             "row_content": "<p>Absolutely! Our detergent sheets are formulated to be gentle yet effective. They are safe for use on all fabrics, including wool, silk, and delicate items. You can trust our sheets to care for your clothes.<\/p>",
             "page": ""
           }
+        },
+        "collapsible_row_pp8LxV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "30 Day Money Back Guarantee",
+            "icon": "none",
+            "row_content": "<p>We are sure you are going to love our detergent. But just in case, we have a money back guarantee. Our 30-Day Money Back Guarantee only applies on your first purchase order of a single box. It is not available on subscriptions or bundles.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -407,7 +416,8 @@
         "template--16971171397884__7dc885c6-92d4-4bfe-96c8-b80ac23beb45-collapsible_row-2",
         "91ab2f41-5a2c-4c14-8e8a-13dd6af37ffb",
         "6e03b8f1-e4ed-4639-9864-123c33abf1f0",
-        "e9f0533e-2152-4403-90a8-585ba65fd97e"
+        "e9f0533e-2152-4403-90a8-585ba65fd97e",
+        "collapsible_row_pp8LxV"
       ],
       "settings": {
         "caption": "",
