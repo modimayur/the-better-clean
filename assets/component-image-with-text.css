@@ -520,6 +520,9 @@
   .icons-with-heading .icon-with-text--horizontal .icon-with-text__item .h6.icon-title {
     max-width: 125px;
   }
+  .icons-with-heading h2.image-with-text__heading {
+    text-align: center;
+  }
 }
 
 .image-with-text__text--caption.subtitle--large {
