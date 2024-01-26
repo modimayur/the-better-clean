@@ -250,9 +250,9 @@
             "column-title-color": "#eddfd2",
             "column-title-txt-color": "#7f9686",
             "column-mostpopular": "",
-            "text-1": "$48.00",
-            "text-2": "$0.60",
-            "text-3": "$219.00",
+            "text-1": "$58.00",
+            "text-2": "$0.70",
+            "text-3": "$270.00",
             "text-4": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Cross.svg\">",
             "text-5": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Cross.svg\">",
             "text-6": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Cross.svg\">",
@@ -273,7 +273,7 @@
       ],
       "settings": {
         "pricing-visibility": "showboth",
-        "price-title": "<strong>Save<\/strong> more than <strong>$63.00<\/strong> per year with The Better",
+        "price-title": "<strong>Save<\/strong> more than <strong>$100.00<\/strong> per year with The Better",
         "padding_top": 100,
         "padding_bottom": 100
       }
