@@ -69,7 +69,7 @@
             "margin_top": 0,
             "margin_bottom": 0,
             "color": "",
-            "size": "md",
+            "size": "sm",
             "intro_text": "or",
             "show_interest_free": false,
             "payment_amount_is_bold": false,
