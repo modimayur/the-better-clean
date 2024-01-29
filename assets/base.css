@@ -3983,7 +3983,15 @@ details-disclosure > details {
   border: 4px solid #2D2D2D !important;
 }
 
+/* Afterpay */
 
+.product__info-wrapper .afterpay-logo.brand-afterpay, 
+.product__info-wrapper .afterpay-logo.brand-afterpay svg {
+    padding-left: 1px;
+    padding-top: 1px;
+    height: inherit !important;
+    width: 88px !important;
+}
 
 
 
