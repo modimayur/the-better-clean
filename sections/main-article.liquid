@@ -48,7 +48,7 @@
           {{ block.shopify_attributes }}
         >
           {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider" itemprop="dateCreated pubdate datePublished">
+            <span class="circle-divider article-date" itemprop="dateCreated pubdate datePublished">
               {{- article.published_at | time_tag: format: 'date' -}}
             </span>
           {%- endif -%}
