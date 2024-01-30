@@ -38,7 +38,8 @@
     text-align: left;
   }
   .blog-articles > *:nth-child(3n + 2) .card__inner,
-  .blog-articles > *:nth-child(3n + 3) .card__inner {
+  .blog-articles > *:nth-child(3n + 3) .card__inner,
+  .blog-articles > *:nth-child(n + 4) .card__inner {
     height: 15vw;
   }
 
