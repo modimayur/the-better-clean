@@ -147,18 +147,18 @@
 .blog-articles > *:nth-child(3n + 2) h3.card__heading,
 .blog-articles > *:nth-child(3n + 3) h3.card__heading,
 .blog-articles > *:nth-child(n + 4) h3.card__heading {
-  font-size: 24px;
-  color: #2D2D2D;
+  font-size: 24px !important;
+  color: #2D2D2D !important;
 }
 .blog-articles > *:nth-child(3n + 2) .article-card__info span,
 .blog-articles > *:nth-child(3n + 3) .article-card__info span,
 .blog-articles > *:nth-child(n + 4) .article-card__info span {
-  color: #7F9686;
+  color: #7F9686 !important;
 }
 .blog-articles > *:nth-child(3n + 2) .article-card__excerpt,
 .blog-articles > *:nth-child(3n + 3) .article-card__excerpt,
 .blog-articles > *:nth-child(n + 4) .article-card__excerpt {
-  display: none;
+  display: none !important;
 }
 
 /* Featured Article */
