@@ -11,17 +11,18 @@
 
 @media screen and (min-width: 750px) {
   .blog-articles {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr; /* Divide the grid into thirds */
     column-gap: var(--grid-desktop-horizontal-spacing);
     row-gap: var(--grid-desktop-vertical-spacing);
   }
 
-  .blog-articles--collage > *::first-child {
-    grid-column: span 2;
+  .blog-articles--collage > *:nth-child(3n + 1) {
+    grid-column: span 2; /* Span two columns for every third item, starting from the first */
     text-align: left;
   }
-  .blog-articles--collage > * {
-    grid-column: span 1;
+  .blog-articles--collage > *:nth-child(3n + 2),
+  .blog-articles--collage > *:nth-child(3n + 3) {
+    grid-column: span 1; /* Span one column for every second and third item, starting from the second */
     text-align: left;
   }
 
