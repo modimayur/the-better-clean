@@ -52,7 +52,7 @@
 
 .blog-articles .article-card .card__information,
 .blog__posts .article-card .card__information {
-  padding: 2rem;
+  padding: 2rem 20px;
   text-align: left;
 }
 
