@@ -166,12 +166,20 @@
   border-color: inherit !important;
   background: transparent !important;
 }
+.blog-articles > *:nth-child(3n + 2) .card--card.card--media > .card__content,
+.blog-articles > *:nth-child(3n + 3) .card--card.card--media > .card__content,
+.blog-articles > *:nth-child(n + 4) .card--card.card--media > .card__content {
+  border-color: inherit !important;
+}
 
 /* Featured Article */
 
 .blog-articles--collage>*:nth-child(3n+1) .card {
   border-color: #7F9686;
   background: #7F9686;
+}
+.blog-articles--collage>*:nth-child(3n+1) .card--card.card--media > .card__content {
+  border-color: #7F9686;
 }
 .blog-articles > *:nth-child(3n + 1) h3.card__heading,
 .blog-articles > *:nth-child(3n + 1) p.article-card__excerpt {
