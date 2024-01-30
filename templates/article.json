@@ -32,9 +32,13 @@
     },
     "featured_blog_MiPjfr": {
       "type": "featured-blog",
+      "custom_css": [
+        "h3 {font-size: 24px;}",
+        "h2 {font-family: \"Staatliches\";font-weight: 400;}"
+      ],
       "settings": {
         "heading": "Latest News",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
