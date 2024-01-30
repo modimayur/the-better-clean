@@ -146,6 +146,9 @@
   .blog-articles .card__inner {
     height: 50vw;
   }
+  .blog-articles .card__content {
+    height: inherit;
+  }
 }
 
 .blog-articles > *:nth-child(3n + 2) h3.card__heading,
