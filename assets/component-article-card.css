@@ -57,7 +57,8 @@
 }
 
 .article-card__info {
-  padding-top: 0.4rem;
+  padding-bottom: 0.8rem;
+  font-size: 14px;
 }
 
 .article-card__footer {
