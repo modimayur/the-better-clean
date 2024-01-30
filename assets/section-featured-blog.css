@@ -75,3 +75,6 @@
 #latest-news .article-card__info {
   color: #7F9686;
 }
+#latest-news .card__information {
+  justify-content: flex-start;
+}
