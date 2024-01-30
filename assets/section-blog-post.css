@@ -174,6 +174,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 4rem;
   }
+  .article-template__back:last-child {
+    margin: 100px 0 !important;
+  }
 }
 
 .article-template__comment-warning {
@@ -187,7 +190,7 @@
 }
 
 .article-template__back:last-child {
-  margin: 100px 2rem !important;
+  margin: 75px 2rem !important;
 }
 
 .article-template__content img {
