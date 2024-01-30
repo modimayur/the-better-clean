@@ -18,19 +18,20 @@
 
   .blog-articles > *:nth-child(3n + 1) {
     grid-column: span 2; /* Span two columns for every third item, starting from the first */
-    grid-row: auto; /* Reset the grid row for the large item */
+    grid-row: span 2; /* Span two rows for the first item */
     text-align: left;
   }
-  
-  .blog-articles > *:nth-child(3n + 2) {
-    grid-column: 2 / 4; /* Position the second item to start from the second column and span until the fourth */
+
+  .blog-articles > *:nth-child(3n + 2),
+  .blog-articles > *:nth-child(3n + 3) {
+    grid-column: span 1; /* Span one column for the second and third items */
+    grid-row: span 1; /* Span one row for the second and third items */
+    text-align: left;
   }
-  
-  .blog-articles > *:nth-child(3n + 3),
-  .blog-articles > *:nth-child(3n + 4),
-  .blog-articles > *:nth-child(3n + 5) {
-    grid-column: span 1; /* Span one column for every third, fourth, and fifth item */
-    grid-row: auto; /* Reset the grid row for subsequent items */
+
+  .blog-articles > *:nth-child(n + 4) {
+    grid-column: span 1; /* Span one column for the fourth, fifth, and sixth items */
+    grid-row: span 2; /* Span two rows for the fourth, fifth, and sixth items */
     text-align: left;
   }
 
