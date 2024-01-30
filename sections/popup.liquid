@@ -1,5 +1,6 @@
 {{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
 {{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-popup.css' | asset_url | stylesheet_tag }}
 
 <!-- popup.liquid -->
 
@@ -9,7 +10,7 @@
           <span class="newsletter--popup-close" onclick="closePopup()">{% render 'icon-close' %}</span>
           <div class="newsletter--popup-columns">
               <div class="newsletter--popup-column newsletter--popup-column-image">
-                  <img src="{{ section.settings.image | image_url }}" height="auto" width="auto" loading="lazy">
+                  <img src="{{ section.settings.image | image_url }}" height="auto" width="auto">
               </div>
               <div class="newsletter--popup-column newsletter--popup-column-content">
                   <h2 class="image-with-text__heading inline-richtext h2">
@@ -112,128 +113,6 @@
           </div>
       </div>
   </div>
-
-																								
-
-
-<style>
-      .newsletter--popup-overlay {
-          display: none;
-          position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          height: 100%;
-          background: rgba(45, 45, 45, 0.9);
-          z-index: 9999999;
-      }
-      .newsletter--popup {
-          display: none;
-          position: fixed;
-          top: 50%;
-          left: calc(50% - 20px);
-          transform: translate(-50%, -50%);
-          border: 4px solid #2D2D2D;
-          border-radius: 20px;
-          z-index: 10000000;
-          width: calc(100% - 40px);
-          max-width: 920px; /* Set a maximum width for the popup */
-          overflow: hidden;
-          margin-left: 20px;
-          margin-right: 20px;
-      }
-      .newsletter--popup-columns {
-          display: flex;
-      }
-      .newsletter--popup-column {
-          flex: 0 0 50%;
-      }
-      .newsletter--popup-column-image {
-        border-right: 4px solid #2D2D2D;
-      }
-      .newsletter--popup-column-image img {
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-      }
-      .newsletter--popup-column-content {
-        display: flex;
-        padding: 4rem;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-      }
-      .newsletter--popup-column-content h2 {
-        margin: 0;
-        line-height: 1.15;
-      }
-      .newsletter--popup-column-content h2 strong {
-        color: #D86A48;
-        font-weight: inherit;
-      }
-      .newsletter--popup-column-content .rte p {
-        margin: 1.5rem 0 3rem;
-      }
-      .newsletter--popup-column-content .newsletter-form {
-        max-width: none;
-      }
-      .newsletter--popup-column-content .newsletter-form__field-wrapper .field {
-        margin-bottom: 15px;
-      }
-      .newsletter--popup-column-content .newsletter-form__field-wrapper .field__input {
-        text-align: left;
-        padding-right: 2rem;
-      }
-      .newsletter--popup-column-content .newsletter-form__field-wrapper .field__label {
-        left: 2rem !important;
-        transform: none;
-      }
-      .newsletter--popup-column-content .newsletter-form__field-wrapper .subscription--button {
-        position: relative;
-        right: 0;
-        width: 100%;
-      }
-      .newsletter--popup-close {
-          position: absolute;
-          top: 15px;
-          right: 15px;
-          cursor: pointer;
-      }
-      .newsletter--popup-close svg {
-        width: 20px;
-        height: 20px;
-      }
-      @media (max-width: 749px) {
-        .newsletter--popup {
-          width: calc(100% - 40px);
-        }
-        .newsletter--popup-columns {
-          flex-direction: column-reverse;
-        }
-        .newsletter--popup-column-content {
-          padding: 3rem 25px;
-        }
-        .newsletter--popup-column-content .newsletter-form__field-wrapper .subscription--button {
-          bottom: 0;
-        }
-        .newsletter--popup-column-image {
-          border-right: none;
-          border-top: 4px solid #2D2D2D;
-        }
-        .newsletter--popup-column-image img {
-          height: 55vw;
-          margin-bottom: -10px;
-        }
-        .newsletter--popup-close {
-          top: 14px;
-          right: 14px;
-        }
-        .newsletter--popup-close svg {
-          width: 18px;
-          height: 18px;
-        }
-      }
-</style>
 
 <script>
     // Function to show the overlay and popup with a 3-second delay
