@@ -9,6 +9,16 @@
   width: 100%;
 }
 
+@media screen and (min-width: 1300px) {
+  .blog-articles > *:nth-child(3n + 1) .card__inner {
+    height: 400px;
+  }
+  .blog-articles > *:nth-child(3n + 2) .card__inner,
+  .blog-articles > *:nth-child(3n + 3) .card__inner,
+  .blog-articles > *:nth-child(n + 4) .card__inner {
+    height: 200px;
+  }
+}
 @media screen and (min-width: 750px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr 1fr; /* Divide the grid into thirds */
