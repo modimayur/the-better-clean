@@ -150,7 +150,7 @@
         ".image-with-text__text--caption strong {color: #2d2d2d; font-weight: var(--font-body-weight);}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBetter_storyhomepage.png",
+        "image": "shopify:\/\/shop_images\/TheBetter_About_Home.png",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -374,7 +374,7 @@
     "image_banner_8GtawT": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TheBetter_fullwidth.jpg",
+        "image": "shopify:\/\/shop_images\/TheBetter_Banner_Home.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
