@@ -24,6 +24,7 @@
 .article-template .article-date {
   font-size: 16px;
   color: #2D2D2D;
+  margin-bottom: 1rem;
 }
 
 .article-template__hero-small {
