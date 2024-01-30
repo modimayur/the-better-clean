@@ -70,7 +70,7 @@
   margin: 0 0 4rem;
 }
 #latest-news .card:not(.ratio)>.card__content {
-  height: 160px;
+  height: auto;
 }
 #latest-news .article-card__info {
   color: #7F9686;
