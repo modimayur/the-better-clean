@@ -21,6 +21,9 @@
     grid-row: span 2; /* Span two rows for the first item */
     text-align: left;
   }
+  .blog-articles > *:nth-child(3n + 1) .card__inner {
+    height: 30vw;
+  }
 
   .blog-articles > *:nth-child(3n + 2),
   .blog-articles > *:nth-child(3n + 3) {
@@ -33,6 +36,10 @@
     grid-column: span 1; /* Span one column for the fourth, fifth, and sixth items */
     grid-row: span 2; /* Span two rows for the fourth, fifth, and sixth items */
     text-align: left;
+  }
+  .blog-articles > *:nth-child(3n + 2) .card__inner,
+  .blog-articles > *:nth-child(3n + 3) .card__inner {
+    height: 15vw;
   }
 
   .blog-articles--collage > *:nth-child(3n + 1) .card,
