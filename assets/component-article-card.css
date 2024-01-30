@@ -155,6 +155,11 @@
 .blog-articles > *:nth-child(n + 4) .article-card__info span {
   color: #7F9686;
 }
+.blog-articles > *:nth-child(3n + 2) .article-card__excerpt,
+.blog-articles > *:nth-child(3n + 3) .article-card__excerpt,
+.blog-articles > *:nth-child(n + 4) .article-card__excerpt {
+  display: none;
+}
 
 /* Featured Article */
 
