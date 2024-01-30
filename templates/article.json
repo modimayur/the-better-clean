@@ -38,7 +38,7 @@
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
-        "color_scheme": "scheme-78dba0c7-7ced-47a1-b611-7a2d3ccaf909",
+        "color_scheme": "inverse",
         "show_image": true,
         "show_date": true,
         "show_author": false,
