@@ -59,7 +59,7 @@
     "blog_card_style": "card",
     "blog_card_image_padding": 0,
     "blog_card_text_alignment": "center",
-    "blog_card_color_scheme": "scheme-78dba0c7-7ced-47a1-b611-7a2d3ccaf909",
+    "blog_card_color_scheme": "inverse",
     "blog_card_border_thickness": 4,
     "blog_card_border_opacity": 100,
     "blog_card_corner_radius": 12,
