@@ -11,11 +11,11 @@
 .article-template__hero-container {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 75px 2rem 0;
+  padding: 75px 2rem 2rem;
 }
 @media screen and (min-width: 750px) {
   .article-template__hero-container {
-    padding: 75px 2rem 0;
+    padding: 75px 2rem 3.5rem;
     padding: 100px 5rem 0;
   }
 }
