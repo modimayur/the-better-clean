@@ -48,6 +48,9 @@
   .blog__button {
     margin-top: 5rem;
   }
+  #latest-news .title-wrapper-with-link {
+    margin: 0 0 4rem;
+  }
 }
 
 /* check for flexbox gap in older Safari versions */
@@ -67,7 +70,7 @@
   font-weight: 400;
 }
 #latest-news .title-wrapper-with-link {
-  margin: 0 0 4rem;
+  margin: 0 0 2rem;
 }
 #latest-news .card:not(.ratio)>.card__content {
   height: auto;
