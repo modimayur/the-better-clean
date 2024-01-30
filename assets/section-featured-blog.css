@@ -58,3 +58,20 @@
     }
   }
 }
+
+#latest-news h3 {
+  font-size: 24px;
+}
+#latest-news h2 {
+  font-family: "Staatliches";
+  font-weight: 400;
+}
+#latest-news .title-wrapper-with-link {
+  margin: 0 0 4rem;
+}
+#latest-news .card:not(.ratio)>.card__content {
+  height: 160px;
+}
+#latest-news .article-card__info {
+  color: #7F9686;
+}
