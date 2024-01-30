@@ -33,9 +33,7 @@
     "featured_blog_MiPjfr": {
       "type": "featured-blog",
       "custom_css": [
-        "h3 {font-size: 24px;}",
-        "h2 {font-family: \"Staatliches\"; font-weight: 400;}",
-        ".title-wrapper-with-link {margin: 0 0 4rem;}"
+
       ],
       "settings": {
         "heading": "Latest News",
