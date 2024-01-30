@@ -10,7 +10,7 @@
           <span class="newsletter--popup-close" onclick="closePopup()">{% render 'icon-close' %}</span>
           <div class="newsletter--popup-columns">
               <div class="newsletter--popup-column newsletter--popup-column-image">
-                  <img src="{{ section.settings.image | image_url }}" height="auto" width="auto">
+                  <img src="{{ section.settings.image | image_url }}" height="auto" width="auto" loading="lazy">
               </div>
               <div class="newsletter--popup-column newsletter--popup-column-content">
                   <h2 class="image-with-text__heading inline-richtext h2">
