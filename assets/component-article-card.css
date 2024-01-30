@@ -148,12 +148,20 @@
   font-size: 24px;
   color: #2D2D2D;
 }
+.blog-articles > *:nth-child(3n + 2) .article-card__info span,
+.blog-articles > *:nth-child(3n + 3) .article-card__info span,
+.blog-articles > *:nth-child(n + 4) .article-card__info span {
+  color: #7F9686;
+}
 
 /* Featured Article */
 
 .blog-articles > *:nth-child(3n + 1) h3.card__heading,
 .blog-articles > *:nth-child(3n + 1) p.article-card__excerpt {
   color: #EDDFD2;
+}
+.blog-articles > *:nth-child(3n + 1) .article-card__info span {
+  color: #2D2D2D;
 }
 .blog-articles > *:nth-child(3n + 1) .article-card__excerpt {
   display: inherit;
