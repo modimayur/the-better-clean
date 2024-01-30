@@ -22,9 +22,10 @@
   border-radius: 20px;
 }
 .article-template .article-date {
+  display: block;
   font-size: 16px;
-  color: #2D2D2D;
-  margin-bottom: 1rem;
+  color: #2d2d2d;
+  font-weight: 800;
 }
 
 .article-template__hero-small {
