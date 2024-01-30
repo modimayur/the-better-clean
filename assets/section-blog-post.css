@@ -189,3 +189,8 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+.article-template__content img {
+  border: none;
+  margin: 2.5rem 0;
+}
