@@ -187,7 +187,7 @@
 }
 
 .article-template__back:last-child {
-  margin-bottom: 100px;
+  margin: 100px 0 !imporant;
 }
 
 .article-template__content img {
