@@ -34,7 +34,7 @@
       ],
       "custom_css": [
         ".video-background-hero .image-with-text__media {display: none;}",
-        "@media (max-width: 750px) {.button--primary {margin-bottom: 0;}}"
+        "@media (max-width: 750px) {.button--primary {margin-bottom: 0; }}"
       ],
       "settings": {
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/12f1c495db284c3da68fcb377ccb92ee.mp4",
@@ -352,7 +352,7 @@
         "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>The Better™ email program will send promotional emails to users who subscribe through this form. By submitting your email, you are consenting to our Terms and Conditions and our Privacy Policy, including for us to use that email to send you marketing information and tell you really cool things. To opt out, check unsubscribe from our emails. 15% Off offer only valid during pre-sale from 05.12.23 - 26.01.24.<\/p>"
+            "text": "<p>The Better™ email program will send promotional emails to users who subscribe through this form. By submitting your email, you are consenting to our Terms and Conditions and our Privacy Policy, including for us to use that email to send you marketing information and tell you really cool things. To opt out, check unsubscribe from our emails. 15% Off offer only valid Dec 05, 2023- Feb 29, 2024<\/p>"
           }
         }
       },
