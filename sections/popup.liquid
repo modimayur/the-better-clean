@@ -116,27 +116,19 @@
 
 <script>
     // Function to show the overlay and popup with a 3-second delay
-    // function showOverlayAndPopupWithDelay() {
-    //     // Check if a cookie exists indicating the popup was closed within the last day
-    //     var popupClosedRecently = getCookie("popupClosedRecently");
-    //     if (!popupClosedRecently) {
-    //         // Show the overlay after a 3-second delay
-    //         setTimeout(function () {
-    //             document.getElementById("popupOverlay").style.display = "block";
-    //         }, 3000); // 3000 milliseconds = 3 seconds
-
-    //         // Show the popup after a 3-second delay
-    //         setTimeout(function () {
-    //             document.getElementById("myPopup").style.display = "block";
-    //         }, 3000); // 3000 milliseconds = 3 seconds
-    //     }
-    // }
-    // Function to show the overlay and popup without delay
-    function showPopup() {
+    function showOverlayAndPopupWithDelay() {
+        // Check if a cookie exists indicating the popup was closed within the last day
         var popupClosedRecently = getCookie("popupClosedRecently");
         if (!popupClosedRecently) {
-            document.getElementById("popupOverlay").style.display = "block";
-            document.getElementById("myPopup").style.display = "block";
+            // Show the overlay after a 3-second delay
+            setTimeout(function () {
+                document.getElementById("popupOverlay").style.display = "block";
+            }, 3000); // 3000 milliseconds = 3 seconds
+
+            // Show the popup after a 3-second delay
+            setTimeout(function () {
+                document.getElementById("myPopup").style.display = "block";
+            }, 3000); // 3000 milliseconds = 3 seconds
         }
     }
 
@@ -176,14 +168,9 @@
         }
         return null;
     }
-    // Event listener to detect mouse leaving the page towards the navigation bar
-    document.addEventListener("mouseleave", function(event) {
-        if (event.clientY <= 0 || event.clientX <= 0 || (event.clientX >= window.innerWidth || event.clientY >= window.innerHeight)) {
-            showPopup();
-        }
-    });
+
     // Show the overlay and popup on page load
-    // document.addEventListener("DOMContentLoaded", showOverlayAndPopupWithDelay);
+    document.addEventListener("DOMContentLoaded", showOverlayAndPopupWithDelay);
 </script>
 
 {% schema %}
