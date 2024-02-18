@@ -1683,6 +1683,24 @@ a.product__text {
   }
 }
 
+/* Sticky Add to Cart */
+
+.sticky-add-to-cart-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* or any color that fits your theme */
+  z-index: 100;
+}
+
+.sticky-add-to-cart-banner .page-width {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
 /* Other */
 
 .product__info-container .icon-with-text {
