@@ -52,17 +52,17 @@ function magnify(image, zoomRatio) {
 }
 
 function enableZoomOnHover(zoomRatio) {
-  if (window.innerWidth >= 749) { // Adjusting for specified desktop breakpoint
-    const images = document.querySelectorAll('.image-magnify-hover');
-    images.forEach((image) => {
-      image.onclick = (event) => {
-        magnify(image, zoomRatio);
-        moveWithHover(image, event, zoomRatio);
-      };
-    });
-  }
+  document.addEventListener("DOMContentLoaded", function() {
+    if (window.innerWidth > 750) { // Desktop devices wider than 750px
+      const images = document.querySelectorAll('.image-magnify-hover');
+      images.forEach((image) => {
+        image.onclick = (event) => {
+          magnify(image, zoomRatio);
+          moveWithHover(image, event, zoomRatio);
+        };
+      });
+    }
+  });
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-  enableZoomOnHover(2);
-});
+enableZoomOnHover(2);
