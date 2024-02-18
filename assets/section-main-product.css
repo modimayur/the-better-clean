@@ -1712,7 +1712,7 @@ a.product__text {
 }
 @media (max-width: 749px) {
   .sticky-add-to-cart-banner h5 {
-    margin-bottom: 20px;
+    display: none;
   }
   .sticky-add-to-cart-banner form,
   .sticky-add-to-cart-banner .product-form__submit {
