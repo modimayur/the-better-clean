@@ -1697,12 +1697,26 @@ a.product__text {
 
 .sticky-add-to-cart-banner .page-width {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 25px 0;
 }
-.sticky-add-to-cart-banner .product-form__submit {
-  margin-bottom: 0;
+@media (min-width: 750px) {
+  flex-direction: row;
+  padding: 40px 5rem;
+}
+.sticky-add-to-cart-banner .product-form__submit,
+.sticky-add-to-cart-banner h5 {
+  margin: 0;
+}
+@media (max-width: 749px) {
+  .sticky-add-to-cart-banner h5 {
+    margin-bottom: 20px;
+  }
+  .sticky-add-to-cart-banner form {
+    width: 100% !important;
+  }
 }
 
 /* Other */
