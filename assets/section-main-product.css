@@ -791,6 +791,12 @@ a.product__text {
   z-index: 101;
 }
 
+@media (max-width: 749px) {
+  .product-media-modal[open] {
+      display: none;
+  }
+}
+
 .product-media-modal__dialog {
   display: flex;
   align-items: center;
