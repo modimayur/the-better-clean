@@ -668,6 +668,28 @@
     }
   </script>
   </div>
+  <!-- Sticky Add to Cart Banner -->
+  <script>
+    document.addEventListener("scroll", function() {
+      var originalAddToCart = document.querySelector('.product-form__item--submit'); // Adjust the selector as needed
+      var stickyAddToCart = document.getElementById('StickyAddToCart');
+      
+      if (window.scrollY > originalAddToCart.offsetTop + originalAddToCart.offsetHeight) {
+        stickyAddToCart.style.display = 'block';
+      } else {
+        stickyAddToCart.style.display = 'none';
+      }
+    });
+  </script>
+  <div id="StickyAddToCart" class="sticky-add-to-cart-banner">
+    <div class="page-width">
+      <h5>{{ product.title | escape }}</h5>
+      <form action="/cart/add" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+        <button type="submit" class="btn">Add to Cart</button>
+      </form>
+    </div>
+  </div>                        
 </section>
 
 {% schema %}
