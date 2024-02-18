@@ -2,7 +2,7 @@
 function createOverlay(image) {
   const overlayImage = document.createElement('img');
   overlayImage.setAttribute('src', `${image.src}`);
-  overlay = document.createElement('div');
+  let overlay = document.createElement('div');
   prepareOverlay(overlay, overlayImage);
 
   image.style.opacity = '50%';
@@ -39,25 +39,30 @@ function moveWithHover(image, event, zoomRatio) {
   const yPercent = `${yPosition / ((image.clientWidth * ratio) / 100)}%`;
 
   // determine what to show in the frame
+  let overlay = event.target.previousSibling; // Assuming overlay is the previous sibling of the image
   overlay.style.backgroundPosition = `${xPercent} ${yPercent}`;
   overlay.style.backgroundSize = `${image.width * zoomRatio}px`;
 }
 
 function magnify(image, zoomRatio) {
-  const overlay = createOverlay(image);
+  let overlay = createOverlay(image);
   overlay.onclick = () => overlay.remove();
   overlay.onmousemove = (event) => moveWithHover(image, event, zoomRatio);
   overlay.onmouseleave = () => overlay.remove();
 }
 
 function enableZoomOnHover(zoomRatio) {
-  const images = document.querySelectorAll('.image-magnify-hover');
-  images.forEach((image) => {
-    image.onclick = (event) => {
-      magnify(image, zoomRatio);
-      moveWithHover(image, event, zoomRatio);
-    };
-  });
+  if (window.innerWidth >= 749) { // Adjusting for specified desktop breakpoint
+    const images = document.querySelectorAll('.image-magnify-hover');
+    images.forEach((image) => {
+      image.onclick = (event) => {
+        magnify(image, zoomRatio);
+        moveWithHover(image, event, zoomRatio);
+      };
+    });
+  }
 }
 
-enableZoomOnHover(2);
+document.addEventListener("DOMContentLoaded", function() {
+  enableZoomOnHover(2);
+});
