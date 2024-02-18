@@ -1714,7 +1714,8 @@ a.product__text {
   .sticky-add-to-cart-banner h5 {
     margin-bottom: 20px;
   }
-  .sticky-add-to-cart-banner form {
+  .sticky-add-to-cart-banner form,
+  .sticky-add-to-cart-banner .product-form__submit {
     width: 100% !important;
   }
 }
