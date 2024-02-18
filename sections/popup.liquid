@@ -115,20 +115,12 @@
   </div>
 
 <script>
-    // Function to show the overlay and popup with a 3-second delay
-    function showOverlayAndPopupWithDelay() {
-        // Check if a cookie exists indicating the popup was closed within the last day
+    // Function to show the overlay and popup without delay
+    function showPopup() {
         var popupClosedRecently = getCookie("popupClosedRecently");
         if (!popupClosedRecently) {
-            // Show the overlay after a 3-second delay
-            setTimeout(function () {
-                document.getElementById("popupOverlay").style.display = "block";
-            }, 3000); // 3000 milliseconds = 3 seconds
-
-            // Show the popup after a 3-second delay
-            setTimeout(function () {
-                document.getElementById("myPopup").style.display = "block";
-            }, 3000); // 3000 milliseconds = 3 seconds
+            document.getElementById("popupOverlay").style.display = "block";
+            document.getElementById("myPopup").style.display = "block";
         }
     }
 
@@ -136,14 +128,7 @@
     function closePopup() {
         document.getElementById("myPopup").style.display = "none";
         document.getElementById("popupOverlay").style.display = "none";
-        // Set a cookie to indicate that the popup was closed recently
-        setCookie("popupClosedRecently", "true", 1); // 1 day expiration
-    }
-
-    // Function to handle form submission
-    function handleFormSubmission() {
-        // Hide the popup and overlay when the form is submitted
-        closePopup();
+        setCookie("popupClosedRecently", "true", 1); // Set for 1 day
     }
 
     // Helper function to set a cookie
@@ -151,17 +136,17 @@
         var expires = "";
         if (days) {
             var date = new Date();
-            date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
             expires = "; expires=" + date.toUTCString();
         }
         document.cookie = name + "=" + value + expires + "; path=/";
     }
 
-    // Helper function to get a cookie value
+    // Helper function to get a cookie
     function getCookie(name) {
         var nameEQ = name + "=";
         var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
+        for (var i=0; i < ca.length; i++) {
             var c = ca[i];
             while (c.charAt(0) == ' ') c = c.substring(1, c.length);
             if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
@@ -169,8 +154,12 @@
         return null;
     }
 
-    // Show the overlay and popup on page load
-    document.addEventListener("DOMContentLoaded", showOverlayAndPopupWithDelay);
+    // Event listener to detect mouse leaving the page towards the navigation bar
+    document.addEventListener("mouseleave", function(event) {
+        if (event.clientY <= 0 || event.clientX <= 0 || (event.clientX >= window.innerWidth || event.clientY >= window.innerHeight)) {
+            showPopup();
+        }
+    });
 </script>
 
 {% schema %}
