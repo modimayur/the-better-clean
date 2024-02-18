@@ -670,18 +670,23 @@
   </div>
   <!-- Sticky Add to Cart Banner -->
   <script>
-    document.addEventListener("scroll", function() {
-      var originalAddToCart = document.querySelector('.product-form__item--submit'); // Adjust the selector as needed
+    document.addEventListener("DOMContentLoaded", function() {
       var stickyAddToCart = document.getElementById('StickyAddToCart');
-      
-      if (window.scrollY > originalAddToCart.offsetTop + originalAddToCart.offsetHeight) {
-        stickyAddToCart.style.display = 'block';
-      } else {
-        stickyAddToCart.style.display = 'none';
+      var triggerElement = document.getElementById('main-product-top-section');
+      function toggleStickyAddToCart() {
+        var triggerBottom = triggerElement.getBoundingClientRect().bottom + window.scrollY;
+  
+        if (window.scrollY > triggerBottom) {
+          stickyAddToCart.style.display = 'block';
+        } else {
+          stickyAddToCart.style.display = 'none';
+        }
       }
+      window.addEventListener("scroll", toggleStickyAddToCart);
+      toggleStickyAddToCart(); // Run on load in case the page is already scrolled past the trigger element.
     });
   </script>
-  <div id="StickyAddToCart" class="sticky-add-to-cart-banner" style="display: none">
+  <div id="StickyAddToCart" class="sticky-add-to-cart-banner">
     <div class="page-width">
       <h5>{{ product.title | escape }}</h5>
       <form action="/cart/add" method="post" enctype="multipart/form-data">
