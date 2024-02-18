@@ -1690,7 +1690,7 @@ a.product__text {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff; /* or any color that fits your theme */
+  background-color: #EDDFD2;
   z-index: 100;
 }
 
@@ -1699,6 +1699,9 @@ a.product__text {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+}
+.sticky-add-to-cart-banner .product-form__submit {
+  margin-bottom: 0;
 }
 
 /* Other */
