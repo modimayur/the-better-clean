@@ -794,7 +794,7 @@ a.product__text {
 @media (max-width: 749px) {
   .product-media-modal[open],
   .product__media-icon {
-      display: none;
+      display: none !important;
   }
 }
 
