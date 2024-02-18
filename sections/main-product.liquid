@@ -37,7 +37,7 @@
   {% if section.settings.image_zoom == 'hover' %}
     <script>
     document.addEventListener("DOMContentLoaded", function() {
-      if (window.innerWidth >= 1024) { // Assuming desktop starts at 1024px width
+      if (window.innerWidth >= 749) { 
         var script = document.createElement('script');
         script.id = 'EnableZoomOnHover-main';
         script.src = '{{ 'magnify.js' | asset_url }}';
