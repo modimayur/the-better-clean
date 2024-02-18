@@ -1703,8 +1703,10 @@ a.product__text {
   padding: 25px 2rem;
 }
 @media (min-width: 750px) {
-  flex-direction: row;
-  padding: 40px 5rem;
+  .sticky-add-to-cart-banner .page-width {
+    flex-direction: row;
+    padding: 40px 5rem;
+  }
 }
 .sticky-add-to-cart-banner .product-form__submit,
 .sticky-add-to-cart-banner h5 {
