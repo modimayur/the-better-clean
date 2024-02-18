@@ -1691,8 +1691,8 @@ a.product__text {
   left: 0;
   width: 100%;
   background-color: #EDDFD2;
-  border-top: 2px solid #7f9686;
-  z-index: 100;
+  border-top: 4px solid #7f9686;
+  z-index: 10000000000;
 }
 
 .sticky-add-to-cart-banner .page-width {
