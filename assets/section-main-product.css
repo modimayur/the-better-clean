@@ -1705,7 +1705,7 @@ a.product__text {
 @media (min-width: 750px) {
   .sticky-add-to-cart-banner .page-width {
     flex-direction: row;
-    padding: 40px 5rem;
+    padding: 25px 5rem;
   }
 }
 .sticky-add-to-cart-banner .product-form__submit,
