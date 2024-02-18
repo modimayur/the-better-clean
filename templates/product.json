@@ -24,6 +24,24 @@
           "settings": {
           }
         },
+        "29a63aba-567a-419b-bb00-d5cbb7182b7e": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "image_1": "shopify:\/\/shop_images\/Group_41.svg",
+            "heading_1": "Plant-based formula",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/Group_42.svg",
+            "heading_2": "Biodegradable EU OECD 301B",
+            "icon_3": "truck",
+            "image_3": "shopify:\/\/shop_images\/Group_43.svg",
+            "heading_3": "Septic & grey water friendly",
+            "icon_4": "truck",
+            "image_4": "shopify:\/\/shop_images\/MoneyBack_icon_15e42cdf-ae57-40ed-8090-948273f55a6a.svg",
+            "heading_4": "money back guarantee"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -88,24 +106,6 @@
             "show_if_outside_limits": true,
             "product": "{{product}}"
           }
-        },
-        "29a63aba-567a-419b-bb00-d5cbb7182b7e": {
-          "type": "icon-with-text",
-          "settings": {
-            "layout": "horizontal",
-            "icon_1": "heart",
-            "image_1": "shopify:\/\/shop_images\/Group_41.svg",
-            "heading_1": "Plant-based formula",
-            "icon_2": "return",
-            "image_2": "shopify:\/\/shop_images\/Group_42.svg",
-            "heading_2": "Biodegradable EU OECD 301B",
-            "icon_3": "truck",
-            "image_3": "shopify:\/\/shop_images\/Group_43.svg",
-            "heading_3": "Septic & grey water friendly",
-            "icon_4": "truck",
-            "image_4": "shopify:\/\/shop_images\/MoneyBack_icon_15e42cdf-ae57-40ed-8090-948273f55a6a.svg",
-            "heading_4": "money back guarantee"
-          }
         }
       },
       "block_order": [
@@ -113,12 +113,12 @@
         "price",
         "klaviyo_reviews_average_rating_HKcCt7",
         "8bf1ba0b-35ae-40dc-a9a5-c9494726a047",
+        "29a63aba-567a-419b-bb00-d5cbb7182b7e",
         "variant_picker",
         "quantity_selector",
         "bold_subscriptions_bsub_widget_block_atnNrW",
         "buy_buttons",
-        "afterpay_on_site_messaging_payments_messaging_7CwMah",
-        "29a63aba-567a-419b-bb00-d5cbb7182b7e"
+        "afterpay_on_site_messaging_payments_messaging_7CwMah"
       ],
       "custom_css": [
         ".product-form__submit {color: #eddfd2; background-color: #7f9686; border-color: #7f9686;}",
