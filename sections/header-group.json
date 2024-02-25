@@ -6,7 +6,7 @@
       "type": "apps",
       "blocks": {
         "f4542c99-2e98-49ac-beb7-9c519cf78851": {
-          "type": "shopify:\/\/apps\/hextom-free-shipping-bar\/blocks\/fsb-custom-placement\/7ef5d9af-75a2-45c7-9b1b-f9240ee488e9",
+          "type": "shopify:\/\/apps\/hextom-shipping-bar\/blocks\/fsb-custom-placement\/7ef5d9af-75a2-45c7-9b1b-f9240ee488e9",
           "settings": {
           }
         }
@@ -66,7 +66,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/087A6511_2.jpg",
         "heading": "Ready to <strong>save<\/strong> on laundry?",
-        "text": "<p>To celebrate our launch, get 15% off your first purchase when you sign up to our newsletter!<\/p>",
+        "text": "<p>Sign up to receive <strong>free shipping<\/strong>, news and exclusive deals just for you!<\/p>",
         "color_scheme": "inverse"
       }
     }
