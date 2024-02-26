@@ -71,7 +71,9 @@
             "frequency_text": "delivery",
             "billing_frequency_header": "Billing Frequency",
             "billing_frequency_text": "Every {count} orders",
-            "prepaid_total_text": "You will be billed {price} today"
+            "prepaid_total_text": "You will be billed {price} today",
+            "prepaid_continue_as_prepaid_text": "Prepaid order will auto-renew after {count} orders",
+            "prepaid_continue_as_standard_text": "Becomes a regular subscription after {count} orders"
           }
         },
         "buy_buttons": {
@@ -207,7 +209,7 @@
       ],
       "settings": {
         "heading": "Key Features",
-        "text": "<strong>100% Aussie<\/strong> owned and operated, The Better was born in Byron Bay by two mates dedicated to reshaping everyday cleaning. Our shared vision? Crafting <strong>plant-based<\/strong> household essentials that don't compromise on <strong>affordability<\/strong>, the <strong>environment<\/strong>, or <strong>hygiene<\/strong>.",
+        "text": "<strong>100% Aussie owned<\/strong>, The Better was founded on a vision by two friends who believed families shouldn't have to choose between <strong>eco-friendly<\/strong> and <strong>cost-effective<\/strong> household products. Our concentrated <strong>plant-based<\/strong> formulas are gentle on both the skin and the wallet <strong>lasting twice as long<\/strong> as regular detergents.",
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",
