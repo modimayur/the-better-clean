@@ -883,7 +883,7 @@ a.product__text {
 
 @media screen and (min-width: 750px) {
   .product-media-modal__content {
-    padding: 2rem 11rem;
+    padding: 80px 10rem;
   }
 
   .product-media-modal__content > * {
@@ -902,7 +902,7 @@ a.product__text {
 
 @media screen and (min-width: 990px) {
   .product-media-modal__content {
-    padding: 2rem 11rem;
+    padding: 80px 20vw;
   }
 
   .product-media-modal__content > * + * {
