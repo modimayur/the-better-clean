@@ -1740,3 +1740,9 @@ a.product__text {
 .product__tax.caption {
   display: none;
 }
+.buy-details-flex {
+  display: flex;
+}
+.buy-details-flex-item {
+  display: flex;
+}
