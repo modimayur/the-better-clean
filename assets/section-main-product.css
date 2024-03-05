@@ -1745,4 +1745,6 @@ a.product__text {
 }
 .buy-details-flex-item {
   display: flex;
+  color: #7F9686;
+  font-size: 10px;
 }
