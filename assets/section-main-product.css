@@ -862,7 +862,7 @@ a.product__text {
 
 .product-media-modal__toggle {
   background-color: rgb(var(--color-background));
-  border: 0.1rem solid rgba(var(--color-foreground), 0.1);
+  border: none;
   border-radius: 50%;
   color: rgba(var(--color-foreground), 0.55);
   display: flex;
@@ -870,7 +870,7 @@ a.product__text {
   justify-content: center;
   cursor: pointer;
   right: 2rem;
-  padding: 1.2rem;
+  padding: 0;
   position: fixed;
   z-index: 2;
   top: 2rem;
@@ -896,7 +896,7 @@ a.product__text {
 
   .product-media-modal__toggle {
     right: 5rem;
-    top: 2.2rem;
+    top: 80px;
   }
 }
 
