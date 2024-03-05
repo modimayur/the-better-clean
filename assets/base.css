@@ -3891,6 +3891,9 @@ details-disclosure > details {
   margin: -80px 0 0 !important;
   height: 26px !important;
 }
+.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__load_more_button button.kl_reviews__button {
+  margin: 0 !important;
+}
 .kl_reviews__reviews_list.kl_reviews__reviews_list.kl_reviews__reviews_list .kl_reviews__list__tabs {
   border-width: 4px !important;
 }
