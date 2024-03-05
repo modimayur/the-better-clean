@@ -1742,9 +1742,15 @@ a.product__text {
 }
 .buy-details-flex {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .buy-details-flex-item {
   display: flex;
   color: #7F9686;
-  font-size: 10px;
+  font-size: 12px;
+  align-items: center;
+}
+.buy-details-flex-item img {
+  padding-right: 12px;
 }
