@@ -415,21 +415,12 @@
             "text": "<p>If for any reason you're not satisfied with our product, simply email us at <a href=\"mailto:hello@thebetterclean.com.au\" title=\"mailto:hello@thebetterclean.com.au\">hello@thebetterclean.com.au<\/a> and we will issue a refund. See Refund Policy for full detail.<\/p>",
             "text_style": "body"
           }
-        },
-        "button_UdVyPb": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "caption_PQUT46",
         "heading_DqwWTr",
-        "text_YfCJ4q",
-        "button_UdVyPb"
+        "text_YfCJ4q"
       ],
       "custom_css": [
         ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit;}",
@@ -440,7 +431,7 @@
         "@media (max-width: 750px) {.image-with-text .grid {flex-direction: column-reverse; }}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Mask_group_60.jpg",
+        "image": "shopify:\/\/shop_images\/TheBetter_Satisfaction.jpg",
         "stretch": "full",
         "height": "adapt",
         "desktop_image_width": "medium",
