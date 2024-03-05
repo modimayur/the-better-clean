@@ -391,6 +391,71 @@
         "include_margins": true
       }
     },
+    "image_with_text_XzTaCq": {
+      "type": "image-with-text",
+      "blocks": {
+        "caption_PQUT46": {
+          "type": "caption",
+          "settings": {
+            "caption": ".",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        },
+        "heading_DqwWTr": {
+          "type": "heading",
+          "settings": {
+            "heading": "satisfaction <strong>guaranteed<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_YfCJ4q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If for any reason you're not satisfied with our product, simply email us at <a href=\"mailto:hello@thebetterclean.com.au\" title=\"mailto:hello@thebetterclean.com.au\">hello@thebetterclean.com.au<\/a> and we will issue a refund. See Refund Policy for full detail.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_UdVyPb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/laundry-detergent-sheets",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_PQUT46",
+        "heading_DqwWTr",
+        "text_YfCJ4q",
+        "button_UdVyPb"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {font-family: \"Staatliches\"; font-weight: inherit;}",
+        ".image-with-text__heading strong {color: #2d2d2d;}",
+        ".image-with-text__media img {border-radius: 0;}",
+        ".image-with-text__content {padding-top: 7rem; padding-bottom: 7rem;}",
+        "@media (min-width: 1340px) {.image-with-text__content {padding: 0 10rem 0 0; margin-left: calc((100vw - 1300px + 7rem) \/ 2); }}",
+        "@media (max-width: 750px) {.image-with-text .grid {flex-direction: column-reverse; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_group_60.jpg",
+        "stretch": "full",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "accent-1",
+        "color_scheme": "accent-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45": {
       "type": "collapsible-content",
       "blocks": {
@@ -480,6 +545,7 @@
     "2f978ded-5a95-493a-88ee-15b597ec12e1",
     "41e24763-cd54-41d8-93c7-bf5258465c37",
     "1705929506f1fee517",
+    "image_with_text_XzTaCq",
     "7dc885c6-92d4-4bfe-96c8-b80ac23beb45"
   ]
 }
