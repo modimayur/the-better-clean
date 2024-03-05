@@ -1744,6 +1744,7 @@ a.product__text {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 3rem;
 }
 .buy-details-flex-item {
   display: flex;
