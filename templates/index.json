@@ -202,7 +202,7 @@
         ".scrolling-text span strong {font-weight: inherit; color: #2d2d2d;}"
       ],
       "settings": {
-        "speed": 20,
+        "speed": 40,
         "pause_on_hover": true,
         "color_background_main": "#e3deb4",
         "color_text_main": "rgba(0,0,0,0)"
