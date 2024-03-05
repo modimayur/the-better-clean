@@ -113,7 +113,7 @@
         "custom_liquid_6fcd6k": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"buy-details-flex\"><div class=\"buy-details-flex-item\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Aussie.svg\">100% Aussue-Owned<\/div><div class=\"buy-details-flex-item\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Shipping.svg\">Free Shipping<\/div><div class=\"buy-details-flex-item\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Money.svg\">30-Day Money Back Guarantee<\/div><\/div>"
+            "custom_liquid": "<div class=\"buy-details-flex\"><div class=\"buy-details-flex-item\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Aussie.svg\">100% Aussue-Owned<\/div><div class=\"buy-details-flex-item\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Shipping.svg\">Free Shipping<\/div><div class=\"buy-details-flex-item\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0672\/2296\/2428\/files\/TheBetter_Money.svg\">Money Back Guarantee<\/div><\/div>"
           }
         }
       },
