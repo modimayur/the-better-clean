@@ -155,8 +155,11 @@
                     class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading }}<br>
+                    {{ block.settings.heading }}
+                    {%- if section.settings.heading2 != blank -%}
+                    <br>
                     <span class="offset-h1">{{ block.settings.heading2 }}</span>
+                    {%- endif -%}
                   </h1>
                 {%- when 'caption' -%}
                   <p
