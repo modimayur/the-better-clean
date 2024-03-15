@@ -56,7 +56,7 @@
         "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Sign-up to receive <strong>15% off<\/strong> your first order",
+            "heading": "Sign-up to receive<strong> free shipping<\/strong> on your first order",
             "heading_size": "h1"
           }
         },
@@ -68,7 +68,7 @@
         "template--16967081165052__abbd74b8-ff9e-4498-b253-dbab370e742b-paragraph-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>The Better™ email program will send promotional emails to users who subscribe through this form. By submitting your email, you are consenting to our Terms and Conditions and our Privacy Policy, including for us to use that email to send you marketing information and tell you really cool things. To opt out, check unsubscribe from our emails. 15% Off offer only valid Dec 05, 2023- Feb 29, 2024<\/p>"
+            "text": "<p>The Better™ email program will send promotional emails to users who subscribe through this form. By submitting your email, you are consenting to our Terms and Conditions and our Privacy Policy, including for us to use that email to send you marketing information and tell you really cool things. To opt out, check unsubscribe from our emails. <\/p>"
           }
         }
       },
